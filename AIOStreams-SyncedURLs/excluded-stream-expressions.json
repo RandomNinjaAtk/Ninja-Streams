@@ -1,9 +1,5 @@
 [
   {
-    "expression": "/*Ninja Streams ESE*/ []",
-    "enabled": true
-  },
-  {
     "expression": "/*Language ESE*/ []",
     "enabled": true
   },
