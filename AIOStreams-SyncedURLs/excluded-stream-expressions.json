@@ -5,7 +5,7 @@
   },
   {
     "expression": "/*Language ESE*/ []",
-    "enabled": true
+    "enabled": false
   },
   {
     "expression": "/*Non-English - Bad Lang*/ originalLanguage != 'English' ? negate(merge(subtitle(streams, 'English'), language(streams, 'English', 'Dual Audio', 'Dubbed'), library(streams)), streams) : []",
@@ -21,7 +21,7 @@
   },
   {
     "expression": "/*Tier Only ESE*/ []",
-    "enabled": true
+    "enabled": false
   },
   {
     "expression": "/*Tier Only - 2160p*/ count(resolution(regexMatched(streams, 'Web T1', 'Web Scene', 'Radarr Web T1', 'Sonarr Web T1', 'Radarr Web T2', 'Sonarr Web T2', 'Radarr Web T3', 'Sonarr Web T3', 'Radarr Remux T1', 'Sonarr Remux T1', 'Radarr UHD Bluray T1', 'Radarr HD Bluray T1', 'Sonarr HD Bluray T1', 'Radarr Remux T2', 'Sonarr Remux T2', 'Radarr UHD Bluray T2', 'Radarr HD Bluray T2', 'Sonarr HD Bluray T2', 'Radarr Remux T3', 'Radarr UHD Bluray T3', 'Radarr HD Bluray T3', 'Anime Web T1', 'Anime Web T2', 'Anime Web T3', 'Anime Web T4', 'Anime Web T5', 'Anime Web T6', 'Anime BD T1', 'Anime BD T2', 'Anime BD T3', 'Anime BD T4', 'Anime BD T5', 'Anime BD T6', 'Anime BD T7', 'Anime BD T8'), '2160p')) >= 3 ? negate(merge(regexMatched(streams, 'Web T1', 'Web Scene', 'Radarr Web T1', 'Sonarr Web T1', 'Radarr Web T2', 'Sonarr Web T2', 'Radarr Web T3', 'Sonarr Web T3', 'Radarr Remux T1', 'Sonarr Remux T1', 'Radarr UHD Bluray T1', 'Radarr HD Bluray T1', 'Sonarr HD Bluray T1', 'Radarr Remux T2', 'Sonarr Remux T2', 'Radarr UHD Bluray T2', 'Radarr HD Bluray T2', 'Sonarr HD Bluray T2', 'Radarr Remux T3', 'Radarr UHD Bluray T3', 'Radarr HD Bluray T3', 'Anime Web T1', 'Anime Web T2', 'Anime Web T3', 'Anime Web T4', 'Anime Web T5', 'Anime Web T6', 'Anime BD T1', 'Anime BD T2', 'Anime BD T3', 'Anime BD T4', 'Anime BD T5', 'Anime BD T6', 'Anime BD T7', 'Anime BD T8'), library(streams)), resolution(streams, '2160p')) : []",
@@ -41,7 +41,7 @@
   },
   {
     "expression": "/*Sizes ESE*/ []",
-    "enabled": true
+    "enabled": false
   },
   {
     "expression": "/*Min Bitrate*/ merge(bitrate(quality(resolution(streams, '2160p'), 'Bluray', 'Bluray REMUX'), 1, '13.6Mbps'), bitrate(quality(resolution(streams, '2160p'), 'WEB-DL', 'WEBRip'), 1, '4.6Mbps'), bitrate(quality(resolution(streams, '2160p'), 'HDTV'), 1, '11.33Mbps'), bitrate(quality(resolution(streams, '1080p'), 'Bluray REMUX'), 1, '13.6Mbps'), bitrate(quality(resolution(streams, '1080p'), 'Bluray', 'Bluray REMUX'), 1, '6.77Mbps'), bitrate(quality(resolution(streams, '1080p'), 'WEB-DL', 'WEBRip'), 1, '1.67Mbps'), bitrate(quality(resolution(streams, '1080p'), 'HDTV'), 1, '4.51Mbps'), bitrate(quality(resolution(streams, '720p'), 'Bluray'), 1, '3.43Mbps'), bitrate(quality(resolution(streams, '720p'), 'WEB-DL', 'WEBRip'), 1, '1.67Mbps'), bitrate(quality(resolution(streams, '720p'), 'HDTV'), 1, '2.28Mbps'),bitrate(streams,1,'0.67Mbps'),bitrate(streams,1,'0.67Mbps'))",
@@ -53,7 +53,7 @@
   },
   {
     "expression": "/*Release Groups ESE*/ []",
-    "enabled": true
+    "enabled": false
   },
   {
     "expression": "/*No Group*/ count(releaseGroup(streams)) > 0 ? negate(releaseGroup(streams), streams) : []",
@@ -73,7 +73,7 @@
   },
   {
     "expression": "/*HDR ESE*/ []",
-    "enabled": true
+    "enabled": false
   },
   {
     "expression": "/*DV Only*/ visualTag(streams, 'DV Only')",
@@ -89,7 +89,7 @@
   },
   {
     "expression": "/*Hybrid Audio ESE*/ []",
-    "enabled": true
+    "enabled": false
   },
   {
     "expression": "/*Hybrid WEB-DL Audio Tag*/ quality(audioTag(streams, 'TrueHD', 'FLAC', 'DTS:X', 'DTS-HD MA', 'DTS-HD', 'DTS-ES', 'DTS'), 'WEB-DL')",
@@ -97,7 +97,7 @@
   },
   {
     "expression": "/*Unknowns ESE*/ []",
-    "enabled": true
+    "enabled": false
   },
   {
     "expression": "/*UNK - Resolution*/ count(negate(resolution(streams, 'Unknown'), streams)) > 0 ? resolution(streams, 'Unknown') : []",
@@ -125,7 +125,7 @@
   },
   {
     "expression": "/*Preference ESE*/ []",
-    "enabled": true
+    "enabled": false
   },
   {
     "expression": "/*PREF - Quality*/ count(quality(streams, 'Bluray', 'WEB-DL', 'Bluray REMUX', 'DVD REMUX')) > 0 ? negate(quality(streams, 'Bluray', 'WEB-DL', 'Bluray REMUX', 'DVD REMUX'), streams) : []",
@@ -153,7 +153,7 @@
   },
   {
     "expression": "/*Editions & Remux Only ESE*/ []",
-    "enabled": true
+    "enabled": false
   },
   {
     "expression": "/*Editions & Remux Only - 2160p*/ count(resolution(regexMatched(streams, 'IMAX Edition', 'Open Matte', 'Theatrical Cut', 'Extended Clip', 'Anniversary Edition', 'Ultimate Edition', 'Extended Edition', 'Director\\'s Cut', 'Collector\\'s Edition', 'Diamond Edition', 'IMAX Enhanced', 'IMAX'), '2160p')) > 0 and count(resolution(regexMatched(streams, 'Theatrical Cut', 'IMAX Enhanced', 'IMAX'), '2160p')) > 0 ? negate(merge(regexMatched(streams, 'IMAX Edition', 'Open Matte', 'Theatrical Cut', 'Extended Clip', 'Anniversary Edition', 'Ultimate Edition', 'Extended Edition', 'Director\\'s Cut', 'Collector\\'s Edition', 'Diamond Edition', 'IMAX Enhanced', 'IMAX'), quality(streams, 'Bluray REMUX', 'DVD REMUX')), resolution(streams, '2160p')) : []",
@@ -173,7 +173,7 @@
   },
   {
     "expression": "/*Library & Remux Only ESE*/ []",
-    "enabled": true
+    "enabled": false
   },
   {
     "expression": "/*Library & Remux Only - 2160p*/ count(library(resolution(streams, '2160p'))) > 0 and count(library(resolution(regexMatched(streams, 'Open Matte', 'Theatrical Cut', 'Extended Clip', 'Anniversary Edition', 'Ultimate Edition', 'Extended Edition', 'Director\\'s Cut', 'Collector\\'s Edition', 'Diamond Edition'), '2160p'))) == 0 and count(cached(resolution(regexMatched(streams, 'Open Matte', 'Theatrical Cut', 'Extended Clip', 'Anniversary Edition', 'Ultimate Edition', 'Extended Edition', 'Director\\'s Cut', 'Collector\\'s Edition', 'Diamond Edition'), '2160p'))) == 0 ? negate(merge(library(streams), quality(streams, 'Bluray REMUX', 'DVD REMUX')), resolution(streams, '2160p')) : []",
@@ -193,7 +193,7 @@
   },
   {
     "expression": "/*Editions Only ESE*/ []",
-    "enabled": true
+    "enabled": false
   },
   {
     "expression": "/*Editions Only - 2160p*/ count(resolution(regexMatched(streams, 'IMAX Edition', 'Open Matte', 'Theatrical Cut', 'Extended Clip', 'Anniversary Edition', 'Ultimate Edition', 'Extended Edition', 'Director\\'s Cut', 'Collector\\'s Edition', 'Diamond Edition', 'IMAX Enhanced', 'IMAX'), '2160p')) > 0 and count(resolution(regexMatched(streams, 'Theatrical Cut', 'IMAX Enhanced', 'IMAX'), '2160p')) > 0 ? negate(regexMatched(streams, 'IMAX Edition', 'Open Matte', 'Theatrical Cut', 'Extended Clip', 'Anniversary Edition', 'Ultimate Edition', 'Extended Edition', 'Director\\'s Cut', 'Collector\\'s Edition', 'Diamond Edition', 'IMAX Enhanced', 'IMAX'), resolution(streams, '2160p')) : []",
@@ -213,7 +213,7 @@
   },
   {
     "expression": "/*Library Only ESE*/ []",
-    "enabled": true
+    "enabled": false
   },
   {
     "expression": "/*Library Only - 2160p*/ count(library(resolution(streams, '2160p'))) > 0 and count(library(resolution(regexMatched(streams, 'Open Matte', 'Theatrical Cut', 'Extended Clip', 'Anniversary Edition', 'Ultimate Edition', 'Extended Edition', 'Director\\'s Cut', 'Collector\\'s Edition', 'Diamond Edition'), '2160p'))) == 0 and count(cached(resolution(regexMatched(streams, 'Open Matte', 'Theatrical Cut', 'Extended Clip', 'Anniversary Edition', 'Ultimate Edition', 'Extended Edition', 'Director\\'s Cut', 'Collector\\'s Edition', 'Diamond Edition'), '2160p'))) == 0 ? negate(merge(library(streams)), resolution(streams, '2160p')) : []",
@@ -233,7 +233,7 @@
   },
   {
     "expression": "/*Results Limiter ESE*/ []",
-    "enabled": true
+    "enabled": false
   },
   {
     "expression": "/*Top Resolution*/ count(merge(slice(library(resolution(streams, '2160p')), 0, 1), slice(library(resolution(streams, '1080p')), 0, 1))) >= 2 ? negate(resolution(streams, '2160p', '1080p'), streams) : []",
