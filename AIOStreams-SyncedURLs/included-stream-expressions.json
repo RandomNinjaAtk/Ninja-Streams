@@ -1,0 +1,10 @@
+[
+  {
+    "expression": "/*Ninja Streams ISE*/ []",
+    "enabled": true
+  },
+  {
+    "expression": "library(streams)",
+    "enabled": true
+  }
+]
