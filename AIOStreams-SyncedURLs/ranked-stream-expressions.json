@@ -1,0 +1,81 @@
+[
+  {
+    "expression": "/*Ninja Streams RSE*/ []",
+    "enabled": true
+  },
+  {
+    "expression": "/*T1 Web*/ regexMatched(streams, 'Radarr Web T1', 'Sonarr Web T1', 'Web T1')",
+    "score": 0,
+    "enabled": true
+  },
+  {
+    "expression": "/*T1 Disc*/ regexMatched(streams, 'Radarr Remux T1', 'Sonarr Remux T1', 'Radarr UHD Bluray T1', 'Radarr HD Bluray T1', 'Sonarr HD Bluray T1')",
+    "score": 0,
+    "enabled": true
+  },
+  {
+    "expression": "/*T2 Web*/ regexMatched(streams, 'Radarr Web T2', 'Sonarr Web T2')",
+    "score": 0,
+    "enabled": true
+  },
+  {
+    "expression": "/*T2 Disc*/ regexMatched(streams, 'Radarr Remux T2', 'Sonarr Remux T2', 'Radarr UHD Bluray T2', 'Radarr HD Bluray T2', 'Sonarr HD Bluray T2')",
+    "score": 0,
+    "enabled": true
+  },
+  {
+    "expression": "/*T3 Disc*/ regexMatched(streams, 'Radarr Remux T3', 'Radarr UHD Bluray T3', 'Radarr HD Bluray T3')",
+    "score": 0,
+    "enabled": true
+  },
+  {
+    "expression": "/*T3 Web*/ regexMatched(streams, 'Radarr Web T3', 'Sonarr Web T3')",
+    "score": 0,
+    "enabled": true
+  },
+  {
+    "expression": "/*Web Scene*/ regexMatched(streams, 'Web Scene')",
+    "score": 0,
+    "enabled": true
+  },
+  {
+    "expression": "/*Anime T1*/ regexMatched(streams, 'Anime Web T1', 'Anime BD T1')",
+    "score": 0,
+    "enabled": true
+  },
+  {
+    "expression": "/*Anime T2*/ regexMatched(streams, 'Anime Web T2', 'Anime BD T2')",
+    "score": 0,
+    "enabled": true
+  },
+  {
+    "expression": "/*Anime T3*/ regexMatched(streams, 'Anime Web T3', 'Anime BD T3')",
+    "score": 0,
+    "enabled": true
+  },
+  {
+    "expression": "/*Anime T4*/ regexMatched(streams, 'Anime Web T4', 'Anime BD T4')",
+    "score": 0,
+    "enabled": true
+  },
+  {
+    "expression": "/*Anime T5*/ regexMatched(streams, 'Anime Web T5', 'Anime BD T5')",
+    "score": 0,
+    "enabled": true
+  },
+  {
+    "expression": "/*Anime T6*/ regexMatched(streams, 'Anime Web T6', 'Anime BD T6')",
+    "score": 0,
+    "enabled": true
+  },
+  {
+    "expression": "/*Anime T7*/ regexMatched(streams, 'Anime BD T7')",
+    "score": 0,
+    "enabled": true
+  },
+  {
+    "expression": "/*Anime T8*/ regexMatched(streams, 'Anime BD T8')",
+    "score": 0,
+    "enabled": true
+  }
+]
