@@ -4,11 +4,7 @@
     "enabled": true
   },
   {
-    "expression": "/*IMAX*/ regexMatched(streams, 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
-    "enabled": false
-  },
-  {
-    "expression": "/*T1 IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr Web T1', 'Sonarr Web T1', 'Web T1'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut'))",
+    "expression": "/*T1 IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr Web T1', 'Sonarr Web T1', 'Web T1'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
     "enabled": true
   },
   {
@@ -20,7 +16,7 @@
     "enabled": true
   },
   {
-    "expression": "/*T2 Web IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr Web T2', 'Sonarr Web T2'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut'))",
+    "expression": "/*T2 Web IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr Web T2', 'Sonarr Web T2'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
     "enabled": true
   },
   {
@@ -28,7 +24,7 @@
     "enabled": true
   },
   {
-    "expression": "/*T3 Web IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr Web T3', 'Sonarr Web T3'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut'))",
+    "expression": "/*T3 Web IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr Web T3', 'Sonarr Web T3'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
     "enabled": true
   },
   {
@@ -40,7 +36,7 @@
     "enabled": true
   },
   {
-    "expression": "/*T3 Encode IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr UHD Bluray T3', 'Radarr HD Bluray T3'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut'))",
+    "expression": "/*T3 Encode IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr UHD Bluray T3', 'Radarr HD Bluray T3'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
     "enabled": true
   },
   {
@@ -48,7 +44,7 @@
     "enabled": true
   },
   {
-    "expression": "/*T2 Encode IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr UHD Bluray T2', 'Radarr HD Bluray T2', 'Sonarr HD Bluray T2'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut'))",
+    "expression": "/*T2 Encode IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr UHD Bluray T2', 'Radarr HD Bluray T2', 'Sonarr HD Bluray T2'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
     "enabled": true
   },
   {
@@ -56,7 +52,7 @@
     "enabled": true
   },
   {
-    "expression": "/*T1 Encode IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr UHD Bluray T1', 'Radarr HD Bluray T1', 'Sonarr HD Bluray T1'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut'))",
+    "expression": "/*T1 Encode IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr UHD Bluray T1', 'Radarr HD Bluray T1', 'Sonarr HD Bluray T1'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
     "enabled": true
   },
   {
@@ -64,7 +60,7 @@
     "enabled": true
   },
   {
-    "expression": "/*T1 Remux IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr Remux T1', 'Sonarr Remux T1'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut'))",
+    "expression": "/*T1 Remux IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr Remux T1', 'Sonarr Remux T1'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
     "enabled": true
   },
   {
@@ -72,7 +68,7 @@
     "enabled": true
   },
   {
-    "expression": "/*T2 Remux IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr Remux T2', 'Sonarr Remux T2'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut'))",
+    "expression": "/*T2 Remux IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr Remux T2', 'Sonarr Remux T2'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
     "enabled": true
   },
   {
@@ -80,7 +76,7 @@
     "enabled": true
   },
   {
-    "expression": "/*T3 Remux IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr Remux T3'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut'))",
+    "expression": "/*T3 Remux IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr Remux T3'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
     "enabled": true
   },
   {
@@ -88,7 +84,7 @@
     "enabled": true
   },
   {
-    "expression": "/*Web Scene IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Web Scene'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut'))",
+    "expression": "/*Web Scene IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Web Scene'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
     "enabled": true
   },
   {
