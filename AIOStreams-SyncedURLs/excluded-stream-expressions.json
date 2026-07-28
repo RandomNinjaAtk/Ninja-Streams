@@ -76,6 +76,10 @@
     "enabled": true
   },
   {
+    "expression": "/*Bad Group*/ releaseGroup(streams, 'CSWEB', 'ADWeb', 'blacktv', 'pof', 'hbn', 'DreamHD', 'NueXini@HQC', '4Audios', 'W4F', 'w4f', 'BiTOR', 'PTerWEB')",
+    "enabled": true
+  },
+  {
     "expression": "/*spacer*/ []",
     "enabled": false
   },
