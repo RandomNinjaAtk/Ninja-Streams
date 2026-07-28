@@ -168,15 +168,19 @@
     "enabled": true
   },
   {
-    "expression": "/*PREF - Quality*/ count(quality(streams, 'Bluray', 'WEB-DL', 'Bluray REMUX', 'DVD REMUX')) > 0 ? negate(quality(streams, 'Bluray', 'WEB-DL', 'Bluray REMUX', 'DVD REMUX'), streams) : []",
-    "enabled": true
-  },
-  {
     "expression": "/*PREF - Resolution*/ count(resolution(streams, '2160p', '1080p', '720p', '480p')) > 0 ? negate(merge(resolution(streams, '2160p', '1080p', '720p', '480p'), quality(streams, 'Bluray REMUX', 'DVD REMUX')), streams) : []",
     "enabled": true
   },
   {
+    "expression": "/*PREF - Quality*/ count(quality(streams, 'Bluray', 'WEB-DL', 'Bluray REMUX', 'DVD REMUX')) > 0 ? negate(quality(streams, 'Bluray', 'WEB-DL', 'Bluray REMUX', 'DVD REMUX'), streams) : []",
+    "enabled": true
+  },
+  {
     "expression": "/*PREF - Encode*/ count(encode(streams, 'HEVC', 'AVC')) > 0 ? negate(merge(encode(streams, 'HEVC', 'AVC'), quality(streams, 'Bluray REMUX', 'DVD REMUX')), streams) : []",
+    "enabled": true
+  },
+  {
+    "expression": "/*PREF - Visual Tag*/ visualTag(streams, 'DV Only', 'HLG', '3D', 'Upscaled', 'AI', 'H-OU', 'H-SBS')",
     "enabled": true
   },
   {
