@@ -56,7 +56,7 @@
     "enabled": true
   },
   {
-    "expression": "/*T1 Group Promotion*/ releaseGroup(streams, 'hallowed')",
+    "expression": "/*Group Boost*/ releaseGroup(streams, 'hallowed')",
     "enabled": true
   },
   {
@@ -68,7 +68,7 @@
     "enabled": true
   },
   {
-    "expression": "/*T3 Group Promotion*/ releaseGroup(streams, 'BHDStudio')",
+    "expression": "/*Group Boost*/ releaseGroup(streams, 'BHDStudio')",
     "enabled": true
   },
   {
