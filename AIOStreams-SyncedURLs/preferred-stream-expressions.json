@@ -12,7 +12,11 @@
     "enabled": true
   },
   {
-    "expression": "/*Release Group Tier 1 Promotion*/ releaseGroup(streams, 'hallowed')",
+    "expression": "/*T1 Group Promotion IMAX/Theatrical*/ regexMatched(releaseGroup(streams, 'hallowed'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
+    "enabled": true
+  },
+  {
+    "expression": "/*T1 Group Promotion*/ releaseGroup(streams, 'hallowed')",
     "enabled": true
   },
   {
@@ -27,12 +31,17 @@
     "expression": "/*T3 Web IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr Web T3', 'Sonarr Web T3'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
     "enabled": true
   },
+  
   {
     "expression": "/*T3 Web*/ regexMatched(streams, 'Radarr Web T3', 'Sonarr Web T3')",
     "enabled": true
   },
   {
-    "expression": "/*Release Group Tier 2 Promotion*/ releaseGroup(streams, 'BHDStudio')",
+    "expression": "/*T3 Group Promotion IMAX/Theatrical*/ regexMatched(releaseGroup(streams, 'BHDStudio'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
+    "enabled": true
+  },
+  {
+    "expression": "/*T3 Group Promotion*/ releaseGroup(streams, 'BHDStudio')",
     "enabled": true
   },
   {
