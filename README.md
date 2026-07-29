@@ -9,5 +9,6 @@ Import the following config: [Ninja Streams Config](https://raw.githubuserconten
 1. Download the config (right click link and save as): [Ninja Streams Config](https://raw.githubusercontent.com/RandomNinjaAtk/Ninja-Streams/main/AIOStreams-Config/ninja-streams-config.json)
 2. In AIOStreams, navigate to  the "Save & Install" page
 3. Under "Backups", select/click "Import"
-4. Select the downloaded config file
-5. Complete any remaining configurations and "save" or "create"
+4. Select/Click "Import Config"
+5. Select the downloaded config file
+6. Complete any remaining configurations and "save" or "create"
