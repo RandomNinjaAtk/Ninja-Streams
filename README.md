@@ -1,2 +1,13 @@
 # Ninja-Streams
 This page features AIOStreams templates and AIOMetadata configs for your perfect all-in-one stremio setup.
+
+## How to use:
+
+Import the following config: [Ninja Streams Config](https://raw.githubusercontent.com/RandomNinjaAtk/Ninja-Streams/main/AIOStreams-Config/ninja-streams-config.json) using the AIOStreams Backup Feature.
+
+## Steps
+1. Download the config (right click link and save as): [Ninja Streams Config](https://raw.githubusercontent.com/RandomNinjaAtk/Ninja-Streams/main/AIOStreams-Config/ninja-streams-config.json)
+2. In AIOStreams, navigate to  the "Save & Install" page
+3. Under "Backups", select/click "Import"
+4. Select the downloaded config file
+5. Complete any remaining configurations and "save" or "create"
