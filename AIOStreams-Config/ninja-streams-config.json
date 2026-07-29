@@ -392,18 +392,18 @@
     "https://raw.githubusercontent.com/Vidhin05/Releases-Regex/main/English/regexes.json"
   ],
   "syncedPreferredStreamExpressionUrls": [
-    "https://raw.githubusercontent.com/RandomNinjaAtk/Ninja-Streams/refs/heads/main/AIOStreams-SyncedURLs/preferred-stream-expressions.json"
+    "https://raw.githubusercontent.com/RandomNinjaAtk/Ninja-Streams/main/AIOStreams-SyncedURLs/preferred-stream-expressions.json"
   ],
   "syncedExcludedStreamExpressionUrls": [
-    "https://raw.githubusercontent.com/RandomNinjaAtk/Ninja-Streams/refs/heads/main/AIOStreams-SyncedURLs/excluded-stream-expressions.json"
+    "https://raw.githubusercontent.com/RandomNinjaAtk/Ninja-Streams/main/AIOStreams-SyncedURLs/excluded-stream-expressions.json"
   ],
   "syncedIncludedStreamExpressionUrls": [
-    "https://raw.githubusercontent.com/RandomNinjaAtk/Ninja-Streams/refs/heads/main/AIOStreams-SyncedURLs/included-stream-expressions.json"
+    "https://raw.githubusercontent.com/RandomNinjaAtk/Ninja-Streams/main/AIOStreams-SyncedURLs/included-stream-expressions.json"
   ],
   "syncedRequiredStreamExpressionUrls": [],
   "syncedRankedStreamExpressionUrls": [
     "https://raw.githubusercontent.com/Vidhin05/Releases-Regex/main/English/expressions.json",
-    "https://raw.githubusercontent.com/RandomNinjaAtk/Ninja-Streams/refs/heads/main/AIOStreams-SyncedURLs/ranked-stream-expressions.json"
+    "https://raw.githubusercontent.com/RandomNinjaAtk/Ninja-Streams/main/AIOStreams-SyncedURLs/ranked-stream-expressions.json"
   ],
   "excludedReleaseGroups": [],
   "includedReleaseGroups": [],
