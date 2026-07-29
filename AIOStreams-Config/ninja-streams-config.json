@@ -8,11 +8,6 @@
       }
     }
   },
-  "preferredQualities": [
-    "WEB-DL",
-    "BluRay",
-    "BluRay REMUX"
-  ],
   "preferredResolutions": [
     "2160p",
     "1440p",
@@ -25,8 +20,6 @@
     "144p",
     "Unknown"
   ],
-  "excludedQualities": [],
-  "excludedVisualTags": [],
   "sortCriteria": {
     "global": [
       {
@@ -74,7 +67,6 @@
     "cachedAnime": [],
     "uncachedAnime": []
   },
-  "posterService": "rpdb",
   "deduplicator": {
     "enabled": true,
     "excludeAddons": [],
@@ -202,23 +194,8 @@
   "enableSeadex": true,
   "regexOverrides": [],
   "checkOwned": true,
-  "proxy": {
-    "enabled": false,
-    "id": "builtin",
-    "proxiedAddons": [],
-    "proxiedServices": []
-  },
   "showChanges": true,
   "addonName": "Ninja Streams",
-  "appliedTemplates": [],
-  "excludedResolutions": [],
-  "includedResolutions": [],
-  "requiredResolutions": [],
-  "includedQualities": [],
-  "requiredQualities": [],
-  "excludedLanguages": [],
-  "includedLanguages": [],
-  "requiredLanguages": [],
   "preferredLanguages": [
     "English",
     "Original",
@@ -231,64 +208,6 @@
   "requiredSubtitles": [],
   "preferredSubtitles": [
     "English"
-  ],
-  "includedVisualTags": [],
-  "requiredVisualTags": [],
-  "preferredVisualTags": [
-    "IMAX",
-    "HDR+DV",
-    "DV",
-    "HDR10+",
-    "HDR10",
-    "HDR",
-    "HDR Only",
-    "SDR",
-    "Unknown"
-  ],
-  "excludedAudioTags": [],
-  "includedAudioTags": [],
-  "requiredAudioTags": [],
-  "preferredAudioTags": [
-    "DD+",
-    "DD",
-    "Atmos",
-    "TrueHD",
-    "FLAC",
-    "OPUS",
-    "AAC",
-    "DTS:X",
-    "DTS-HD MA",
-    "DTS-ES",
-    "DTS-HD",
-    "DTS",
-    "Unknown"
-  ],
-  "excludedAudioChannels": [],
-  "includedAudioChannels": [],
-  "requiredAudioChannels": [],
-  "preferredAudioChannels": [
-    "7.1",
-    "6.1",
-    "5.1",
-    "2.0",
-    "Unknown"
-  ],
-  "excludedStreamTypes": [],
-  "includedStreamTypes": [],
-  "requiredStreamTypes": [],
-  "preferredStreamTypes": [
-    "usenet",
-    "debrid"
-  ],
-  "excludedEncodes": [],
-  "includedEncodes": [],
-  "requiredEncodes": [],
-  "preferredEncodes": [
-    "HEVC",
-    "AVC",
-    "AV1",
-    "XviD",
-    "DivX"
   ],
   "excludedRegexPatterns": [],
   "preferredRegexPatterns": [],
@@ -331,8 +250,6 @@
   "rankedStreamExpressions": [],
   "rankedRegexPatterns": [],
   "selOverrides": [],
-  "usePosterRedirectApi": true,
-  "usePosterServiceForMeta": false,
   "resultLimits": {
     "mode": "independent"
   },
