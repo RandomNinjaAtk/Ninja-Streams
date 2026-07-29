@@ -403,7 +403,6 @@
   "syncedRequiredStreamExpressionUrls": [],
   "syncedRankedStreamExpressionUrls": [
     "https://raw.githubusercontent.com/Vidhin05/Releases-Regex/main/English/expressions.json",
-    "https://raw.githubusercontent.com/RandomNinjaAtk/Ninja-Streams/main/AIOStreams-SyncedURLs/ranked-stream-expressions.json"
   ],
   "excludedReleaseGroups": [],
   "includedReleaseGroups": [],
