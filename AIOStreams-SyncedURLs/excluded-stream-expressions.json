@@ -145,7 +145,7 @@
   },
   {
     "expression": "/*UNK - Encode*/ count(negate(encode(streams, 'Unknown'), streams)) > 0 ? encode(streams, 'Unknown') : []",
-    "enabled": true
+    "enabled": false
   },
   {
     "expression": "/*UNK - Quality*/ count(negate(quality(streams, 'Unknown'), streams)) > 0 ? quality(streams, 'Unknown') : []",
@@ -153,11 +153,11 @@
   },
   {
     "expression": "/*UNK - Audio Tag*/ count(negate(audioTag(streams, 'Unknown'), streams))  > 0 ? audioTag(streams, 'Unknown') : []",
-    "enabled": true
+    "enabled": false
   },
   {
     "expression": "/*UNK - Audio Channel*/ count(negate(audioChannels(streams, 'Unknown'), streams)) > 0 ? audioChannels(streams, 'Unknown') : []",
-    "enabled": true
+    "enabled": false
   },
   {
     "expression": "/*spacer*/ []",
