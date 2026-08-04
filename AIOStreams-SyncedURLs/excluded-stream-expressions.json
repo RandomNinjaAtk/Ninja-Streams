@@ -145,7 +145,7 @@
   },
   {
     "expression": "/*UNK - Encode*/ count(negate(encode(streams, 'Unknown'), streams)) > 0 ? encode(streams, 'Unknown') : []",
-    "enabled": false
+    "enabled": true
   },
   {
     "expression": "/*UNK - Quality*/ count(negate(quality(streams, 'Unknown'), streams)) > 0 ? quality(streams, 'Unknown') : []",
