@@ -168,6 +168,10 @@
     "enabled": true
   },
   {
+    "expression": "/*PREF - ID Matched*/ count(idMatched(streams)) > 0 ? negate(idMatched(streams), streams) : []",
+    "enabled": true
+  },
+  {
     "expression": "/*PREF - Resolution*/ count(resolution(streams, '2160p', '1080p', '720p', '480p')) > 0 ? negate(merge(resolution(streams, '2160p', '1080p', '720p', '480p'), quality(streams, 'Bluray REMUX', 'DVD REMUX')), streams) : []",
     "enabled": true
   },
