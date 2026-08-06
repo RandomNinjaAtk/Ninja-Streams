@@ -166,5 +166,9 @@
   {
     "expression": "/*WEB-DL*/ quality(streams, 'WEB-DL')",
     "enabled": true
+  },
+  {
+    "expression": "/*REMUX*/ quality(streams, 'BluRay REMUX')",
+    "enabled": true
   }
 ]
