@@ -22,5 +22,8 @@
   {
     "expression": "/*Library Streams*/ library(streams)",
     "enabled": true
+  },
+  {
+    "expression": "/*ID Matched Streams*/ idMatched(streams)",
+    "enabled": true
   }
-]
