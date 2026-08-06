@@ -192,6 +192,10 @@
     "enabled": true
   },
   {
+    "expression": "/*PREF - Language*/ count(negate(language(streams, 'Multi', 'Unknown'), streams)) > 0 ? language(streams, 'Multi', 'Unknown') : []",
+    "enabled": true
+  },
+  {
     "expression": "/*PREF - Audio Tag*/ count(audioTag(streams, 'Atmos', 'TrueHD', 'DD', 'DD+', 'FLAC', 'OPUS', 'AAC', 'Unknown')) >= 10 ? negate(merge(audioTag(streams, 'Atmos', 'TrueHD', 'DD', 'DD+', 'FLAC', 'OPUS', 'AAC', 'Unknown'), quality(streams, 'Bluray REMUX', 'DVD REMUX')), streams) : []",
     "enabled": true
   },
