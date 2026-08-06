@@ -56,6 +56,14 @@
     "enabled": true
   },
   {
+    "expression": "/*BluRay REMUX IMAX/Theatrical*/ regexMatched(quality(streams, 'BluRay REMUX'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
+    "enabled": true
+  },
+  {
+    "expression": "/*BluRay IMAX/Theatrical*/ regexMatched(quality(streams, 'BluRay'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
+    "enabled": true
+  },
+  {
     "expression": "/*T1*/ regexMatched(streams, 'Radarr Web T1', 'Sonarr Web T1', 'Web T1')",
     "enabled": true
   },
@@ -168,7 +176,11 @@
     "enabled": true
   },
   {
-    "expression": "/*REMUX*/ quality(streams, 'BluRay REMUX')",
+    "expression": "/*BluRay REMUX*/ quality(streams, 'BluRay REMUX')",
+    "enabled": true
+  },
+  {
+    "expression": "/*BluRay*/ quality(streams, 'BluRay')",
     "enabled": true
   }
 ]
