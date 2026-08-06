@@ -156,6 +156,14 @@
     "enabled": true
   },
   {
+    "expression": "/*WEB-DL IMAX/Theatrical*/ regexMatched(quality(streams, 'WEB-DL'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
+    "enabled": true
+  }
+  {
+    "expression": "/*IMAX/Theatrical*/ regexMatched(streams, 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
+    "enabled": true
+  }
+  {
     "expression": "/*WEB-DL*/ quality(streams, 'WEB-DL')",
     "enabled": true
   }
