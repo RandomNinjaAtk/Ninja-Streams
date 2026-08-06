@@ -52,6 +52,10 @@
     "enabled": true
   },
   {
+    "expression": "/*WEB-DL IMAX/Theatrical*/ regexMatched(quality(streams, 'WEB-DL'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
+    "enabled": true
+  },
+  {
     "expression": "/*T1*/ regexMatched(streams, 'Radarr Web T1', 'Sonarr Web T1', 'Web T1')",
     "enabled": true
   },
@@ -153,10 +157,6 @@
   },
   {
     "expression": "/*Anime BD T8*/ regexMatched(streams, 'Anime BD T8')",
-    "enabled": true
-  },
-  {
-    "expression": "/*WEB-DL IMAX/Theatrical*/ regexMatched(quality(streams, 'WEB-DL'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
     "enabled": true
   },
   {
