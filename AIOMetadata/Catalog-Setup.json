@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-07T18:45:42.013Z",
+  "exportedAt": "2026-08-07T18:53:18.396Z",
   "catalogs": [
     {
       "id": "tmdb.discover.series.now_airing_today.ninja_streams",
@@ -10,6 +10,7 @@
       "showInHome": true,
       "source": "tmdb",
       "cacheTTL": 21600,
+      "tags": [],
       "metadata": {
         "discover": {
           "version": 2,
@@ -99,12 +100,8 @@
           }
         },
         "description": "TMDB Discover (tv)",
-        "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=false&without_genres=10767%7C10766%7C10764%7C10763&with_original_language=en&watch_region=US&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&air_date.gte=2026-08-07&air_date.lte=2026-08-07"
-      },
-      "tags": [
-        "series",
-        "main"
-      ]
+        "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=false&without_genres=10767%7C10766%7C10764%7C10763&with_original_language=en&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&air_date.gte=2026-08-07&air_date.lte=2026-08-07"
+      }
     },
     {
       "id": "tmdb.discover.series.now_airing_this_week.ninja_streams",
@@ -205,9 +202,7 @@
         "description": "TMDB Discover (tv)",
         "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=false&without_genres=10767%7C10766%7C10764%7C10763&with_original_language=en&watch_region=US&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&air_date.gte=2026-08-03&air_date.lte=2026-08-09"
       },
-      "tags": [
-        "series"
-      ]
+      "tags": []
     },
     {
       "id": "tmdb.discover.movie.recent_releases.ninja_streams",
@@ -286,10 +281,7 @@
         "description": "TMDB Discover (movie)",
         "url": "https://www.themoviedb.org/discover/movie?sort_by=primary_release_date.desc&include_adult=false&with_original_language=en&watch_region=US&with_release_type=4%7C5%7C6&release_date.lte=2026-08-07&vote_average.gte=5&vote_count.gte=25&primary_release_date.gte=2026-07-08&primary_release_date.lte=2026-08-07"
       },
-      "tags": [
-        "movie",
-        "main"
-      ]
+      "tags": []
     },
     {
       "id": "tmdb.discover.movie.top.ninja_streams",
@@ -366,10 +358,7 @@
         "description": "TMDB Discover (movie)",
         "url": "https://www.themoviedb.org/discover/movie?sort_by=vote_average.desc&include_adult=false&with_original_language=en&watch_region=US&with_release_type=4%7C5%7C6&release_date.lte=2026-08-07&vote_average.gte=7&vote_count.gte=300"
       },
-      "tags": [
-        "movie",
-        "main"
-      ]
+      "tags": []
     },
     {
       "id": "tmdb.discover.series.top.ninja_streams",
@@ -450,10 +439,7 @@
         "description": "TMDB Discover (tv)",
         "url": "https://www.themoviedb.org/discover/tv?sort_by=vote_average.desc&include_adult=false&with_original_language=en&watch_region=US&with_status=0%7C3%7C4%7C5&vote_average.gte=7&vote_count.gte=300"
       },
-      "tags": [
-        "series",
-        "main"
-      ]
+      "tags": []
     },
     {
       "id": "tmdb.discover.movie.popular.ninja_streams",
@@ -530,10 +516,7 @@
         "description": "TMDB Discover (movie)",
         "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=false&with_original_language=en&with_release_type=4%7C5%7C6&release_date.lte=2026-08-07&vote_average.gte=5&vote_count.gte=25"
       },
-      "tags": [
-        "movie",
-        "main"
-      ]
+      "tags": []
     },
     {
       "id": "tmdb.discover.series.popular.ninja_streams",
@@ -614,10 +597,7 @@
         "description": "TMDB Discover (tv)",
         "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=false&with_original_language=en&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
       },
-      "tags": [
-        "series",
-        "main"
-      ]
+      "tags": []
     },
     {
       "id": "tmdb.discover.movie.latest.ninja_streams",
@@ -694,10 +674,7 @@
         "description": "TMDB Discover (movie)",
         "url": "https://www.themoviedb.org/discover/movie?sort_by=primary_release_date.desc&include_adult=true&with_original_language=en&with_release_type=4%7C5%7C6&release_date.lte=2026-08-07&vote_average.gte=5&vote_count.gte=25"
       },
-      "tags": [
-        "movie",
-        "main"
-      ]
+      "tags": []
     },
     {
       "id": "tmdb.discover.series.latest.ninja_streams",
@@ -778,10 +755,7 @@
         "description": "TMDB Discover (tv)",
         "url": "https://www.themoviedb.org/discover/tv?sort_by=first_air_date.desc&include_adult=true&with_original_language=en&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
       },
-      "tags": [
-        "series",
-        "main"
-      ]
+      "tags": []
     },
     {
       "id": "tmdb.discover.movie.library.ninja_streams",
@@ -858,10 +832,7 @@
         "description": "TMDB Discover (movie)",
         "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_original_language=en&with_release_type=4%7C5%7C6&release_date.lte=2026-08-07&vote_average.gte=5&vote_count.gte=25"
       },
-      "tags": [
-        "movie",
-        "main"
-      ]
+      "tags": []
     },
     {
       "id": "tmdb.discover.series.library.ninja_streams",
@@ -942,10 +913,7 @@
         "description": "TMDB Discover (tv)",
         "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
       },
-      "tags": [
-        "series",
-        "main"
-      ]
+      "tags": []
     }
   ]
 }
