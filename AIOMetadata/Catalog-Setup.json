@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-07T18:57:48.959Z",
+  "exportedAt": "2026-08-07T19:01:58.780Z",
   "catalogs": [
     {
       "id": "tmdb.discover.series.now_airing_today.ninja_streams",
@@ -1074,6 +1074,486 @@
         },
         "description": "TMDB Discover (tv)",
         "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&first_air_date.gte=1980-01-01&first_air_date.lte=1989-12-31"
+      }
+    },
+    {
+      "id": "tmdb.discover.movie.1990s.ninja_streams",
+      "type": "movie",
+      "name": "🗓️ 1990s",
+      "enabled": true,
+      "showInHome": true,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "movie",
+          "params": {
+            "sort_by": "title.asc",
+            "include_adult": true,
+            "with_original_language": "en",
+            "with_release_type": "4|5|6",
+            "release_date.lte": "__tmdb_date__:today:to",
+            "vote_average.gte": 5,
+            "vote_count.gte": 25,
+            "primary_release_date.gte": "1990-01-01",
+            "primary_release_date.lte": "1999-12-31"
+          },
+          "formState": {
+            "catalogName": "🗓️ 1990s",
+            "discoverSource": "tmdb",
+            "sortBy": "title.asc",
+            "cacheTTL": 21600,
+            "catalogType": "movie",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "en",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "",
+            "watchProviders": [],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              5,
+              10
+            ],
+            "voteCountMin": 25,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "1990-01-01",
+            "primaryReleaseTo": "1999-12-31",
+            "movieDatePreset": "era_1990s",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (movie)",
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_original_language=en&with_release_type=4%7C5%7C6&release_date.lte=2026-08-07&vote_average.gte=5&vote_count.gte=25&primary_release_date.gte=1990-01-01&primary_release_date.lte=1999-12-31"
+      }
+    },
+    {
+      "id": "tmdb.discover.series.1990s.ninja_streams",
+      "type": "series",
+      "name": "🗓️ 1990s",
+      "enabled": true,
+      "showInHome": true,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "tv",
+          "params": {
+            "sort_by": "name.asc",
+            "include_adult": true,
+            "with_original_language": "en",
+            "with_status": "0|3|4|5",
+            "vote_average.gte": 5,
+            "vote_count.gte": 25,
+            "first_air_date.gte": "1990-01-01",
+            "first_air_date.lte": "1999-12-31"
+          },
+          "formState": {
+            "catalogName": "🗓️ 1990s",
+            "discoverSource": "tmdb",
+            "sortBy": "name.asc",
+            "cacheTTL": 21600,
+            "catalogType": "series",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "en",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [
+              "0",
+              "3",
+              "4",
+              "5"
+            ],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "",
+            "watchProviders": [],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              5,
+              10
+            ],
+            "voteCountMin": 25,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "1990-01-01",
+            "firstAirTo": "1999-12-31",
+            "seriesDatePreset": "era_1990s",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (tv)",
+        "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&first_air_date.gte=1990-01-01&first_air_date.lte=1999-12-31"
+      }
+    },
+    {
+      "id": "tmdb.discover.movie.2000s.ninja_streams",
+      "type": "movie",
+      "name": "🗓️ 2000s",
+      "enabled": true,
+      "showInHome": true,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "movie",
+          "params": {
+            "sort_by": "title.asc",
+            "include_adult": true,
+            "with_original_language": "en",
+            "with_release_type": "4|5|6",
+            "release_date.lte": "__tmdb_date__:today:to",
+            "vote_average.gte": 5,
+            "vote_count.gte": 25,
+            "primary_release_date.gte": "2000-01-01",
+            "primary_release_date.lte": "2009-12-31"
+          },
+          "formState": {
+            "catalogName": "🗓️ 2000s",
+            "discoverSource": "tmdb",
+            "sortBy": "title.asc",
+            "cacheTTL": 21600,
+            "catalogType": "movie",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "en",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "",
+            "watchProviders": [],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              5,
+              10
+            ],
+            "voteCountMin": 25,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "2000-01-01",
+            "primaryReleaseTo": "2009-12-31",
+            "movieDatePreset": "era_2000s",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (movie)",
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_original_language=en&with_release_type=4%7C5%7C6&release_date.lte=2026-08-07&vote_average.gte=5&vote_count.gte=25&primary_release_date.gte=2000-01-01&primary_release_date.lte=2009-12-31"
+      }
+    },
+    {
+      "id": "tmdb.discover.series.2000s.ninja_streams",
+      "type": "series",
+      "name": "🗓️ 2000s",
+      "enabled": true,
+      "showInHome": true,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "tv",
+          "params": {
+            "sort_by": "name.asc",
+            "include_adult": true,
+            "with_original_language": "en",
+            "with_status": "0|3|4|5",
+            "vote_average.gte": 5,
+            "vote_count.gte": 25,
+            "first_air_date.gte": "2000-01-01",
+            "first_air_date.lte": "2009-12-31"
+          },
+          "formState": {
+            "catalogName": "🗓️ 2000s",
+            "discoverSource": "tmdb",
+            "sortBy": "name.asc",
+            "cacheTTL": 21600,
+            "catalogType": "series",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "en",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [
+              "0",
+              "3",
+              "4",
+              "5"
+            ],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "",
+            "watchProviders": [],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              5,
+              10
+            ],
+            "voteCountMin": 25,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "2000-01-01",
+            "firstAirTo": "2009-12-31",
+            "seriesDatePreset": "era_2000s",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (tv)",
+        "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&first_air_date.gte=2000-01-01&first_air_date.lte=2009-12-31"
+      }
+    },
+    {
+      "id": "tmdb.discover.movie.2010s.ninja_streams",
+      "type": "movie",
+      "name": "🗓️ 2010s",
+      "enabled": true,
+      "showInHome": true,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "movie",
+          "params": {
+            "sort_by": "title.asc",
+            "include_adult": true,
+            "with_original_language": "en",
+            "with_release_type": "4|5|6",
+            "release_date.lte": "__tmdb_date__:today:to",
+            "vote_average.gte": 5,
+            "vote_count.gte": 25,
+            "primary_release_date.gte": "2010-01-01",
+            "primary_release_date.lte": "2019-12-31"
+          },
+          "formState": {
+            "catalogName": "🗓️ 2010s",
+            "discoverSource": "tmdb",
+            "sortBy": "title.asc",
+            "cacheTTL": 21600,
+            "catalogType": "movie",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "en",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "",
+            "watchProviders": [],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              5,
+              10
+            ],
+            "voteCountMin": 25,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "2010-01-01",
+            "primaryReleaseTo": "2019-12-31",
+            "movieDatePreset": "era_2010s",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (movie)",
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_original_language=en&with_release_type=4%7C5%7C6&release_date.lte=2026-08-07&vote_average.gte=5&vote_count.gte=25&primary_release_date.gte=2010-01-01&primary_release_date.lte=2019-12-31"
+      }
+    },
+    {
+      "id": "tmdb.discover.series.2010s.ninja_streams",
+      "type": "series",
+      "name": "🗓️ 2010s",
+      "enabled": true,
+      "showInHome": true,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "tv",
+          "params": {
+            "sort_by": "name.asc",
+            "include_adult": true,
+            "with_original_language": "en",
+            "with_status": "0|3|4|5",
+            "vote_average.gte": 5,
+            "vote_count.gte": 25,
+            "first_air_date.gte": "2010-01-01",
+            "first_air_date.lte": "2019-12-31"
+          },
+          "formState": {
+            "catalogName": "🗓️ 2010s",
+            "discoverSource": "tmdb",
+            "sortBy": "name.asc",
+            "cacheTTL": 21600,
+            "catalogType": "series",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "en",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [
+              "0",
+              "3",
+              "4",
+              "5"
+            ],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "",
+            "watchProviders": [],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              5,
+              10
+            ],
+            "voteCountMin": 25,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "2010-01-01",
+            "firstAirTo": "2019-12-31",
+            "seriesDatePreset": "era_2010s",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (tv)",
+        "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&first_air_date.gte=2010-01-01&first_air_date.lte=2019-12-31"
       }
     }
   ]
