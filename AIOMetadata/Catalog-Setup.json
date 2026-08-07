@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-07T19:01:58.780Z",
+  "exportedAt": "2026-08-07T19:07:39.053Z",
   "catalogs": [
     {
       "id": "tmdb.discover.series.now_airing_today.ninja_streams",
@@ -10,7 +10,6 @@
       "showInHome": true,
       "source": "tmdb",
       "cacheTTL": 600,
-      "tags": [],
       "metadata": {
         "discover": {
           "version": 2,
@@ -31,7 +30,7 @@
             "catalogName": "📅 Now Airing Today",
             "discoverSource": "tmdb",
             "sortBy": "popularity.desc",
-            "cacheTTL": 21600,
+            "cacheTTL": 600,
             "catalogType": "series",
             "includeGenres": [],
             "excludeGenres": [
