@@ -312,7 +312,7 @@
     "enabled": true
   },
   {
-    "expression": "/*Top Resolution*/ count(merge(slice(resolution(streams, '2160p'), 0, 1), slice(resolution(streams, '1080p'), 0, 1))) >= 2 ? negate(resolution(streams, '2160p', '1080p'), streams) : []",
+    "expression": "/*Top Resolution*/ count(resolution(streams, '2160p')) > 0 ? negate(resolution(streams, '2160p', '1080p'), streams) : []",
     "enabled": true
   }
 ]
