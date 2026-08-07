@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-07T19:07:39.053Z",
+  "exportedAt": "2026-08-07T19:09:02.259Z",
   "catalogs": [
     {
       "id": "tmdb.discover.series.now_airing_today.ninja_streams",
@@ -919,7 +919,7 @@
       "type": "movie",
       "name": "🗓️ 1980s",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "metadata": {
@@ -998,7 +998,7 @@
       "type": "series",
       "name": "🗓️ 1980s",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "metadata": {
@@ -1080,7 +1080,7 @@
       "type": "movie",
       "name": "🗓️ 1990s",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "metadata": {
@@ -1158,7 +1158,7 @@
       "type": "series",
       "name": "🗓️ 1990s",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "metadata": {
@@ -1240,7 +1240,7 @@
       "type": "movie",
       "name": "🗓️ 2000s",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "metadata": {
@@ -1318,7 +1318,7 @@
       "type": "series",
       "name": "🗓️ 2000s",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "metadata": {
@@ -1400,7 +1400,7 @@
       "type": "movie",
       "name": "🗓️ 2010s",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "metadata": {
@@ -1478,7 +1478,7 @@
       "type": "series",
       "name": "🗓️ 2010s",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "metadata": {
