@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-08T18:14:41.500Z",
+  "exportedAt": "2026-08-08T18:21:11.917Z",
   "catalogs": [
     {
       "id": "tmdb.discover.series.airing_this_week.ninja_streams",
@@ -125,8 +125,8 @@
             "release_date.lte": "__tmdb_date__:today:to",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
-            "primary_release_date.gte": "__tmdb_date__:last_month:from",
-            "primary_release_date.lte": "__tmdb_date__:last_month:to"
+            "primary_release_date.gte": "__tmdb_date__:last_year:from",
+            "primary_release_date.lte": "__tmdb_date__:last_year:to"
           },
           "formState": {
             "catalogName": "📅 Recent Releases",
@@ -166,22 +166,21 @@
               0,
               400
             ],
-            "primaryReleaseFrom": "2026-07-08",
-            "primaryReleaseTo": "2026-08-07",
-            "movieDatePreset": "last_month",
+            "primaryReleaseFrom": "2025-08-08",
+            "primaryReleaseTo": "2026-08-08",
+            "movieDatePreset": "last_year",
             "firstAirFrom": "",
             "firstAirTo": "",
             "seriesDatePreset": "clear",
-            "airDateFrom": "",
-            "airDateTo": "",
+            "airDateFrom": "2026-08-03",
+            "airDateTo": "2026-08-09",
             "airDatePreset": "this_week",
             "releaseRegion": ""
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=primary_release_date.desc&include_adult=false&with_original_language=en&watch_region=US&with_release_type=4%7C5%7C6&release_date.lte=2026-08-07&vote_average.gte=5&vote_count.gte=25&primary_release_date.gte=2026-07-08&primary_release_date.lte=2026-08-07"
-      },
-      "tags": []
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=primary_release_date.desc&include_adult=false&with_original_language=en&with_release_type=4%7C5%7C6&release_date.lte=2026-08-08&vote_average.gte=5&vote_count.gte=25&primary_release_date.gte=2025-08-08&primary_release_date.lte=2026-08-08"
+      }
     },
     {
       "id": "tmdb.discover.series.airing_today.ninja_streams",
