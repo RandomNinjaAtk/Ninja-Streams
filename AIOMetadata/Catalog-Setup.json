@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-08T03:44:53.920Z",
+  "exportedAt": "2026-08-08T18:14:41.500Z",
   "catalogs": [
     {
-      "id": "tmdb.discover.series.now_airing_today.ninja_streams",
+      "id": "tmdb.discover.series.airing_this_week.ninja_streams",
       "type": "series",
-      "name": "📅 Now Airing Today",
+      "name": "📅 Airing This Week",
       "enabled": true,
       "showInHome": true,
       "source": "tmdb",
-      "cacheTTL": 600,
+      "cacheTTL": 21600,
       "metadata": {
         "discover": {
           "version": 2,
@@ -23,14 +23,14 @@
             "with_status": "0|3|4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
-            "air_date.gte": "__tmdb_date__:today:from",
-            "air_date.lte": "__tmdb_date__:today:to"
+            "air_date.gte": "__tmdb_date__:this_week:from",
+            "air_date.lte": "__tmdb_date__:this_week:to"
           },
           "formState": {
-            "catalogName": "📅 Now Airing Today",
+            "catalogName": "📅 Airing This Week",
             "discoverSource": "tmdb",
             "sortBy": "popularity.desc",
-            "cacheTTL": 600,
+            "cacheTTL": 21600,
             "catalogType": "series",
             "includeGenres": [],
             "excludeGenres": [
@@ -92,15 +92,17 @@
             "firstAirFrom": "",
             "firstAirTo": "",
             "seriesDatePreset": "clear",
-            "airDateFrom": "2026-08-07",
-            "airDateTo": "2026-08-07",
-            "airDatePreset": "today",
+            "airDateFrom": "2026-08-03",
+            "airDateTo": "2026-08-09",
+            "airDatePreset": "this_week",
             "releaseRegion": ""
           }
         },
         "description": "TMDB Discover (tv)",
-        "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=false&without_genres=10767%7C10766%7C10764%7C10763&with_original_language=en&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&air_date.gte=2026-08-07&air_date.lte=2026-08-07"
-      }
+        "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=false&without_genres=10767%7C10766%7C10764%7C10763&with_original_language=en&watch_region=US&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&air_date.gte=2026-08-03&air_date.lte=2026-08-09"
+      },
+      "tags": [],
+      "displayType": "series"
     },
     {
       "id": "tmdb.discover.movie.recent_releases.ninja_streams",
@@ -182,13 +184,13 @@
       "tags": []
     },
     {
-      "id": "tmdb.discover.series.now_airing_this_week.ninja_streams",
+      "id": "tmdb.discover.series.airing_today.ninja_streams",
       "type": "series",
-      "name": "📅 Now Airing This Week",
+      "name": "📅 Airing Today",
       "enabled": true,
       "showInHome": false,
       "source": "tmdb",
-      "cacheTTL": 21600,
+      "cacheTTL": 600,
       "metadata": {
         "discover": {
           "version": 2,
@@ -202,14 +204,14 @@
             "with_status": "0|3|4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
-            "air_date.gte": "__tmdb_date__:this_week:from",
-            "air_date.lte": "__tmdb_date__:this_week:to"
+            "air_date.gte": "__tmdb_date__:today:from",
+            "air_date.lte": "__tmdb_date__:today:to"
           },
           "formState": {
-            "catalogName": "📅 Now Airing This Week",
+            "catalogName": "📅 Airing Today",
             "discoverSource": "tmdb",
             "sortBy": "popularity.desc",
-            "cacheTTL": 21600,
+            "cacheTTL": 600,
             "catalogType": "series",
             "includeGenres": [],
             "excludeGenres": [
@@ -271,16 +273,16 @@
             "firstAirFrom": "",
             "firstAirTo": "",
             "seriesDatePreset": "clear",
-            "airDateFrom": "2026-08-03",
-            "airDateTo": "2026-08-09",
-            "airDatePreset": "this_week",
+            "airDateFrom": "2026-08-07",
+            "airDateTo": "2026-08-07",
+            "airDatePreset": "today",
             "releaseRegion": ""
           }
         },
         "description": "TMDB Discover (tv)",
-        "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=false&without_genres=10767%7C10766%7C10764%7C10763&with_original_language=en&watch_region=US&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&air_date.gte=2026-08-03&air_date.lte=2026-08-09"
+        "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=false&without_genres=10767%7C10766%7C10764%7C10763&with_original_language=en&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&air_date.gte=2026-08-07&air_date.lte=2026-08-07"
       },
-      "tags": []
+      "displayType": "series"
     },
     {
       "id": "tmdb.discover.movie.top.ninja_streams",
