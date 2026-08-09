@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-08T19:49:38.819Z",
+  "exportedAt": "2026-08-09T01:27:27.185Z",
   "catalogs": [
     {
       "id": "tmdb.discover.series.airing_this_week.ninja_streams",
@@ -4649,1017 +4649,307 @@
       }
     },
     {
-      "id": "tmdb.discover.series.apple_tv_library.ninja_streams",
-      "type": "series",
-      "name": "Apple TV+ - 🎬 Library",
+      "id": "mdblist.32891",
+      "type": "movie",
+      "name": "AppleTV+ Originals",
       "enabled": true,
       "showInHome": false,
-      "source": "tmdb",
+      "source": "mdblist",
+      "sort": "title",
+      "order": "asc",
       "cacheTTL": 21600,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
       "metadata": {
-        "discover": {
-          "version": 2,
-          "source": "tmdb",
-          "mediaType": "tv",
-          "params": {
-            "sort_by": "name.asc",
-            "include_adult": true,
-            "with_original_language": "en",
-            "with_networks": "2552",
-            "watch_region": "US",
-            "with_watch_providers": "350",
-            "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
-            "with_status": "0|3|4|5",
-            "vote_average.gte": 5,
-            "vote_count.gte": 25
-          },
-          "formState": {
-            "catalogName": "Apple TV+ - 🎬 Library",
-            "discoverSource": "tmdb",
-            "sortBy": "name.asc",
-            "cacheTTL": 21600,
-            "catalogType": "series",
-            "includeGenres": [],
-            "excludeGenres": [],
-            "genreJoinMode": "or",
-            "originalLanguage": "en",
-            "originCountry": "",
-            "certificationCountry": "",
-            "certificationValue": "",
-            "certificationMode": "exact",
-            "includeAdult": true,
-            "releasedOnly": true,
-            "tmdbTvStatuses": [
-              "0",
-              "3",
-              "4",
-              "5"
-            ],
-            "selectedPeople": [],
-            "peopleJoinMode": "or",
-            "withCompanies": [],
-            "withoutCompanies": [],
-            "companyJoinMode": "or",
-            "withNetworks": [
-              {
-                "id": 2552,
-                "label": "Apple TV"
-              }
-            ],
-            "withKeywords": [],
-            "withoutKeywords": [],
-            "keywordJoinMode": "or",
-            "watchRegion": "US",
-            "watchProviders": [
-              {
-                "id": 350,
-                "label": "Apple TV"
-              }
-            ],
-            "providerJoinMode": "or",
-            "voteAverageRange": [
-              5,
-              10
-            ],
-            "voteCountMin": 25,
-            "runtimeRange": [
-              0,
-              400
-            ],
-            "primaryReleaseFrom": "",
-            "primaryReleaseTo": "",
-            "movieDatePreset": "clear",
-            "firstAirFrom": "",
-            "firstAirTo": "",
-            "seriesDatePreset": "clear",
-            "airDateFrom": "",
-            "airDateTo": "",
-            "airDatePreset": "clear",
-            "releaseRegion": ""
-          }
-        },
-        "description": "TMDB Discover (tv)",
-        "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_networks=2552&watch_region=US&with_watch_providers=350&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
+        "itemCount": 107,
+        "url": "https://mdblist.com/lists/k0meta/appletv-originals",
+        "mediatype": "movie",
+        "author": "k0meta"
       }
     },
     {
-      "id": "tmdb.discover.series.discovery_library.ninja_streams",
+      "id": "mdblist.32898",
       "type": "series",
-      "name": "Discovery+ - 🎬 Library",
+      "name": "AppleTV+ Originals",
       "enabled": true,
       "showInHome": false,
-      "source": "tmdb",
+      "source": "mdblist",
+      "sort": "title",
+      "order": "asc",
       "cacheTTL": 21600,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
       "metadata": {
-        "discover": {
-          "version": 2,
-          "source": "tmdb",
-          "mediaType": "tv",
-          "params": {
-            "sort_by": "name.asc",
-            "include_adult": true,
-            "with_original_language": "en",
-            "with_networks": "4353|4440|4462|4784|4741|4883|4983|5192|6966|6026|5470|5431|5408",
-            "watch_region": "US",
-            "with_watch_providers": "584|520",
-            "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
-            "with_status": "0|3|4|5",
-            "vote_average.gte": 5,
-            "vote_count.gte": 10
-          },
-          "formState": {
-            "catalogName": "Discovery+ - 🎬 Library",
-            "discoverSource": "tmdb",
-            "sortBy": "name.asc",
-            "cacheTTL": 21600,
-            "catalogType": "series",
-            "includeGenres": [],
-            "excludeGenres": [],
-            "genreJoinMode": "or",
-            "originalLanguage": "en",
-            "originCountry": "",
-            "certificationCountry": "",
-            "certificationValue": "",
-            "certificationMode": "exact",
-            "includeAdult": true,
-            "releasedOnly": true,
-            "tmdbTvStatuses": [
-              "0",
-              "3",
-              "4",
-              "5"
-            ],
-            "selectedPeople": [],
-            "peopleJoinMode": "or",
-            "withCompanies": [],
-            "withoutCompanies": [],
-            "companyJoinMode": "or",
-            "withNetworks": [
-              {
-                "id": 4353,
-                "label": "discovery+"
-              },
-              {
-                "id": 4440,
-                "label": "Discovery+"
-              },
-              {
-                "id": 4462,
-                "label": "Discovery+"
-              },
-              {
-                "id": 4784,
-                "label": "discovery+"
-              },
-              {
-                "id": 4741,
-                "label": "Discovery+"
-              },
-              {
-                "id": 4883,
-                "label": "discovery+"
-              },
-              {
-                "id": 4983,
-                "label": "Discovery+"
-              },
-              {
-                "id": 5192,
-                "label": "Discovery+"
-              },
-              {
-                "id": 6966,
-                "label": "discovery+"
-              },
-              {
-                "id": 6026,
-                "label": "discovery+"
-              },
-              {
-                "id": 5470,
-                "label": "Discovery+"
-              },
-              {
-                "id": 5431,
-                "label": "discovery+"
-              },
-              {
-                "id": 5408,
-                "label": "Discovery+"
-              }
-            ],
-            "withKeywords": [],
-            "withoutKeywords": [],
-            "keywordJoinMode": "or",
-            "watchRegion": "US",
-            "watchProviders": [
-              {
-                "id": 584,
-                "label": "Discovery+ Amazon Channel"
-              },
-              {
-                "id": 520,
-                "label": "Discovery +"
-              }
-            ],
-            "providerJoinMode": "or",
-            "voteAverageRange": [
-              5,
-              10
-            ],
-            "voteCountMin": 10,
-            "runtimeRange": [
-              0,
-              400
-            ],
-            "primaryReleaseFrom": "",
-            "primaryReleaseTo": "",
-            "movieDatePreset": "clear",
-            "firstAirFrom": "",
-            "firstAirTo": "",
-            "seriesDatePreset": "clear",
-            "airDateFrom": "",
-            "airDateTo": "",
-            "airDatePreset": "clear",
-            "releaseRegion": ""
-          }
-        },
-        "description": "TMDB Discover (tv)",
-        "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_networks=4353%7C4440%7C4462%7C4784%7C4741%7C4883%7C4983%7C5192%7C6966%7C6026%7C5470%7C5431%7C5408&watch_region=US&with_watch_providers=584%7C520&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=10"
+        "itemCount": 206,
+        "url": "https://mdblist.com/lists/k0meta/appletv-originals",
+        "mediatype": "show",
+        "author": "k0meta"
       }
     },
     {
-      "id": "tmdb.discover.series.disney_library.ninja_streams",
-      "type": "series",
-      "name": "Disney+ - 🎬 Library",
+      "id": "mdblist.32895",
+      "type": "movie",
+      "name": "Netflix Originals",
       "enabled": true,
       "showInHome": false,
-      "source": "tmdb",
+      "source": "mdblist",
+      "sort": "title",
+      "order": "asc",
       "cacheTTL": 21600,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
       "metadata": {
-        "discover": {
-          "version": 2,
-          "source": "tmdb",
-          "mediaType": "tv",
-          "params": {
-            "sort_by": "name.asc",
-            "include_adult": true,
-            "with_original_language": "en",
-            "with_networks": "2739",
-            "watch_region": "US",
-            "with_watch_providers": "337",
-            "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
-            "with_status": "0|3|4|5",
-            "vote_average.gte": 5,
-            "vote_count.gte": 25
-          },
-          "formState": {
-            "catalogName": "Disney+ - 🎬 Library",
-            "discoverSource": "tmdb",
-            "sortBy": "name.asc",
-            "cacheTTL": 21600,
-            "catalogType": "series",
-            "includeGenres": [],
-            "excludeGenres": [],
-            "genreJoinMode": "or",
-            "originalLanguage": "en",
-            "originCountry": "",
-            "certificationCountry": "",
-            "certificationValue": "",
-            "certificationMode": "exact",
-            "includeAdult": true,
-            "releasedOnly": true,
-            "tmdbTvStatuses": [
-              "0",
-              "3",
-              "4",
-              "5"
-            ],
-            "selectedPeople": [],
-            "peopleJoinMode": "or",
-            "withCompanies": [],
-            "withoutCompanies": [],
-            "companyJoinMode": "or",
-            "withNetworks": [
-              {
-                "id": 2739,
-                "label": "Disney+"
-              }
-            ],
-            "withKeywords": [],
-            "withoutKeywords": [],
-            "keywordJoinMode": "or",
-            "watchRegion": "US",
-            "watchProviders": [
-              {
-                "id": 337,
-                "label": "Disney Plus"
-              }
-            ],
-            "providerJoinMode": "or",
-            "voteAverageRange": [
-              5,
-              10
-            ],
-            "voteCountMin": 25,
-            "runtimeRange": [
-              0,
-              400
-            ],
-            "primaryReleaseFrom": "",
-            "primaryReleaseTo": "",
-            "movieDatePreset": "clear",
-            "firstAirFrom": "",
-            "firstAirTo": "",
-            "seriesDatePreset": "clear",
-            "airDateFrom": "",
-            "airDateTo": "",
-            "airDatePreset": "clear",
-            "releaseRegion": ""
-          }
-        },
-        "description": "TMDB Discover (tv)",
-        "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_networks=2739&watch_region=US&with_watch_providers=337&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
+        "itemCount": 2265,
+        "url": "https://mdblist.com/lists/k0meta/netflix-originals",
+        "mediatype": "movie",
+        "author": "k0meta"
       }
     },
     {
-      "id": "tmdb.discover.series.hbo_max_library.ninja_streams",
+      "id": "mdblist.32902",
       "type": "series",
-      "name": "HBO Max - 🎬 Library",
+      "name": "Netflix Originals",
       "enabled": true,
       "showInHome": false,
-      "source": "tmdb",
+      "source": "mdblist",
+      "sort": "title",
+      "order": "asc",
       "cacheTTL": 21600,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
       "metadata": {
-        "discover": {
-          "version": 2,
-          "source": "tmdb",
-          "mediaType": "tv",
-          "params": {
-            "sort_by": "name.asc",
-            "include_adult": true,
-            "with_original_language": "en",
-            "with_networks": "8304|49|6305|1590|3308|8102|9294|7368|8867|7869",
-            "watch_region": "US",
-            "with_watch_providers": "1899|1825",
-            "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
-            "with_status": "0|3|4|5",
-            "vote_average.gte": 5,
-            "vote_count.gte": 25
-          },
-          "formState": {
-            "catalogName": "HBO Max - 🎬 Library",
-            "discoverSource": "tmdb",
-            "sortBy": "name.asc",
-            "cacheTTL": 21600,
-            "catalogType": "series",
-            "includeGenres": [],
-            "excludeGenres": [],
-            "genreJoinMode": "or",
-            "originalLanguage": "en",
-            "originCountry": "",
-            "certificationCountry": "",
-            "certificationValue": "",
-            "certificationMode": "exact",
-            "includeAdult": true,
-            "releasedOnly": true,
-            "tmdbTvStatuses": [
-              "0",
-              "3",
-              "4",
-              "5"
-            ],
-            "selectedPeople": [],
-            "peopleJoinMode": "or",
-            "withCompanies": [],
-            "withoutCompanies": [],
-            "companyJoinMode": "or",
-            "withNetworks": [
-              {
-                "id": 8304,
-                "label": "HBO Max"
-              },
-              {
-                "id": 49,
-                "label": "HBO"
-              },
-              {
-                "id": 6305,
-                "label": "HBO Go"
-              },
-              {
-                "id": 1590,
-                "label": "HBO"
-              },
-              {
-                "id": 3308,
-                "label": "HBO"
-              },
-              {
-                "id": 8102,
-                "label": "HBO"
-              },
-              {
-                "id": 9294,
-                "label": "HBO"
-              },
-              {
-                "id": 7368,
-                "label": "HBO Go"
-              },
-              {
-                "id": 8867,
-                "label": "HBO GO"
-              },
-              {
-                "id": 7869,
-                "label": "HBO Max"
-              }
-            ],
-            "withKeywords": [],
-            "withoutKeywords": [],
-            "keywordJoinMode": "or",
-            "watchRegion": "US",
-            "watchProviders": [
-              {
-                "id": 1899,
-                "label": "HBO Max"
-              },
-              {
-                "id": 1825,
-                "label": "HBO Max Amazon Channel"
-              }
-            ],
-            "providerJoinMode": "or",
-            "voteAverageRange": [
-              5,
-              10
-            ],
-            "voteCountMin": 25,
-            "runtimeRange": [
-              0,
-              400
-            ],
-            "primaryReleaseFrom": "",
-            "primaryReleaseTo": "",
-            "movieDatePreset": "clear",
-            "firstAirFrom": "",
-            "firstAirTo": "",
-            "seriesDatePreset": "clear",
-            "airDateFrom": "",
-            "airDateTo": "",
-            "airDatePreset": "clear",
-            "releaseRegion": ""
-          }
-        },
-        "description": "TMDB Discover (tv)",
-        "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_networks=8304%7C49%7C6305%7C1590%7C3308%7C8102%7C9294%7C7368%7C8867%7C7869&watch_region=US&with_watch_providers=1899%7C1825&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
+        "itemCount": 2305,
+        "url": "https://mdblist.com/lists/k0meta/netflix-originals",
+        "mediatype": "show",
+        "author": "k0meta"
       }
     },
     {
-      "id": "tmdb.discover.series.hulu_library.ninja_streams",
-      "type": "series",
-      "name": "Hulu - 🎬 Library",
+      "id": "mdblist.32893",
+      "type": "movie",
+      "name": "HBO Max Originals",
       "enabled": true,
       "showInHome": false,
-      "source": "tmdb",
+      "source": "mdblist",
+      "sort": "title",
+      "order": "asc",
       "cacheTTL": 21600,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
       "metadata": {
-        "discover": {
-          "version": 2,
-          "source": "tmdb",
-          "mediaType": "tv",
-          "params": {
-            "sort_by": "name.asc",
-            "include_adult": true,
-            "with_original_language": "en",
-            "with_networks": "453|1772",
-            "watch_region": "US",
-            "with_watch_providers": "15",
-            "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
-            "with_status": "0|3|4|5",
-            "vote_average.gte": 5,
-            "vote_count.gte": 25
-          },
-          "formState": {
-            "catalogName": "Hulu - 🎬 Library",
-            "discoverSource": "tmdb",
-            "sortBy": "name.asc",
-            "cacheTTL": 21600,
-            "catalogType": "series",
-            "includeGenres": [],
-            "excludeGenres": [],
-            "genreJoinMode": "or",
-            "originalLanguage": "en",
-            "originCountry": "",
-            "certificationCountry": "",
-            "certificationValue": "",
-            "certificationMode": "exact",
-            "includeAdult": true,
-            "releasedOnly": true,
-            "tmdbTvStatuses": [
-              "0",
-              "3",
-              "4",
-              "5"
-            ],
-            "selectedPeople": [],
-            "peopleJoinMode": "or",
-            "withCompanies": [],
-            "withoutCompanies": [],
-            "companyJoinMode": "or",
-            "withNetworks": [
-              {
-                "id": 453,
-                "label": "Hulu"
-              },
-              {
-                "id": 1772,
-                "label": "Hulu"
-              }
-            ],
-            "withKeywords": [],
-            "withoutKeywords": [],
-            "keywordJoinMode": "or",
-            "watchRegion": "US",
-            "watchProviders": [
-              {
-                "id": 15,
-                "label": "Hulu"
-              }
-            ],
-            "providerJoinMode": "or",
-            "voteAverageRange": [
-              5,
-              10
-            ],
-            "voteCountMin": 25,
-            "runtimeRange": [
-              0,
-              400
-            ],
-            "primaryReleaseFrom": "",
-            "primaryReleaseTo": "",
-            "movieDatePreset": "clear",
-            "firstAirFrom": "",
-            "firstAirTo": "",
-            "seriesDatePreset": "clear",
-            "airDateFrom": "",
-            "airDateTo": "",
-            "airDatePreset": "clear",
-            "releaseRegion": ""
-          }
-        },
-        "description": "TMDB Discover (tv)",
-        "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_networks=453%7C1772&watch_region=US&with_watch_providers=15&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
+        "itemCount": 131,
+        "url": "https://mdblist.com/lists/k0meta/hbomax-originals",
+        "mediatype": "movie",
+        "author": "k0meta"
       }
     },
     {
-      "id": "tmdb.discover.series.netflix_library.ninja_streams",
+      "id": "mdblist.32900",
       "type": "series",
-      "name": "Netflix - 🎬 Library",
+      "name": "HBO Max Originals",
       "enabled": true,
       "showInHome": false,
-      "source": "tmdb",
+      "source": "mdblist",
+      "sort": "title",
+      "order": "asc",
       "cacheTTL": 21600,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
       "metadata": {
-        "discover": {
-          "version": 2,
-          "source": "tmdb",
-          "mediaType": "tv",
-          "params": {
-            "sort_by": "name.asc",
-            "include_adult": true,
-            "with_original_language": "en",
-            "with_networks": "213|9369",
-            "watch_region": "US",
-            "with_watch_providers": "175|1796|8",
-            "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
-            "with_status": "0|3|4|5",
-            "vote_average.gte": 5,
-            "vote_count.gte": 25
-          },
-          "formState": {
-            "catalogName": "Netflix - 🎬 Library",
-            "discoverSource": "tmdb",
-            "sortBy": "name.asc",
-            "cacheTTL": 21600,
-            "catalogType": "series",
-            "includeGenres": [],
-            "excludeGenres": [],
-            "genreJoinMode": "or",
-            "originalLanguage": "en",
-            "originCountry": "",
-            "certificationCountry": "",
-            "certificationValue": "",
-            "certificationMode": "exact",
-            "includeAdult": true,
-            "releasedOnly": true,
-            "tmdbTvStatuses": [
-              "0",
-              "3",
-              "4",
-              "5"
-            ],
-            "selectedPeople": [],
-            "peopleJoinMode": "or",
-            "withCompanies": [],
-            "withoutCompanies": [],
-            "companyJoinMode": "or",
-            "withNetworks": [
-              {
-                "id": 213,
-                "label": "Netflix"
-              },
-              {
-                "id": 9369,
-                "label": "Netflix"
-              }
-            ],
-            "withKeywords": [],
-            "withoutKeywords": [],
-            "keywordJoinMode": "or",
-            "watchRegion": "US",
-            "watchProviders": [
-              {
-                "id": 175,
-                "label": "Netflix Kids"
-              },
-              {
-                "id": 1796,
-                "label": "Netflix Standard with Ads"
-              },
-              {
-                "id": 8,
-                "label": "Netflix"
-              }
-            ],
-            "providerJoinMode": "or",
-            "voteAverageRange": [
-              5,
-              10
-            ],
-            "voteCountMin": 25,
-            "runtimeRange": [
-              0,
-              400
-            ],
-            "primaryReleaseFrom": "",
-            "primaryReleaseTo": "",
-            "movieDatePreset": "clear",
-            "firstAirFrom": "",
-            "firstAirTo": "",
-            "seriesDatePreset": "clear",
-            "airDateFrom": "",
-            "airDateTo": "",
-            "airDatePreset": "clear",
-            "releaseRegion": ""
-          }
-        },
-        "description": "TMDB Discover (tv)",
-        "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_networks=213%7C9369&watch_region=US&with_watch_providers=175%7C1796%7C8&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
+        "itemCount": 186,
+        "url": "https://mdblist.com/lists/k0meta/hbomax-originals",
+        "mediatype": "show",
+        "author": "k0meta"
       }
     },
     {
-      "id": "tmdb.discover.series.paramount_library.ninja_streams",
-      "type": "series",
-      "name": "Paramount+ - 🎬 Library",
+      "id": "mdblist.32894",
+      "type": "movie",
+      "name": "Hulu Originals",
       "enabled": true,
       "showInHome": false,
-      "source": "tmdb",
+      "source": "mdblist",
+      "sort": "title",
+      "order": "asc",
       "cacheTTL": 21600,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
       "metadata": {
-        "discover": {
-          "version": 2,
-          "source": "tmdb",
-          "mediaType": "tv",
-          "params": {
-            "sort_by": "name.asc",
-            "include_adult": true,
-            "with_original_language": "en",
-            "with_networks": "4330|5506|5567|8757|6445|6318|6100|6183",
-            "watch_region": "US",
-            "with_watch_providers": "2303|2616|582|1853|633",
-            "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
-            "with_status": "0|3|4|5",
-            "vote_average.gte": 5,
-            "vote_count.gte": 25
-          },
-          "formState": {
-            "catalogName": "Paramount+ - 🎬 Library",
-            "discoverSource": "tmdb",
-            "sortBy": "name.asc",
-            "cacheTTL": 21600,
-            "catalogType": "series",
-            "includeGenres": [],
-            "excludeGenres": [],
-            "genreJoinMode": "or",
-            "originalLanguage": "en",
-            "originCountry": "",
-            "certificationCountry": "",
-            "certificationValue": "",
-            "certificationMode": "exact",
-            "includeAdult": true,
-            "releasedOnly": true,
-            "tmdbTvStatuses": [
-              "0",
-              "3",
-              "4",
-              "5"
-            ],
-            "selectedPeople": [],
-            "peopleJoinMode": "or",
-            "withCompanies": [],
-            "withoutCompanies": [],
-            "companyJoinMode": "or",
-            "withNetworks": [
-              {
-                "id": 4330,
-                "label": "Paramount+"
-              },
-              {
-                "id": 5506,
-                "label": "Paramount+"
-              },
-              {
-                "id": 5567,
-                "label": "Paramount+"
-              },
-              {
-                "id": 8757,
-                "label": "Paramount+"
-              },
-              {
-                "id": 6445,
-                "label": "Paramount+"
-              },
-              {
-                "id": 6318,
-                "label": "Paramount+"
-              },
-              {
-                "id": 6100,
-                "label": "Paramount+"
-              },
-              {
-                "id": 6183,
-                "label": "Paramount+"
-              }
-            ],
-            "withKeywords": [],
-            "withoutKeywords": [],
-            "keywordJoinMode": "or",
-            "watchRegion": "US",
-            "watchProviders": [
-              {
-                "id": 2303,
-                "label": "Paramount Plus Premium"
-              },
-              {
-                "id": 2616,
-                "label": "Paramount Plus Essential"
-              },
-              {
-                "id": 582,
-                "label": "Paramount+ Amazon Channel"
-              },
-              {
-                "id": 1853,
-                "label": "Paramount Plus Apple TV Channel "
-              },
-              {
-                "id": 633,
-                "label": "Paramount+ Roku Premium Channel"
-              }
-            ],
-            "providerJoinMode": "or",
-            "voteAverageRange": [
-              5,
-              10
-            ],
-            "voteCountMin": 25,
-            "runtimeRange": [
-              0,
-              400
-            ],
-            "primaryReleaseFrom": "",
-            "primaryReleaseTo": "",
-            "movieDatePreset": "clear",
-            "firstAirFrom": "",
-            "firstAirTo": "",
-            "seriesDatePreset": "clear",
-            "airDateFrom": "",
-            "airDateTo": "",
-            "airDatePreset": "clear",
-            "releaseRegion": ""
-          }
-        },
-        "description": "TMDB Discover (tv)",
-        "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_networks=4330%7C5506%7C5567%7C8757%7C6445%7C6318%7C6100%7C6183&watch_region=US&with_watch_providers=2303%7C2616%7C582%7C1853%7C633&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
+        "itemCount": 216,
+        "url": "https://mdblist.com/lists/k0meta/hulu-originals",
+        "mediatype": "movie",
+        "author": "k0meta"
       }
     },
     {
-      "id": "tmdb.discover.series.peacock_library.ninja_streams",
+      "id": "mdblist.32901",
       "type": "series",
-      "name": "Peacock - 🎬 Library",
+      "name": "Hulu Originals",
       "enabled": true,
       "showInHome": false,
-      "source": "tmdb",
+      "source": "mdblist",
+      "sort": "title",
+      "order": "asc",
       "cacheTTL": 21600,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
       "metadata": {
-        "discover": {
-          "version": 2,
-          "source": "tmdb",
-          "mediaType": "tv",
-          "params": {
-            "sort_by": "name.asc",
-            "include_adult": true,
-            "with_original_language": "en",
-            "with_networks": "3353",
-            "watch_region": "US",
-            "with_watch_providers": "2553|387|386",
-            "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
-            "with_status": "0|3|4|5",
-            "vote_average.gte": 5,
-            "vote_count.gte": 25
-          },
-          "formState": {
-            "catalogName": "Peacock - 🎬 Library",
-            "discoverSource": "tmdb",
-            "sortBy": "name.asc",
-            "cacheTTL": 21600,
-            "catalogType": "series",
-            "includeGenres": [],
-            "excludeGenres": [],
-            "genreJoinMode": "or",
-            "originalLanguage": "en",
-            "originCountry": "",
-            "certificationCountry": "",
-            "certificationValue": "",
-            "certificationMode": "exact",
-            "includeAdult": true,
-            "releasedOnly": true,
-            "tmdbTvStatuses": [
-              "0",
-              "3",
-              "4",
-              "5"
-            ],
-            "selectedPeople": [],
-            "peopleJoinMode": "or",
-            "withCompanies": [],
-            "withoutCompanies": [],
-            "companyJoinMode": "or",
-            "withNetworks": [
-              {
-                "id": 3353,
-                "label": "Peacock"
-              }
-            ],
-            "withKeywords": [],
-            "withoutKeywords": [],
-            "keywordJoinMode": "or",
-            "watchRegion": "US",
-            "watchProviders": [
-              {
-                "id": 2553,
-                "label": "Peacock Premium Plus Amazon Channel"
-              },
-              {
-                "id": 387,
-                "label": "Peacock Premium Plus"
-              },
-              {
-                "id": 386,
-                "label": "Peacock Premium"
-              }
-            ],
-            "providerJoinMode": "or",
-            "voteAverageRange": [
-              5,
-              10
-            ],
-            "voteCountMin": 25,
-            "runtimeRange": [
-              0,
-              400
-            ],
-            "primaryReleaseFrom": "",
-            "primaryReleaseTo": "",
-            "movieDatePreset": "clear",
-            "firstAirFrom": "",
-            "firstAirTo": "",
-            "seriesDatePreset": "clear",
-            "airDateFrom": "",
-            "airDateTo": "",
-            "airDatePreset": "clear",
-            "releaseRegion": ""
-          }
-        },
-        "description": "TMDB Discover (tv)",
-        "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_networks=3353&watch_region=US&with_watch_providers=2553%7C387%7C386&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
+        "itemCount": 297,
+        "url": "https://mdblist.com/lists/k0meta/hulu-originals",
+        "mediatype": "show",
+        "author": "k0meta"
       }
     },
     {
-      "id": "tmdb.discover.series.prime_video_library.ninja_streams",
-      "type": "series",
-      "name": "Prime Video - 🎬 Library",
+      "id": "mdblist.33169",
+      "type": "movie",
+      "name": "Amazon Originals",
       "enabled": true,
-      "showInHome": false,
-      "source": "tmdb",
+      "showInHome": true,
+      "source": "mdblist",
+      "sort": "title",
+      "order": "asc",
       "cacheTTL": 21600,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
       "metadata": {
-        "discover": {
-          "version": 2,
-          "source": "tmdb",
-          "mediaType": "tv",
-          "params": {
-            "sort_by": "name.asc",
-            "include_adult": true,
-            "with_original_language": "en",
-            "with_networks": "1024",
-            "watch_region": "US",
-            "with_watch_providers": "9|613|2100",
-            "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
-            "with_status": "0|3|4|5",
-            "vote_average.gte": 5,
-            "vote_count.gte": 25
-          },
-          "formState": {
-            "catalogName": "Prime Video - 🎬 Library",
-            "discoverSource": "tmdb",
-            "sortBy": "name.asc",
-            "cacheTTL": 21600,
-            "catalogType": "series",
-            "includeGenres": [],
-            "excludeGenres": [],
-            "genreJoinMode": "or",
-            "originalLanguage": "en",
-            "originCountry": "",
-            "certificationCountry": "",
-            "certificationValue": "",
-            "certificationMode": "exact",
-            "includeAdult": true,
-            "releasedOnly": true,
-            "tmdbTvStatuses": [
-              "0",
-              "3",
-              "4",
-              "5"
-            ],
-            "selectedPeople": [],
-            "peopleJoinMode": "or",
-            "withCompanies": [],
-            "withoutCompanies": [],
-            "companyJoinMode": "or",
-            "withNetworks": [
-              {
-                "id": 1024,
-                "label": "Prime Video"
-              }
-            ],
-            "withKeywords": [],
-            "withoutKeywords": [],
-            "keywordJoinMode": "or",
-            "watchRegion": "US",
-            "watchProviders": [
-              {
-                "id": 9,
-                "label": "Amazon Prime Video"
-              },
-              {
-                "id": 613,
-                "label": "Amazon Prime Video Free with Ads"
-              },
-              {
-                "id": 2100,
-                "label": "Amazon Prime Video with Ads"
-              }
-            ],
-            "providerJoinMode": "or",
-            "voteAverageRange": [
-              5,
-              10
-            ],
-            "voteCountMin": 25,
-            "runtimeRange": [
-              0,
-              400
-            ],
-            "primaryReleaseFrom": "",
-            "primaryReleaseTo": "",
-            "movieDatePreset": "clear",
-            "firstAirFrom": "",
-            "firstAirTo": "",
-            "seriesDatePreset": "clear",
-            "airDateFrom": "",
-            "airDateTo": "",
-            "airDatePreset": "clear",
-            "releaseRegion": ""
-          }
-        },
-        "description": "TMDB Discover (tv)",
-        "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_networks=1024&watch_region=US&with_watch_providers=9%7C613%7C2100&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
+        "itemCount": 392,
+        "url": "https://mdblist.com/lists/k0meta/amazon-originals",
+        "mediatype": "movie",
+        "author": "k0meta"
+      }
+    },
+    {
+      "id": "mdblist.33170",
+      "type": "series",
+      "name": "Amazon Originals",
+      "enabled": true,
+      "showInHome": true,
+      "source": "mdblist",
+      "sort": "title",
+      "order": "asc",
+      "cacheTTL": 21600,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
+      "metadata": {
+        "itemCount": 444,
+        "url": "https://mdblist.com/lists/k0meta/amazon-originals",
+        "mediatype": "show",
+        "author": "k0meta"
+      }
+    },
+    {
+      "id": "mdblist.32896",
+      "type": "movie",
+      "name": "Paramount+ Originals",
+      "enabled": true,
+      "showInHome": true,
+      "source": "mdblist",
+      "sort": "title",
+      "order": "asc",
+      "cacheTTL": 21600,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
+      "metadata": {
+        "itemCount": 70,
+        "url": "https://mdblist.com/lists/k0meta/paramount-originals",
+        "mediatype": "movie",
+        "author": "k0meta"
+      }
+    },
+    {
+      "id": "mdblist.32903",
+      "type": "series",
+      "name": "Paramount+ Originals",
+      "enabled": true,
+      "showInHome": true,
+      "source": "mdblist",
+      "sort": "title",
+      "order": "asc",
+      "cacheTTL": 21600,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
+      "metadata": {
+        "itemCount": 120,
+        "url": "https://mdblist.com/lists/k0meta/paramount-originals",
+        "mediatype": "show",
+        "author": "k0meta"
+      }
+    },
+    {
+      "id": "mdblist.32892",
+      "type": "movie",
+      "name": "Disney+ Originals",
+      "enabled": true,
+      "showInHome": true,
+      "source": "mdblist",
+      "sort": "title",
+      "order": "asc",
+      "cacheTTL": 21600,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
+      "metadata": {
+        "itemCount": 163,
+        "url": "https://mdblist.com/lists/k0meta/disney-originals",
+        "mediatype": "movie",
+        "author": "k0meta"
+      }
+    },
+    {
+      "id": "mdblist.32899",
+      "type": "series",
+      "name": "Disney+ Originals",
+      "enabled": true,
+      "showInHome": true,
+      "source": "mdblist",
+      "sort": "title",
+      "order": "asc",
+      "cacheTTL": 21600,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
+      "metadata": {
+        "itemCount": 254,
+        "url": "https://mdblist.com/lists/k0meta/disney-originals",
+        "mediatype": "show",
+        "author": "k0meta"
+      }
+    },
+    {
+      "id": "mdblist.32897",
+      "type": "movie",
+      "name": "Peacock Originals",
+      "enabled": true,
+      "showInHome": true,
+      "source": "mdblist",
+      "sort": "title",
+      "order": "asc",
+      "cacheTTL": 21600,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
+      "metadata": {
+        "itemCount": 120,
+        "url": "https://mdblist.com/lists/k0meta/peacock-originals",
+        "mediatype": "movie",
+        "author": "k0meta"
+      }
+    },
+    {
+      "id": "mdblist.32904",
+      "type": "series",
+      "name": "Peacock Originals",
+      "enabled": true,
+      "showInHome": true,
+      "source": "mdblist",
+      "sort": "title",
+      "order": "asc",
+      "cacheTTL": 21600,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
+      "metadata": {
+        "itemCount": 168,
+        "url": "https://mdblist.com/lists/k0meta/peacock-originals",
+        "mediatype": "show",
+        "author": "k0meta"
       }
     }
   ]
