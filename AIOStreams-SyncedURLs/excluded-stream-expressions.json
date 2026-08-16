@@ -128,15 +128,15 @@
     "enabled": true
   },
   {
-    "expression": "/*UNK - Language*/ count(negate(language(streams, 'Unknown'), streams)) > 0 ? language(streams, 'Unknown') : []",
-    "enabled": true
-  },
-  {
     "expression": "/*UNK - Audio Tag*/ count(negate(audioTag(streams, 'Unknown'), streams))  > 0 ? audioTag(streams, 'Unknown') : []",
     "enabled": false
   },
   {
     "expression": "/*UNK - Audio Channel*/ count(negate(audioChannels(streams, 'Unknown'), streams)) > 0 ? audioChannels(streams, 'Unknown') : []",
+    "enabled": false
+  },
+  {
+    "expression": "/*UNK - Language*/ count(negate(language(streams, 'Unknown'), streams)) > 0 ? language(streams, 'Unknown') : []",
     "enabled": false
   },
   {
