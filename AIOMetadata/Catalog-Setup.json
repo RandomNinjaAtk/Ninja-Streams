@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-18T17:26:18.861Z",
+  "exportedAt": "2026-08-18T18:05:15.902Z",
   "catalogs": [
     {
       "id": "tmdb.discover.series.airing_this_week.ninja_streams",
@@ -1066,6 +1066,766 @@
         "library",
         "series"
       ]
+    },
+    {
+      "id": "tmdb.discover.movie.latest_anime.ninja_streams",
+      "type": "movie",
+      "name": "📅 Latest Anime",
+      "enabled": true,
+      "showInHome": true,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "tags": [
+        "movie",
+        "anime",
+        "latest"
+      ],
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "movie",
+          "params": {
+            "sort_by": "primary_release_date.desc",
+            "include_adult": true,
+            "with_keywords": "210024",
+            "watch_region": "US",
+            "with_release_type": "4",
+            "vote_average.gte": 5,
+            "vote_count.gte": 25,
+            "release_date.lte": "__tmdb_date__:today:to"
+          },
+          "formState": {
+            "catalogName": "📅 Latest Anime",
+            "discoverSource": "tmdb",
+            "sortBy": "primary_release_date.desc",
+            "cacheTTL": 21600,
+            "catalogType": "movie",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [],
+            "tmdbMovieReleaseTypes": [
+              "4"
+            ],
+            "tmdbTvTypes": [],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [
+              {
+                "id": 210024,
+                "label": "anime"
+              }
+            ],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "US",
+            "watchProviders": [],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              5,
+              10
+            ],
+            "voteCountMin": 25,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (movie)",
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=primary_release_date.desc&include_adult=true&with_keywords=210024&watch_region=US&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
+      }
+    },
+    {
+      "id": "tmdb.discover.series.latest_anime.ninja_streams",
+      "type": "series",
+      "name": "📅 Latest Anime",
+      "enabled": true,
+      "showInHome": true,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "tags": [
+        "series",
+        "anime",
+        "latest"
+      ],
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "tv",
+          "params": {
+            "sort_by": "first_air_date.desc",
+            "include_adult": true,
+            "with_keywords": "210024",
+            "watch_region": "US",
+            "with_type": "2|4",
+            "with_status": "0|3|4|5",
+            "vote_average.gte": 5,
+            "vote_count.gte": 25
+          },
+          "formState": {
+            "catalogName": "📅 Latest Anime",
+            "discoverSource": "tmdb",
+            "sortBy": "first_air_date.desc",
+            "cacheTTL": 21600,
+            "catalogType": "series",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [
+              "0",
+              "3",
+              "4",
+              "5"
+            ],
+            "tmdbMovieReleaseTypes": [
+              "4"
+            ],
+            "tmdbTvTypes": [
+              "2",
+              "4"
+            ],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [
+              {
+                "id": 210024,
+                "label": "anime"
+              }
+            ],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "US",
+            "watchProviders": [],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              5,
+              10
+            ],
+            "voteCountMin": 25,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (tv)",
+        "url": "https://www.themoviedb.org/discover/tv?sort_by=first_air_date.desc&include_adult=true&with_keywords=210024&watch_region=US&with_type=2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
+      }
+    },
+    {
+      "id": "tmdb.discover.movie.top_anime.ninja_streams",
+      "type": "movie",
+      "name": "⭐ Top Anime",
+      "enabled": true,
+      "showInHome": true,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "tags": [
+        "movie",
+        "anime",
+        "top"
+      ],
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "movie",
+          "params": {
+            "sort_by": "vote_average.desc",
+            "include_adult": true,
+            "with_keywords": "210024",
+            "watch_region": "US",
+            "with_release_type": "4",
+            "vote_average.gte": 5,
+            "vote_count.gte": 25,
+            "release_date.lte": "__tmdb_date__:today:to"
+          },
+          "formState": {
+            "catalogName": "⭐ Top Anime",
+            "discoverSource": "tmdb",
+            "sortBy": "vote_average.desc",
+            "cacheTTL": 21600,
+            "catalogType": "movie",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [],
+            "tmdbMovieReleaseTypes": [
+              "4"
+            ],
+            "tmdbTvTypes": [],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [
+              {
+                "id": 210024,
+                "label": "anime"
+              }
+            ],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "US",
+            "watchProviders": [],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              5,
+              10
+            ],
+            "voteCountMin": 25,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (movie)",
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=vote_average.desc&include_adult=true&with_keywords=210024&watch_region=US&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
+      }
+    },
+    {
+      "id": "tmdb.discover.series.top_anime.ninja_streams",
+      "type": "series",
+      "name": "⭐ Top Anime",
+      "enabled": true,
+      "showInHome": true,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "tags": [
+        "series",
+        "anime",
+        "top"
+      ],
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "tv",
+          "params": {
+            "sort_by": "vote_average.desc",
+            "include_adult": true,
+            "with_keywords": "210024",
+            "watch_region": "US",
+            "with_type": "2|4",
+            "with_status": "0|3|4|5",
+            "vote_average.gte": 5,
+            "vote_count.gte": 25
+          },
+          "formState": {
+            "catalogName": "⭐ Top Anime",
+            "discoverSource": "tmdb",
+            "sortBy": "vote_average.desc",
+            "cacheTTL": 21600,
+            "catalogType": "series",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [
+              "0",
+              "3",
+              "4",
+              "5"
+            ],
+            "tmdbMovieReleaseTypes": [
+              "4"
+            ],
+            "tmdbTvTypes": [
+              "2",
+              "4"
+            ],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [
+              {
+                "id": 210024,
+                "label": "anime"
+              }
+            ],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "US",
+            "watchProviders": [],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              5,
+              10
+            ],
+            "voteCountMin": 25,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (tv)",
+        "url": "https://www.themoviedb.org/discover/tv?sort_by=vote_average.desc&include_adult=true&with_keywords=210024&watch_region=US&with_type=2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
+      }
+    },
+    {
+      "id": "tmdb.discover.movie.popular_anime.ninja_streams",
+      "type": "movie",
+      "name": "🏆 Popular Anime",
+      "enabled": true,
+      "showInHome": true,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "tags": [
+        "movie",
+        "anime",
+        "popular"
+      ],
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "movie",
+          "params": {
+            "sort_by": "popularity.desc",
+            "include_adult": true,
+            "with_keywords": "210024",
+            "watch_region": "US",
+            "with_release_type": "4",
+            "vote_average.gte": 5,
+            "vote_count.gte": 25,
+            "release_date.lte": "__tmdb_date__:today:to"
+          },
+          "formState": {
+            "catalogName": "🏆 Popular Anime",
+            "discoverSource": "tmdb",
+            "sortBy": "popularity.desc",
+            "cacheTTL": 21600,
+            "catalogType": "movie",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [],
+            "tmdbMovieReleaseTypes": [
+              "4"
+            ],
+            "tmdbTvTypes": [],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [
+              {
+                "id": 210024,
+                "label": "anime"
+              }
+            ],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "US",
+            "watchProviders": [],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              5,
+              10
+            ],
+            "voteCountMin": 25,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (movie)",
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=true&with_keywords=210024&watch_region=US&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
+      }
+    },
+    {
+      "id": "tmdb.discover.series.popular_anime.ninja_streams",
+      "type": "series",
+      "name": "🏆 Popular Anime",
+      "enabled": true,
+      "showInHome": true,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "tags": [
+        "series",
+        "anime",
+        "popular"
+      ],
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "tv",
+          "params": {
+            "sort_by": "popularity.desc",
+            "include_adult": true,
+            "with_keywords": "210024",
+            "watch_region": "US",
+            "with_type": "2|4",
+            "with_status": "0|3|4|5",
+            "vote_average.gte": 5,
+            "vote_count.gte": 25
+          },
+          "formState": {
+            "catalogName": "🏆 Popular Anime",
+            "discoverSource": "tmdb",
+            "sortBy": "popularity.desc",
+            "cacheTTL": 21600,
+            "catalogType": "series",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [
+              "0",
+              "3",
+              "4",
+              "5"
+            ],
+            "tmdbMovieReleaseTypes": [
+              "4"
+            ],
+            "tmdbTvTypes": [
+              "2",
+              "4"
+            ],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [
+              {
+                "id": 210024,
+                "label": "anime"
+              }
+            ],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "US",
+            "watchProviders": [],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              5,
+              10
+            ],
+            "voteCountMin": 25,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (tv)",
+        "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=true&with_keywords=210024&watch_region=US&with_type=2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
+      }
+    },
+    {
+      "id": "tmdb.discover.movie.library_anime.ninja_streams",
+      "type": "movie",
+      "name": "🎬 Library Anime",
+      "enabled": true,
+      "showInHome": true,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "tags": [
+        "movie",
+        "anime",
+        "library"
+      ],
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "movie",
+          "params": {
+            "sort_by": "title.asc",
+            "include_adult": true,
+            "with_keywords": "210024",
+            "watch_region": "US",
+            "with_release_type": "4",
+            "vote_average.gte": 5,
+            "vote_count.gte": 25,
+            "release_date.lte": "__tmdb_date__:today:to"
+          },
+          "formState": {
+            "catalogName": "🎬 Library Anime",
+            "discoverSource": "tmdb",
+            "sortBy": "title.asc",
+            "cacheTTL": 21600,
+            "catalogType": "movie",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [],
+            "tmdbMovieReleaseTypes": [
+              "4"
+            ],
+            "tmdbTvTypes": [],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [
+              {
+                "id": 210024,
+                "label": "anime"
+              }
+            ],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "US",
+            "watchProviders": [],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              5,
+              10
+            ],
+            "voteCountMin": 25,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (movie)",
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_keywords=210024&watch_region=US&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
+      }
+    },
+    {
+      "id": "tmdb.discover.series.library_anime.ninja_streams",
+      "type": "series",
+      "name": "🎬 Library Anime",
+      "enabled": true,
+      "showInHome": true,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "tags": [
+        "series",
+        "anime",
+        "library"
+      ],
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "tv",
+          "params": {
+            "sort_by": "name.asc",
+            "include_adult": true,
+            "with_keywords": "210024",
+            "watch_region": "US",
+            "with_type": "2|4",
+            "with_status": "0|3|4|5",
+            "vote_average.gte": 5,
+            "vote_count.gte": 25
+          },
+          "formState": {
+            "catalogName": "🎬 Library Anime",
+            "discoverSource": "tmdb",
+            "sortBy": "name.asc",
+            "cacheTTL": 21600,
+            "catalogType": "series",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [
+              "0",
+              "3",
+              "4",
+              "5"
+            ],
+            "tmdbMovieReleaseTypes": [
+              "4"
+            ],
+            "tmdbTvTypes": [
+              "2",
+              "4"
+            ],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [
+              {
+                "id": 210024,
+                "label": "anime"
+              }
+            ],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "US",
+            "watchProviders": [],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              5,
+              10
+            ],
+            "voteCountMin": 25,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (tv)",
+        "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_keywords=210024&watch_region=US&with_type=2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
+      }
     },
     {
       "id": "tmdb.discover.movie.1980s.ninja_streams",
@@ -7018,6 +7778,205 @@
         "description": "TMDB Discover (tv)",
         "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&watch_region=US&with_watch_providers=1796%7C175%7C8&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
       }
+    },
+    {
+      "id": "tmdb.discover.movie.crunchyroll.ninja_streams",
+      "type": "movie",
+      "name": "🕸️ Crunchyroll",
+      "enabled": true,
+      "showInHome": false,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "tags": [
+        "movie",
+        "streaming services"
+      ],
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "movie",
+          "params": {
+            "sort_by": "title.asc",
+            "include_adult": true,
+            "watch_region": "US",
+            "with_watch_providers": "1968|283",
+            "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+            "with_release_type": "4",
+            "vote_average.gte": 5,
+            "vote_count.gte": 25,
+            "release_date.lte": "__tmdb_date__:today:to"
+          },
+          "formState": {
+            "catalogName": "🕸️ Crunchyroll",
+            "discoverSource": "tmdb",
+            "sortBy": "title.asc",
+            "cacheTTL": 21600,
+            "catalogType": "movie",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [],
+            "tmdbMovieReleaseTypes": [
+              "4"
+            ],
+            "tmdbTvTypes": [],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "US",
+            "watchProviders": [
+              {
+                "id": 1968,
+                "label": "Crunchyroll Amazon Channel"
+              },
+              {
+                "id": 283,
+                "label": "Crunchyroll"
+              }
+            ],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              5,
+              10
+            ],
+            "voteCountMin": 25,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (movie)",
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&watch_region=US&with_watch_providers=1968%7C283&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
+      }
+    },
+    {
+      "id": "tmdb.discover.series.crunchyroll.ninja_streams",
+      "type": "series",
+      "name": "🕸️ Crunchyroll",
+      "enabled": true,
+      "showInHome": false,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "tags": [
+        "series",
+        "streaming services"
+      ],
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "tv",
+          "params": {
+            "sort_by": "name.asc",
+            "include_adult": true,
+            "watch_region": "US",
+            "with_watch_providers": "1968|283",
+            "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+            "with_type": "0|2|4",
+            "with_status": "0|3|4|5",
+            "vote_average.gte": 5,
+            "vote_count.gte": 25
+          },
+          "formState": {
+            "catalogName": "🕸️ Crunchyroll",
+            "discoverSource": "tmdb",
+            "sortBy": "name.asc",
+            "cacheTTL": 21600,
+            "catalogType": "series",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [
+              "0",
+              "3",
+              "4",
+              "5"
+            ],
+            "tmdbMovieReleaseTypes": [
+              "4"
+            ],
+            "tmdbTvTypes": [
+              "0",
+              "2",
+              "4"
+            ],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "US",
+            "watchProviders": [
+              {
+                "id": 1968,
+                "label": "Crunchyroll Amazon Channel"
+              },
+              {
+                "id": 283,
+                "label": "Crunchyroll"
+              }
+            ],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              5,
+              10
+            ],
+            "voteCountMin": 25,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (tv)",
+        "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&watch_region=US&with_watch_providers=1968%7C283&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
+      }
     }
   ],
   "tags": [
@@ -7056,6 +8015,10 @@
     {
       "name": "streaming services",
       "color": "orange"
+    },
+    {
+      "name": "anime",
+      "color": "indigo"
     }
   ]
 }
