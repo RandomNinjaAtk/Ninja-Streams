@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-18T18:05:15.902Z",
+  "exportedAt": "2026-08-18T20:57:03.554Z",
   "catalogs": [
     {
       "id": "tmdb.discover.series.airing_this_week.ninja_streams",
@@ -1090,6 +1090,7 @@
             "include_adult": true,
             "with_keywords": "210024",
             "watch_region": "US",
+            "region": "US",
             "with_release_type": "4",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
@@ -1108,7 +1109,7 @@
             "originCountry": "",
             "certificationCountry": "",
             "certificationValue": "",
-            "certificationMode": "exact",
+            "certificationMode": "gte",
             "includeAdult": true,
             "releasedOnly": true,
             "tmdbTvStatuses": [],
@@ -1151,11 +1152,11 @@
             "airDateFrom": "",
             "airDateTo": "",
             "airDatePreset": "clear",
-            "releaseRegion": ""
+            "releaseRegion": "US"
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=primary_release_date.desc&include_adult=true&with_keywords=210024&watch_region=US&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=primary_release_date.desc&include_adult=true&with_keywords=210024&watch_region=US&region=US&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
       }
     },
     {
@@ -1280,6 +1281,7 @@
             "include_adult": true,
             "with_keywords": "210024",
             "watch_region": "US",
+            "region": "US",
             "with_release_type": "4",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
@@ -1296,9 +1298,9 @@
             "genreJoinMode": "or",
             "originalLanguage": "",
             "originCountry": "",
-            "certificationCountry": "",
+            "certificationCountry": "US",
             "certificationValue": "",
-            "certificationMode": "exact",
+            "certificationMode": "gte",
             "includeAdult": true,
             "releasedOnly": true,
             "tmdbTvStatuses": [],
@@ -1341,11 +1343,11 @@
             "airDateFrom": "",
             "airDateTo": "",
             "airDatePreset": "clear",
-            "releaseRegion": ""
+            "releaseRegion": "US"
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=vote_average.desc&include_adult=true&with_keywords=210024&watch_region=US&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=vote_average.desc&include_adult=true&with_keywords=210024&watch_region=US&region=US&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
       }
     },
     {
@@ -1470,6 +1472,7 @@
             "include_adult": true,
             "with_keywords": "210024",
             "watch_region": "US",
+            "region": "US",
             "with_release_type": "4",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
@@ -1486,9 +1489,9 @@
             "genreJoinMode": "or",
             "originalLanguage": "",
             "originCountry": "",
-            "certificationCountry": "",
+            "certificationCountry": "US",
             "certificationValue": "",
-            "certificationMode": "exact",
+            "certificationMode": "gte",
             "includeAdult": true,
             "releasedOnly": true,
             "tmdbTvStatuses": [],
@@ -1531,11 +1534,11 @@
             "airDateFrom": "",
             "airDateTo": "",
             "airDatePreset": "clear",
-            "releaseRegion": ""
+            "releaseRegion": "US"
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=true&with_keywords=210024&watch_region=US&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=true&with_keywords=210024&watch_region=US&region=US&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
       }
     },
     {
@@ -1660,6 +1663,7 @@
             "include_adult": true,
             "with_keywords": "210024",
             "watch_region": "US",
+            "region": "US",
             "with_release_type": "4",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
@@ -1676,9 +1680,9 @@
             "genreJoinMode": "or",
             "originalLanguage": "",
             "originCountry": "",
-            "certificationCountry": "",
+            "certificationCountry": "US",
             "certificationValue": "",
-            "certificationMode": "exact",
+            "certificationMode": "gte",
             "includeAdult": true,
             "releasedOnly": true,
             "tmdbTvStatuses": [],
@@ -1721,11 +1725,11 @@
             "airDateFrom": "",
             "airDateTo": "",
             "airDatePreset": "clear",
-            "releaseRegion": ""
+            "releaseRegion": "US"
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_keywords=210024&watch_region=US&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_keywords=210024&watch_region=US&region=US&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
       }
     },
     {
@@ -7977,6 +7981,356 @@
         "description": "TMDB Discover (tv)",
         "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&watch_region=US&with_watch_providers=1968%7C283&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
       }
+    },
+    {
+      "id": "tmdb.discover.movie.length_short.ninja_streams",
+      "type": "movie",
+      "name": "🕒 Short (<90 min)",
+      "enabled": true,
+      "showInHome": false,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "movie",
+          "params": {
+            "sort_by": "popularity.desc",
+            "include_adult": true,
+            "with_original_language": "en",
+            "watch_region": "US",
+            "with_release_type": "4|5",
+            "vote_average.gte": 5,
+            "vote_count.gte": 25,
+            "with_runtime.lte": 90,
+            "release_date.lte": "__tmdb_date__:today:to"
+          },
+          "formState": {
+            "catalogName": "🕒 Short (<90 min)",
+            "discoverSource": "tmdb",
+            "sortBy": "popularity.desc",
+            "cacheTTL": 21600,
+            "catalogType": "movie",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "en",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": false,
+            "tmdbTvStatuses": [],
+            "tmdbMovieReleaseTypes": [
+              "4",
+              "5"
+            ],
+            "tmdbTvTypes": [],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "US",
+            "watchProviders": [],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              5,
+              10
+            ],
+            "voteCountMin": 25,
+            "runtimeRange": [
+              0,
+              90
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (movie)",
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=true&with_original_language=en&watch_region=US&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&with_runtime.lte=90&release_date.lte=2026-08-18"
+      },
+      "tags": [
+        "movie",
+        "length"
+      ]
+    },
+    {
+      "id": "tmdb.discover.movie.length_standard.ninja_streams",
+      "type": "movie",
+      "name": "🕒 Standard (90<150 min)",
+      "enabled": true,
+      "showInHome": false,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "movie",
+          "params": {
+            "sort_by": "popularity.desc",
+            "include_adult": true,
+            "with_original_language": "en",
+            "watch_region": "US",
+            "with_release_type": "4|5",
+            "vote_average.gte": 5,
+            "vote_count.gte": 25,
+            "with_runtime.gte": 95,
+            "with_runtime.lte": 150,
+            "release_date.lte": "__tmdb_date__:today:to"
+          },
+          "formState": {
+            "catalogName": "🕒 Standard (90<150 min)",
+            "discoverSource": "tmdb",
+            "sortBy": "popularity.desc",
+            "cacheTTL": 21600,
+            "catalogType": "movie",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "en",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": false,
+            "tmdbTvStatuses": [],
+            "tmdbMovieReleaseTypes": [
+              "4",
+              "5"
+            ],
+            "tmdbTvTypes": [],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "US",
+            "watchProviders": [],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              5,
+              10
+            ],
+            "voteCountMin": 25,
+            "runtimeRange": [
+              95,
+              150
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (movie)",
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=true&with_original_language=en&watch_region=US&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&with_runtime.gte=95&with_runtime.lte=150&release_date.lte=2026-08-18"
+      },
+      "tags": [
+        "movie",
+        "length"
+      ]
+    },
+    {
+      "id": "tmdb.discover.movie.length_long.ninja_streams",
+      "type": "movie",
+      "name": "🕒 Long (150<180 min)",
+      "enabled": true,
+      "showInHome": false,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "movie",
+          "params": {
+            "sort_by": "popularity.desc",
+            "include_adult": true,
+            "with_original_language": "en",
+            "watch_region": "US",
+            "with_release_type": "4|5",
+            "vote_average.gte": 5,
+            "vote_count.gte": 25,
+            "with_runtime.gte": 155,
+            "with_runtime.lte": 180,
+            "release_date.lte": "__tmdb_date__:today:to"
+          },
+          "formState": {
+            "catalogName": "🕒 Long (150<180 min)",
+            "discoverSource": "tmdb",
+            "sortBy": "popularity.desc",
+            "cacheTTL": 21600,
+            "catalogType": "movie",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "en",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": false,
+            "tmdbTvStatuses": [],
+            "tmdbMovieReleaseTypes": [
+              "4",
+              "5"
+            ],
+            "tmdbTvTypes": [],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "US",
+            "watchProviders": [],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              5,
+              10
+            ],
+            "voteCountMin": 25,
+            "runtimeRange": [
+              155,
+              180
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (movie)",
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=true&with_original_language=en&watch_region=US&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&with_runtime.gte=155&with_runtime.lte=180&release_date.lte=2026-08-18"
+      },
+      "tags": [
+        "movie",
+        "length"
+      ]
+    },
+    {
+      "id": "tmdb.discover.movie.length_epic.ninja_streams",
+      "type": "movie",
+      "name": "🕒 Epic (180+ min)",
+      "enabled": true,
+      "showInHome": false,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "tags": [
+        "movie",
+        "length"
+      ],
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "movie",
+          "params": {
+            "sort_by": "popularity.desc",
+            "include_adult": true,
+            "with_original_language": "en",
+            "watch_region": "US",
+            "with_release_type": "4|5",
+            "vote_average.gte": 5,
+            "vote_count.gte": 25,
+            "with_runtime.gte": 185,
+            "release_date.lte": "__tmdb_date__:today:to"
+          },
+          "formState": {
+            "catalogName": "🕒 Epic (180+ min)",
+            "discoverSource": "tmdb",
+            "sortBy": "popularity.desc",
+            "cacheTTL": 21600,
+            "catalogType": "movie",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "en",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": false,
+            "tmdbTvStatuses": [],
+            "tmdbMovieReleaseTypes": [
+              "4",
+              "5"
+            ],
+            "tmdbTvTypes": [],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "US",
+            "watchProviders": [],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              5,
+              10
+            ],
+            "voteCountMin": 25,
+            "runtimeRange": [
+              185,
+              400
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (movie)",
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=true&with_original_language=en&watch_region=US&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&with_runtime.gte=185&release_date.lte=2026-08-18"
+      }
     }
   ],
   "tags": [
@@ -8019,6 +8373,10 @@
     {
       "name": "anime",
       "color": "indigo"
+    },
+    {
+      "name": "length",
+      "color": "rose"
     }
   ]
 }
