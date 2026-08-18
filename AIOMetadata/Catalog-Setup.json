@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-18T15:52:45.034Z",
+  "exportedAt": "2026-08-18T17:26:18.861Z",
   "catalogs": [
     {
       "id": "tmdb.discover.series.airing_this_week.ninja_streams",
@@ -5403,7 +5403,7 @@
       "type": "movie",
       "name": "🕸️ Apple TV",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -5498,7 +5498,7 @@
       "type": "series",
       "name": "🕸️ Apple TV",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -5602,7 +5602,7 @@
       "type": "movie",
       "name": "🕸️ Disney+",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -5693,7 +5693,7 @@
       "type": "series",
       "name": "🕸️ Disney+",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -5793,7 +5793,7 @@
       "type": "movie",
       "name": "🕸️ HBO Max",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -5888,7 +5888,7 @@
       "type": "series",
       "name": "🕸️ HBO Max",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -5992,7 +5992,7 @@
       "type": "movie",
       "name": "🕸️ Hulu",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -6083,7 +6083,7 @@
       "type": "series",
       "name": "🕸️ Hulu",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -6183,7 +6183,7 @@
       "type": "movie",
       "name": "🕸️ Paramount+",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -6286,7 +6286,7 @@
       "type": "series",
       "name": "🕸️ Paramount+",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -6402,7 +6402,7 @@
       "type": "movie",
       "name": "🕸️ Peacock",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -6501,7 +6501,7 @@
       "type": "series",
       "name": "🕸️ Peacock",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -6609,7 +6609,7 @@
       "type": "movie",
       "name": "🕸️ Prime Video",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -6709,7 +6709,7 @@
       "type": "series",
       "name": "🕸️ Prime Video",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -6817,7 +6817,7 @@
       "type": "movie",
       "name": "🕸️ Netflix",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -6916,7 +6916,7 @@
       "type": "series",
       "name": "🕸️ Netflix",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
