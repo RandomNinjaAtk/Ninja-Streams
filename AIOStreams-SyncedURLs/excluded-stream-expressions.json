@@ -148,7 +148,7 @@
     "enabled": true
   },
   {
-    "expression": "/*PREF - ID Matched*/ count(idMatched(streams)) > 0 ? negate(idMatched(streams), streams) : []",
+    "expression": "/*PREF - ID Matched*/ count(idMatched(streams)) >= 10 ? negate(idMatched(streams), streams) : []",
     "enabled": true
   },
   {
