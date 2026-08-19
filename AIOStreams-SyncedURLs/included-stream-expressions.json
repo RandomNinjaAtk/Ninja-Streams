@@ -5,22 +5,22 @@
   },
   {
     "expression": "/*2160p Streams*/ negate(library(streams), resolution(streams, '2160p'))",
-    "enabled": true
+    "enabled": false
   },
   {
     "expression": "/*1080p Streams*/ negate(library(streams), resolution(streams, '1080p'))",
-    "enabled": true
+    "enabled": false
   },
   {
     "expression": "/*720p Streams*/ negate(library(streams), resolution(streams, '720p'))",
-    "enabled": true
+    "enabled": false
   },
   {
     "expression": "/*480p Streams*/ negate(library(streams), resolution(streams, '480p'))",
-    "enabled": true
+    "enabled": false
   },
   {
     "expression": "/*Library Streams*/ library(streams)",
-    "enabled": true
+    "enabled": false
   }
 ]
