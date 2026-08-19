@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-19T00:31:08.966Z",
+  "exportedAt": "2026-08-19T00:39:31.452Z",
   "catalogs": [
     {
       "id": "tmdb.discover.series.airing_this_week.ninja_streams",
@@ -374,7 +374,8 @@
         ]
       },
       "tags": [
-        "merged"
+        "merged",
+        "trending"
       ]
     },
     {
@@ -448,7 +449,8 @@
         ]
       },
       "tags": [
-        "merged"
+        "merged",
+        "top"
       ]
     },
     {
@@ -655,7 +657,8 @@
         ]
       },
       "tags": [
-        "merged"
+        "merged",
+        "popular"
       ]
     },
     {
@@ -862,7 +865,8 @@
         ]
       },
       "tags": [
-        "merged"
+        "merged",
+        "latest"
       ]
     },
     {
@@ -1057,7 +1061,11 @@
             "catalogType": "series"
           }
         ]
-      }
+      },
+      "tags": [
+        "merged",
+        "library"
+      ]
     },
     {
       "id": "tmdb.discover.movie.library.ninja_streams",
@@ -1264,7 +1272,8 @@
       },
       "tags": [
         "merged",
-        "anime"
+        "anime",
+        "latest"
       ]
     },
     {
@@ -1482,7 +1491,8 @@
       },
       "tags": [
         "merged",
-        "anime"
+        "anime",
+        "top"
       ]
     },
     {
@@ -1700,7 +1710,8 @@
       },
       "tags": [
         "merged",
-        "anime"
+        "anime",
+        "popular"
       ]
     },
     {
@@ -1918,7 +1929,8 @@
       },
       "tags": [
         "merged",
-        "anime"
+        "anime",
+        "library"
       ]
     },
     {
@@ -2120,7 +2132,7 @@
       "type": "all",
       "enabled": true,
       "source": "merged",
-      "showInHome": true,
+      "showInHome": false,
       "metadata": {
         "mergeMode": "interleaved",
         "mergedSources": [
@@ -2333,7 +2345,7 @@
       "type": "all",
       "enabled": true,
       "source": "merged",
-      "showInHome": true,
+      "showInHome": false,
       "metadata": {
         "mergeMode": "interleaved",
         "mergedSources": [
@@ -2546,7 +2558,7 @@
       "type": "all",
       "enabled": true,
       "source": "merged",
-      "showInHome": true,
+      "showInHome": false,
       "metadata": {
         "mergeMode": "interleaved",
         "mergedSources": [
@@ -2749,7 +2761,7 @@
       "type": "all",
       "enabled": true,
       "source": "merged",
-      "showInHome": true,
+      "showInHome": false,
       "metadata": {
         "mergeMode": "interleaved",
         "mergedSources": [
@@ -2962,7 +2974,7 @@
       "type": "all",
       "enabled": true,
       "source": "merged",
-      "showInHome": true,
+      "showInHome": false,
       "metadata": {
         "mergeMode": "interleaved",
         "mergedSources": [
@@ -6581,6 +6593,31 @@
       }
     },
     {
+      "id": "merged.5018aed3be39",
+      "name": "🕸️ Apple TV",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": false,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.apple_tv.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.apple_tv.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "merged",
+        "streaming services"
+      ]
+    },
+    {
       "id": "tmdb.discover.movie.apple_tv.ninja_streams",
       "type": "movie",
       "name": "🕸️ Apple TV",
@@ -6673,7 +6710,8 @@
         },
         "description": "TMDB Discover (movie)",
         "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&watch_region=US&with_watch_providers=350%7C2243&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
-      }
+      },
+      "mergedInto": "merged.5018aed3be39"
     },
     {
       "id": "tmdb.discover.series.apple_tv.ninja_streams",
@@ -6777,7 +6815,33 @@
         },
         "description": "TMDB Discover (tv)",
         "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&watch_region=US&with_watch_providers=350%7C2243&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
-      }
+      },
+      "mergedInto": "merged.5018aed3be39"
+    },
+    {
+      "id": "merged.9649d5314862",
+      "name": "🕸️ Disney+",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": false,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.disney_plus.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.disney_plus.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "merged",
+        "streaming services"
+      ]
     },
     {
       "id": "tmdb.discover.movie.disney_plus.ninja_streams",
@@ -6868,7 +6932,8 @@
         },
         "description": "TMDB Discover (movie)",
         "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&watch_region=US&with_watch_providers=337&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
-      }
+      },
+      "mergedInto": "merged.9649d5314862"
     },
     {
       "id": "tmdb.discover.series.disney_plus.ninja_streams",
@@ -6968,7 +7033,33 @@
         },
         "description": "TMDB Discover (tv)",
         "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&watch_region=US&with_watch_providers=337&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
-      }
+      },
+      "mergedInto": "merged.9649d5314862"
+    },
+    {
+      "id": "merged.8104e8abe26f",
+      "name": "🕸️ HBO Max",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": false,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.hbo_max.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.hbo_max.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "merged",
+        "streaming services"
+      ]
     },
     {
       "id": "tmdb.discover.movie.hbo_max.ninja_streams",
@@ -7063,7 +7154,8 @@
         },
         "description": "TMDB Discover (movie)",
         "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&watch_region=US&with_watch_providers=1899%7C1825&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
-      }
+      },
+      "mergedInto": "merged.8104e8abe26f"
     },
     {
       "id": "tmdb.discover.series.hbo_max.ninja_streams",
@@ -7167,7 +7259,33 @@
         },
         "description": "TMDB Discover (tv)",
         "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&watch_region=US&with_watch_providers=1825%7C1899&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
-      }
+      },
+      "mergedInto": "merged.8104e8abe26f"
+    },
+    {
+      "id": "merged.3039fbe256f3",
+      "name": "🕸️ Hulu",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": false,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.hulu.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.hulu.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "merged",
+        "streaming services"
+      ]
     },
     {
       "id": "tmdb.discover.movie.hulu.ninja_streams",
@@ -7258,7 +7376,8 @@
         },
         "description": "TMDB Discover (movie)",
         "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&watch_region=US&with_watch_providers=15&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
-      }
+      },
+      "mergedInto": "merged.3039fbe256f3"
     },
     {
       "id": "tmdb.discover.series.hulu.ninja_streams",
@@ -7358,7 +7477,33 @@
         },
         "description": "TMDB Discover (tv)",
         "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&watch_region=US&with_watch_providers=15&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
-      }
+      },
+      "mergedInto": "merged.3039fbe256f3"
+    },
+    {
+      "id": "merged.c754b97e6134",
+      "name": "🕸️ Paramount+",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": false,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.paramount_plus.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.paramount_plus.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "merged",
+        "streaming services"
+      ]
     },
     {
       "id": "tmdb.discover.movie.paramount_plus.ninja_streams",
@@ -7461,7 +7606,8 @@
         },
         "description": "TMDB Discover (movie)",
         "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&watch_region=US&with_watch_providers=582%7C633%7C2616%7C2303&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
-      }
+      },
+      "mergedInto": "merged.c754b97e6134"
     },
     {
       "id": "tmdb.discover.series.paramount_plus.ninja_streams",
@@ -7577,7 +7723,33 @@
         },
         "description": "TMDB Discover (tv)",
         "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&watch_region=US&with_watch_providers=2303%7C633%7C2616%7C582%7C1853&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
-      }
+      },
+      "mergedInto": "merged.c754b97e6134"
+    },
+    {
+      "id": "merged.2849e2db5612",
+      "name": "🕸️ Peacock",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": false,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.peacock.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.peacock.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "streaming services",
+        "merged"
+      ]
     },
     {
       "id": "tmdb.discover.movie.peacock.ninja_streams",
@@ -7676,7 +7848,8 @@
         },
         "description": "TMDB Discover (movie)",
         "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&watch_region=US&with_watch_providers=386%7C387%7C2553&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
-      }
+      },
+      "mergedInto": "merged.2849e2db5612"
     },
     {
       "id": "tmdb.discover.series.peacock.ninja_streams",
@@ -7784,7 +7957,33 @@
         },
         "description": "TMDB Discover (tv)",
         "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&watch_region=US&with_watch_providers=386%7C387%7C2553&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
-      }
+      },
+      "mergedInto": "merged.2849e2db5612"
+    },
+    {
+      "id": "merged.8773851be518",
+      "name": "🕸️ Prime Video",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": false,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.prime_video.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.prime_video.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "merged",
+        "streaming services"
+      ]
     },
     {
       "id": "tmdb.discover.movie.prime_video.ninja_streams",
@@ -7884,7 +8083,8 @@
         "description": "TMDB Discover (movie)",
         "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&watch_region=US&with_watch_providers=9%7C613%7C2100&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
       },
-      "displayType": "movie"
+      "displayType": "movie",
+      "mergedInto": "merged.8773851be518"
     },
     {
       "id": "tmdb.discover.series.prime_video.ninja_streams",
@@ -7992,7 +8192,33 @@
         },
         "description": "TMDB Discover (tv)",
         "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&watch_region=US&with_watch_providers=9%7C613%7C2100&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
-      }
+      },
+      "mergedInto": "merged.8773851be518"
+    },
+    {
+      "id": "merged.6f09275f934e",
+      "name": "🕸️ Netflix",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": false,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.netflix.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.netflix.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "merged",
+        "streaming services"
+      ]
     },
     {
       "id": "tmdb.discover.movie.netflix.ninja_streams",
@@ -8091,7 +8317,8 @@
         },
         "description": "TMDB Discover (movie)",
         "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&watch_region=US&with_watch_providers=8%7C175%7C1796&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
-      }
+      },
+      "mergedInto": "merged.6f09275f934e"
     },
     {
       "id": "tmdb.discover.series.netflix.ninja_streams",
@@ -8199,7 +8426,33 @@
         },
         "description": "TMDB Discover (tv)",
         "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&watch_region=US&with_watch_providers=1796%7C175%7C8&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
-      }
+      },
+      "mergedInto": "merged.6f09275f934e"
+    },
+    {
+      "id": "merged.269c8692d574",
+      "name": "🕸️ Crunchyroll",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": false,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.crunchyroll.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.crunchyroll.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "merged",
+        "streaming services"
+      ]
     },
     {
       "id": "tmdb.discover.movie.crunchyroll.ninja_streams",
@@ -8294,7 +8547,8 @@
         },
         "description": "TMDB Discover (movie)",
         "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&watch_region=US&with_watch_providers=1968%7C283&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
-      }
+      },
+      "mergedInto": "merged.269c8692d574"
     },
     {
       "id": "tmdb.discover.series.crunchyroll.ninja_streams",
@@ -8398,7 +8652,8 @@
         },
         "description": "TMDB Discover (tv)",
         "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&watch_region=US&with_watch_providers=1968%7C283&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
-      }
+      },
+      "mergedInto": "merged.269c8692d574"
     },
     {
       "id": "tmdb.discover.movie.length_short.ninja_streams",
