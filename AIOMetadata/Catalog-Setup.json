@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-18T20:57:03.554Z",
+  "exportedAt": "2026-08-19T00:31:08.966Z",
   "catalogs": [
     {
       "id": "tmdb.discover.series.airing_this_week.ninja_streams",
@@ -354,11 +354,109 @@
       ]
     },
     {
+      "id": "merged.f7d172119dd3",
+      "name": "🔥 Trending",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": true,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "mdblist.202247",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "mdblist.202249",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "merged"
+      ]
+    },
+    {
+      "id": "mdblist.202247",
+      "type": "movie",
+      "name": "🔥 Trending",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "sort": "default",
+      "order": "asc",
+      "cacheTTL": 21600,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
+      "metadata": {
+        "itemCount": 166,
+        "url": "https://mdblist.com/lists/traktusr80/tmdb-trending",
+        "mediatype": "movie",
+        "author": "traktusr80"
+      },
+      "tags": [
+        "movie",
+        "trending"
+      ],
+      "displayType": "movie",
+      "mergedInto": "merged.f7d172119dd3"
+    },
+    {
+      "id": "mdblist.202249",
+      "type": "series",
+      "name": "🔥 Trending",
+      "enabled": true,
+      "showInHome": false,
+      "source": "mdblist",
+      "sort": "default",
+      "order": "asc",
+      "cacheTTL": 21600,
+      "genreSelection": "standard",
+      "enableRatingPosters": true,
+      "metadata": {
+        "itemCount": 162,
+        "url": "https://mdblist.com/lists/traktusr80/tmdb-trending",
+        "mediatype": "show",
+        "author": "traktusr80"
+      },
+      "tags": [
+        "series",
+        "trending"
+      ],
+      "displayType": "series",
+      "mergedInto": "merged.f7d172119dd3"
+    },
+    {
+      "id": "merged.e409ec05dfcf",
+      "name": "⭐ Top",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": true,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.top.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.top.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "merged"
+      ]
+    },
+    {
       "id": "tmdb.discover.movie.top.ninja_streams",
       "type": "movie",
       "name": "⭐ Top",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "metadata": {
@@ -438,14 +536,15 @@
       "tags": [
         "top",
         "movie"
-      ]
+      ],
+      "mergedInto": "merged.e409ec05dfcf"
     },
     {
       "id": "tmdb.discover.series.top.ninja_streams",
       "type": "series",
       "name": "⭐ Top",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "metadata": {
@@ -532,6 +631,31 @@
       "tags": [
         "top",
         "series"
+      ],
+      "mergedInto": "merged.e409ec05dfcf"
+    },
+    {
+      "id": "merged.645ab4c37513",
+      "name": "🏆 Popular",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": true,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.popular.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.popular.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "merged"
       ]
     },
     {
@@ -539,7 +663,7 @@
       "type": "movie",
       "name": "🏆 Popular",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "metadata": {
@@ -619,14 +743,15 @@
       "tags": [
         "movie",
         "popular"
-      ]
+      ],
+      "mergedInto": "merged.645ab4c37513"
     },
     {
       "id": "tmdb.discover.series.popular.ninja_streams",
       "type": "series",
       "name": "🏆 Popular",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "metadata": {
@@ -713,6 +838,31 @@
       "tags": [
         "popular",
         "series"
+      ],
+      "mergedInto": "merged.645ab4c37513"
+    },
+    {
+      "id": "merged.e2e3ec831bf4",
+      "name": "📅 Latest",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": true,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.latest.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.latest.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "merged"
       ]
     },
     {
@@ -720,7 +870,7 @@
       "type": "movie",
       "name": "📅 Latest",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "metadata": {
@@ -800,14 +950,15 @@
       "tags": [
         "movie",
         "latest"
-      ]
+      ],
+      "mergedInto": "merged.e2e3ec831bf4"
     },
     {
       "id": "tmdb.discover.series.latest.ninja_streams",
       "type": "series",
       "name": "📅 Latest",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "metadata": {
@@ -884,14 +1035,36 @@
       "tags": [
         "series",
         "latest"
-      ]
+      ],
+      "mergedInto": "merged.e2e3ec831bf4"
+    },
+    {
+      "id": "merged.52d33259565d",
+      "name": "🎬 Library",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": true,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.library.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.library.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      }
     },
     {
       "id": "tmdb.discover.movie.library.ninja_streams",
       "type": "movie",
       "name": "🎬 Library",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "metadata": {
@@ -971,14 +1144,15 @@
       "tags": [
         "library",
         "movie"
-      ]
+      ],
+      "mergedInto": "merged.52d33259565d"
     },
     {
       "id": "tmdb.discover.series.library.ninja_streams",
       "type": "series",
       "name": "🎬 Library",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "metadata": {
@@ -1065,6 +1239,32 @@
       "tags": [
         "library",
         "series"
+      ],
+      "mergedInto": "merged.52d33259565d"
+    },
+    {
+      "id": "merged.a1ac266f8d31",
+      "name": "📅 Latest Anime",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": true,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.latest_anime.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.latest_anime.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "merged",
+        "anime"
       ]
     },
     {
@@ -1072,7 +1272,7 @@
       "type": "movie",
       "name": "📅 Latest Anime",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -1157,14 +1357,15 @@
         },
         "description": "TMDB Discover (movie)",
         "url": "https://www.themoviedb.org/discover/movie?sort_by=primary_release_date.desc&include_adult=true&with_keywords=210024&watch_region=US&region=US&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
-      }
+      },
+      "mergedInto": "merged.a1ac266f8d31"
     },
     {
       "id": "tmdb.discover.series.latest_anime.ninja_streams",
       "type": "series",
       "name": "📅 Latest Anime",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -1256,7 +1457,33 @@
         },
         "description": "TMDB Discover (tv)",
         "url": "https://www.themoviedb.org/discover/tv?sort_by=first_air_date.desc&include_adult=true&with_keywords=210024&watch_region=US&with_type=2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
-      }
+      },
+      "mergedInto": "merged.a1ac266f8d31"
+    },
+    {
+      "id": "merged.6e244495515b",
+      "name": "⭐ Top Anime",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": true,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.top_anime.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.top_anime.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "merged",
+        "anime"
+      ]
     },
     {
       "id": "tmdb.discover.movie.top_anime.ninja_streams",
@@ -1348,7 +1575,8 @@
         },
         "description": "TMDB Discover (movie)",
         "url": "https://www.themoviedb.org/discover/movie?sort_by=vote_average.desc&include_adult=true&with_keywords=210024&watch_region=US&region=US&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
-      }
+      },
+      "mergedInto": "merged.6e244495515b"
     },
     {
       "id": "tmdb.discover.series.top_anime.ninja_streams",
@@ -1447,14 +1675,40 @@
         },
         "description": "TMDB Discover (tv)",
         "url": "https://www.themoviedb.org/discover/tv?sort_by=vote_average.desc&include_adult=true&with_keywords=210024&watch_region=US&with_type=2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
-      }
+      },
+      "mergedInto": "merged.6e244495515b"
+    },
+    {
+      "id": "merged.bac29efa2569",
+      "name": "🏆 Popular Anime",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": true,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.popular_anime.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.popular_anime.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "merged",
+        "anime"
+      ]
     },
     {
       "id": "tmdb.discover.movie.popular_anime.ninja_streams",
       "type": "movie",
       "name": "🏆 Popular Anime",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -1539,14 +1793,15 @@
         },
         "description": "TMDB Discover (movie)",
         "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=true&with_keywords=210024&watch_region=US&region=US&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
-      }
+      },
+      "mergedInto": "merged.bac29efa2569"
     },
     {
       "id": "tmdb.discover.series.popular_anime.ninja_streams",
       "type": "series",
       "name": "🏆 Popular Anime",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -1638,14 +1893,40 @@
         },
         "description": "TMDB Discover (tv)",
         "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=true&with_keywords=210024&watch_region=US&with_type=2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
-      }
+      },
+      "mergedInto": "merged.bac29efa2569"
+    },
+    {
+      "id": "merged.f2a303dd5b46",
+      "name": "🎬 Library Anime",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": true,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.library_anime.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.library_anime.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "merged",
+        "anime"
+      ]
     },
     {
       "id": "tmdb.discover.movie.library_anime.ninja_streams",
       "type": "movie",
       "name": "🎬 Library Anime",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -1730,14 +2011,15 @@
         },
         "description": "TMDB Discover (movie)",
         "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_keywords=210024&watch_region=US&region=US&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
-      }
+      },
+      "mergedInto": "merged.f2a303dd5b46"
     },
     {
       "id": "tmdb.discover.series.library_anime.ninja_streams",
       "type": "series",
       "name": "🎬 Library Anime",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -1829,7 +2111,33 @@
         },
         "description": "TMDB Discover (tv)",
         "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_keywords=210024&watch_region=US&with_type=2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
-      }
+      },
+      "mergedInto": "merged.f2a303dd5b46"
+    },
+    {
+      "id": "merged.f2dc974d9111",
+      "name": "🗓️ 1980s",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": true,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.1980s.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.1980s.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "merged",
+        "decade"
+      ]
     },
     {
       "id": "tmdb.discover.movie.1980s.ninja_streams",
@@ -1919,7 +2227,8 @@
       "tags": [
         "decade",
         "movie"
-      ]
+      ],
+      "mergedInto": "merged.f2dc974d9111"
     },
     {
       "id": "tmdb.discover.series.1980s.ninja_streams",
@@ -2015,6 +2324,32 @@
       "tags": [
         "decade",
         "series"
+      ],
+      "mergedInto": "merged.f2dc974d9111"
+    },
+    {
+      "id": "merged.b1d607396382",
+      "name": "🗓️ 1990s",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": true,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.1990s.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.1990s.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "merged",
+        "decade"
       ]
     },
     {
@@ -2105,7 +2440,8 @@
       "tags": [
         "decade",
         "movie"
-      ]
+      ],
+      "mergedInto": "merged.b1d607396382"
     },
     {
       "id": "tmdb.discover.series.1990s.ninja_streams",
@@ -2201,6 +2537,32 @@
       "tags": [
         "decade",
         "series"
+      ],
+      "mergedInto": "merged.b1d607396382"
+    },
+    {
+      "id": "merged.707f1cb6c87c",
+      "name": "🗓️ 2000s",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": true,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.2000s.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.2000s.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "merged",
+        "decade"
       ]
     },
     {
@@ -2291,7 +2653,8 @@
       "tags": [
         "decade",
         "movie"
-      ]
+      ],
+      "mergedInto": "merged.707f1cb6c87c"
     },
     {
       "id": "tmdb.discover.series.2000s.ninja_streams",
@@ -2377,6 +2740,32 @@
       "tags": [
         "decade",
         "series"
+      ],
+      "mergedInto": "merged.707f1cb6c87c"
+    },
+    {
+      "id": "merged.2da493f5ee81",
+      "name": "🗓️ 2010s",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": true,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.2010s.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.2010s.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "merged",
+        "decade"
       ]
     },
     {
@@ -2467,7 +2856,8 @@
       "tags": [
         "decade",
         "movie"
-      ]
+      ],
+      "mergedInto": "merged.2da493f5ee81"
     },
     {
       "id": "tmdb.discover.series.2010s.ninja_streams",
@@ -2563,6 +2953,32 @@
       "tags": [
         "decade",
         "series"
+      ],
+      "mergedInto": "merged.2da493f5ee81"
+    },
+    {
+      "id": "merged.42775012fa21",
+      "name": "🗓️ 2020s",
+      "type": "all",
+      "enabled": true,
+      "source": "merged",
+      "showInHome": true,
+      "metadata": {
+        "mergeMode": "interleaved",
+        "mergedSources": [
+          {
+            "catalogId": "tmdb.discover.movie.2020s.ninja_streams",
+            "catalogType": "movie"
+          },
+          {
+            "catalogId": "tmdb.discover.series.2020s.ninja_streams",
+            "catalogType": "series"
+          }
+        ]
+      },
+      "tags": [
+        "merged",
+        "decade"
       ]
     },
     {
@@ -2655,7 +3071,8 @@
       "tags": [
         "decade",
         "movie"
-      ]
+      ],
+      "mergedInto": "merged.42775012fa21"
     },
     {
       "id": "tmdb.discover.series.2020s.ninja_streams",
@@ -2751,7 +3168,8 @@
       "tags": [
         "decade",
         "series"
-      ]
+      ],
+      "mergedInto": "merged.42775012fa21"
     },
     {
       "id": "tmdb.discover.movie.action.ninja_streams",
@@ -8377,6 +8795,14 @@
     {
       "name": "length",
       "color": "rose"
+    },
+    {
+      "name": "trending",
+      "color": "slate"
+    },
+    {
+      "name": "merged",
+      "color": "blue"
     }
   ]
 }
