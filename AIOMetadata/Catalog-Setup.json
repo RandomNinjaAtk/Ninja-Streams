@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-19T00:39:31.452Z",
+  "exportedAt": "2026-08-19T02:53:37.838Z",
   "catalogs": [
     {
       "id": "tmdb.discover.series.airing_this_week.ninja_streams",
@@ -12,7 +12,8 @@
       "cacheTTL": 21600,
       "tags": [
         "series",
-        "latest"
+        "latest",
+        "stremio"
       ],
       "metadata": {
         "discover": {
@@ -209,7 +210,8 @@
       },
       "tags": [
         "movie",
-        "latest"
+        "latest",
+        "stremio"
       ]
     },
     {
@@ -375,7 +377,8 @@
       },
       "tags": [
         "merged",
-        "trending"
+        "trending",
+        "stremio"
       ]
     },
     {
@@ -398,7 +401,8 @@
       },
       "tags": [
         "movie",
-        "trending"
+        "trending",
+        "stremio"
       ],
       "displayType": "movie",
       "mergedInto": "merged.f7d172119dd3"
@@ -423,7 +427,8 @@
       },
       "tags": [
         "series",
-        "trending"
+        "trending",
+        "stremio"
       ],
       "displayType": "series",
       "mergedInto": "merged.f7d172119dd3"
@@ -450,7 +455,8 @@
       },
       "tags": [
         "merged",
-        "top"
+        "top",
+        "stremio"
       ]
     },
     {
@@ -537,7 +543,8 @@
       },
       "tags": [
         "top",
-        "movie"
+        "movie",
+        "stremio"
       ],
       "mergedInto": "merged.e409ec05dfcf"
     },
@@ -632,7 +639,8 @@
       },
       "tags": [
         "top",
-        "series"
+        "series",
+        "stremio"
       ],
       "mergedInto": "merged.e409ec05dfcf"
     },
@@ -658,7 +666,8 @@
       },
       "tags": [
         "merged",
-        "popular"
+        "popular",
+        "stremio"
       ]
     },
     {
@@ -745,7 +754,8 @@
       },
       "tags": [
         "movie",
-        "popular"
+        "popular",
+        "stremio"
       ],
       "mergedInto": "merged.645ab4c37513"
     },
@@ -840,7 +850,8 @@
       },
       "tags": [
         "popular",
-        "series"
+        "series",
+        "stremio"
       ],
       "mergedInto": "merged.645ab4c37513"
     },
@@ -866,7 +877,8 @@
       },
       "tags": [
         "merged",
-        "latest"
+        "latest",
+        "stremio"
       ]
     },
     {
@@ -953,7 +965,8 @@
       },
       "tags": [
         "movie",
-        "latest"
+        "latest",
+        "stremio"
       ],
       "mergedInto": "merged.e2e3ec831bf4"
     },
@@ -1038,7 +1051,8 @@
       },
       "tags": [
         "series",
-        "latest"
+        "latest",
+        "stremio"
       ],
       "mergedInto": "merged.e2e3ec831bf4"
     },
@@ -1064,7 +1078,8 @@
       },
       "tags": [
         "merged",
-        "library"
+        "library",
+        "stremio"
       ]
     },
     {
@@ -1151,7 +1166,8 @@
       },
       "tags": [
         "library",
-        "movie"
+        "movie",
+        "stremio"
       ],
       "mergedInto": "merged.52d33259565d"
     },
@@ -1246,7 +1262,8 @@
       },
       "tags": [
         "library",
-        "series"
+        "series",
+        "stremio"
       ],
       "mergedInto": "merged.52d33259565d"
     },
@@ -1500,7 +1517,7 @@
       "type": "movie",
       "name": "⭐ Top Anime",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -1593,7 +1610,7 @@
       "type": "series",
       "name": "⭐ Top Anime",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -2148,7 +2165,8 @@
       },
       "tags": [
         "merged",
-        "decade"
+        "decade",
+        "stremio"
       ]
     },
     {
@@ -2238,7 +2256,8 @@
       },
       "tags": [
         "decade",
-        "movie"
+        "movie",
+        "stremio"
       ],
       "mergedInto": "merged.f2dc974d9111"
     },
@@ -2335,7 +2354,8 @@
       },
       "tags": [
         "decade",
-        "series"
+        "series",
+        "stremio"
       ],
       "mergedInto": "merged.f2dc974d9111"
     },
@@ -2361,7 +2381,8 @@
       },
       "tags": [
         "merged",
-        "decade"
+        "decade",
+        "stremio"
       ]
     },
     {
@@ -2451,7 +2472,8 @@
       },
       "tags": [
         "decade",
-        "movie"
+        "movie",
+        "stremio"
       ],
       "mergedInto": "merged.b1d607396382"
     },
@@ -2548,7 +2570,8 @@
       },
       "tags": [
         "decade",
-        "series"
+        "series",
+        "stremio"
       ],
       "mergedInto": "merged.b1d607396382"
     },
@@ -2574,7 +2597,8 @@
       },
       "tags": [
         "merged",
-        "decade"
+        "decade",
+        "stremio"
       ]
     },
     {
@@ -2664,7 +2688,8 @@
       },
       "tags": [
         "decade",
-        "movie"
+        "movie",
+        "stremio"
       ],
       "mergedInto": "merged.707f1cb6c87c"
     },
@@ -2751,7 +2776,8 @@
       },
       "tags": [
         "decade",
-        "series"
+        "series",
+        "stremio"
       ],
       "mergedInto": "merged.707f1cb6c87c"
     },
@@ -2777,7 +2803,8 @@
       },
       "tags": [
         "merged",
-        "decade"
+        "decade",
+        "stremio"
       ]
     },
     {
@@ -2867,7 +2894,8 @@
       },
       "tags": [
         "decade",
-        "movie"
+        "movie",
+        "stremio"
       ],
       "mergedInto": "merged.2da493f5ee81"
     },
@@ -2964,7 +2992,8 @@
       },
       "tags": [
         "decade",
-        "series"
+        "series",
+        "stremio"
       ],
       "mergedInto": "merged.2da493f5ee81"
     },
@@ -2990,7 +3019,8 @@
       },
       "tags": [
         "merged",
-        "decade"
+        "decade",
+        "stremio"
       ]
     },
     {
@@ -3082,7 +3112,8 @@
       },
       "tags": [
         "decade",
-        "movie"
+        "movie",
+        "stremio"
       ],
       "mergedInto": "merged.42775012fa21"
     },
@@ -3179,7 +3210,8 @@
       },
       "tags": [
         "decade",
-        "series"
+        "series",
+        "stremio"
       ],
       "mergedInto": "merged.42775012fa21"
     },
@@ -9058,6 +9090,10 @@
     {
       "name": "merged",
       "color": "blue"
+    },
+    {
+      "name": "stremio",
+      "color": "green"
     }
   ]
 }
