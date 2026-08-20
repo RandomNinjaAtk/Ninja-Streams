@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-20T17:40:00.107Z",
+  "exportedAt": "2026-08-20T19:06:41.847Z",
   "catalogs": [
     {
       "id": "tmdb.discover.series.airing_this_week.ninja_streams",
@@ -151,7 +151,7 @@
             "include_adult": true,
             "with_original_language": "en",
             "without_keywords": "210024",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "primary_release_date.gte": "__tmdb_date__:last_year:from",
@@ -177,7 +177,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "4"
@@ -221,7 +222,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=primary_release_date.desc&include_adult=true&with_original_language=en&without_keywords=210024&with_release_type=4&vote_average.gte=5&vote_count.gte=25&primary_release_date.gte=2025-08-20&primary_release_date.lte=2026-08-20&release_date.gte=2025-08-20&release_date.lte=2026-08-20"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=primary_release_date.desc&include_adult=true&with_original_language=en&without_keywords=210024&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&primary_release_date.gte=2025-08-20&primary_release_date.lte=2026-08-20&release_date.gte=2025-08-20&release_date.lte=2026-08-20"
       }
     },
     {
@@ -369,7 +370,8 @@
       "displayType": "movie",
       "tags": [
         "movie",
-        "top"
+        "top",
+        "stremio"
       ]
     },
     {
@@ -422,7 +424,7 @@
             "include_adult": true,
             "with_original_language": "en",
             "without_keywords": "210024",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -445,7 +447,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "4"
@@ -489,7 +492,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=primary_release_date.desc&include_adult=true&with_original_language=en&without_keywords=210024&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=primary_release_date.desc&include_adult=true&with_original_language=en&without_keywords=210024&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -726,7 +729,7 @@
             "include_adult": true,
             "with_original_language": "en",
             "without_keywords": "210024",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 7,
             "vote_count.gte": 300,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -749,7 +752,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "4"
@@ -793,7 +797,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=vote_average.desc&include_adult=true&with_original_language=en&without_keywords=210024&with_release_type=4&vote_average.gte=7&vote_count.gte=300&release_date.lte=2026-08-20"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=vote_average.desc&include_adult=true&with_original_language=en&without_keywords=210024&with_release_type=4%7C5&vote_average.gte=7&vote_count.gte=300&release_date.lte=2026-08-20"
       }
     },
     {
@@ -839,7 +843,7 @@
             "certificationCountry": "",
             "certificationValue": "",
             "certificationMode": "exact",
-            "includeAdult": false,
+            "includeAdult": true,
             "releasedOnly": true,
             "tmdbTvStatuses": [
               "0",
@@ -948,7 +952,7 @@
             "include_adult": true,
             "with_original_language": "en",
             "without_keywords": "210024",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -971,7 +975,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "4"
@@ -1015,7 +1020,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=true&with_original_language=en&without_keywords=210024&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=true&with_original_language=en&without_keywords=210024&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -1061,7 +1066,7 @@
             "certificationCountry": "",
             "certificationValue": "",
             "certificationMode": "exact",
-            "includeAdult": false,
+            "includeAdult": true,
             "releasedOnly": true,
             "tmdbTvStatuses": [
               "0",
@@ -1174,7 +1179,7 @@
             "include_adult": true,
             "with_original_language": "en",
             "without_keywords": "210024",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -1197,7 +1202,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "4"
@@ -1241,7 +1247,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_original_language=en&without_keywords=210024&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_original_language=en&without_keywords=210024&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -1389,6 +1395,7 @@
         "anime",
         "latest"
       ],
+      "mergedInto": "merged.a1ac266f8d31",
       "metadata": {
         "discover": {
           "version": 2,
@@ -1400,7 +1407,7 @@
             "with_keywords": "210024",
             "watch_region": "US",
             "region": "US",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -1423,7 +1430,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [],
             "selectedPeople": [],
@@ -1465,9 +1473,8 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=primary_release_date.desc&include_adult=true&with_keywords=210024&watch_region=US&region=US&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
-      },
-      "mergedInto": "merged.a1ac266f8d31"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=primary_release_date.desc&include_adult=true&with_keywords=210024&watch_region=US&region=US&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
+      }
     },
     {
       "id": "tmdb.discover.series.latest_anime.ninja_streams",
@@ -1687,6 +1694,7 @@
         "anime",
         "top"
       ],
+      "mergedInto": "merged.6e244495515b",
       "metadata": {
         "discover": {
           "version": 2,
@@ -1698,7 +1706,7 @@
             "with_keywords": "210024",
             "watch_region": "US",
             "region": "US",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -1721,7 +1729,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [],
             "selectedPeople": [],
@@ -1763,9 +1772,8 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=vote_average.desc&include_adult=true&with_keywords=210024&watch_region=US&region=US&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
-      },
-      "mergedInto": "merged.6e244495515b"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=vote_average.desc&include_adult=true&with_keywords=210024&watch_region=US&region=US&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
+      }
     },
     {
       "id": "tmdb.discover.series.top_anime.ninja_streams",
@@ -1906,6 +1914,7 @@
         "anime",
         "popular"
       ],
+      "mergedInto": "merged.bac29efa2569",
       "metadata": {
         "discover": {
           "version": 2,
@@ -1917,7 +1926,7 @@
             "with_keywords": "210024",
             "watch_region": "US",
             "region": "US",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -1940,7 +1949,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [],
             "selectedPeople": [],
@@ -1982,9 +1992,8 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=true&with_keywords=210024&watch_region=US&region=US&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
-      },
-      "mergedInto": "merged.bac29efa2569"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=true&with_keywords=210024&watch_region=US&region=US&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
+      }
     },
     {
       "id": "tmdb.discover.series.popular_anime.ninja_streams",
@@ -2125,6 +2134,7 @@
         "anime",
         "library"
       ],
+      "mergedInto": "merged.f2a303dd5b46",
       "metadata": {
         "discover": {
           "version": 2,
@@ -2136,7 +2146,7 @@
             "with_keywords": "210024",
             "watch_region": "US",
             "region": "US",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -2159,7 +2169,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [],
             "selectedPeople": [],
@@ -2201,9 +2212,8 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_keywords=210024&watch_region=US&region=US&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
-      },
-      "mergedInto": "merged.f2a303dd5b46"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_keywords=210024&watch_region=US&region=US&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
+      }
     },
     {
       "id": "tmdb.discover.series.library_anime.ninja_streams",
@@ -3427,7 +3437,7 @@
             "include_adult": true,
             "with_genres": "28",
             "with_original_language": "en",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -3455,7 +3465,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "4",
@@ -3496,7 +3507,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=28&with_original_language=en&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-19"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=28&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -3621,7 +3632,7 @@
             "include_adult": true,
             "with_genres": "12",
             "with_original_language": "en",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -3649,7 +3660,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "4",
@@ -3690,7 +3702,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=12&with_original_language=en&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-19"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=12&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -3715,7 +3727,7 @@
             "include_adult": true,
             "with_genres": "16",
             "with_original_language": "en",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -3743,7 +3755,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "4",
@@ -3784,7 +3797,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=16&with_original_language=en&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-19"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=16&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -3909,7 +3922,7 @@
             "include_adult": true,
             "with_genres": "35",
             "with_original_language": "en",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -3937,7 +3950,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "4",
@@ -3978,7 +3992,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=35&with_original_language=en&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-19"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=35&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -4103,7 +4117,7 @@
             "include_adult": true,
             "with_genres": "80",
             "with_original_language": "en",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -4131,7 +4145,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "4",
@@ -4172,7 +4187,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=80&with_original_language=en&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-19"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=80&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -4297,7 +4312,7 @@
             "include_adult": true,
             "with_genres": "99",
             "with_original_language": "en",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -4325,7 +4340,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "4",
@@ -4366,7 +4382,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=99&with_original_language=en&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-19"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=99&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -4491,7 +4507,7 @@
             "include_adult": true,
             "with_genres": "18",
             "with_original_language": "en",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -4519,7 +4535,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "0",
@@ -4560,7 +4577,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=18&with_original_language=en&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-19"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=18&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -4685,7 +4702,7 @@
             "include_adult": true,
             "with_genres": "10751",
             "with_original_language": "en",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -4713,7 +4730,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "0",
@@ -4754,7 +4772,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=10751&with_original_language=en&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-19"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=10751&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -4879,7 +4897,7 @@
             "include_adult": true,
             "with_genres": "14",
             "with_original_language": "en",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -4907,7 +4925,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "0",
@@ -4948,7 +4967,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=14&with_original_language=en&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-19"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=14&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -5073,7 +5092,7 @@
             "include_adult": true,
             "with_genres": "36",
             "with_original_language": "en",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -5101,7 +5120,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "0",
@@ -5142,7 +5162,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=36&with_original_language=en&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-19"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=36&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -5267,7 +5287,7 @@
             "include_adult": true,
             "with_genres": "27",
             "with_original_language": "en",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -5295,7 +5315,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "5",
@@ -5339,7 +5360,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=27&with_original_language=en&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-19"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=27&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -5467,7 +5488,7 @@
             "include_adult": true,
             "with_genres": "10402",
             "with_original_language": "en",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -5495,7 +5516,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "0",
@@ -5536,7 +5558,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=10402&with_original_language=en&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-19"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=10402&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -5659,7 +5681,7 @@
             "include_adult": true,
             "with_genres": "9648",
             "with_original_language": "en",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -5687,7 +5709,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "5",
@@ -5731,7 +5754,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=9648&with_original_language=en&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-19"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=9648&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -5856,7 +5879,7 @@
             "include_adult": true,
             "with_genres": "10749",
             "with_original_language": "en",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -5884,7 +5907,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "0",
@@ -5925,7 +5949,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=10749&with_original_language=en&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-19"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=10749&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -6050,7 +6074,7 @@
             "include_adult": true,
             "with_genres": "878",
             "with_original_language": "en",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -6078,7 +6102,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "0",
@@ -6119,7 +6144,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=878&with_original_language=en&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-19"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=878&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -6247,7 +6272,7 @@
             "include_adult": true,
             "with_genres": "53",
             "with_original_language": "en",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -6275,7 +6300,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "0",
@@ -6319,7 +6345,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=53&with_original_language=en&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-19"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=53&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -6444,7 +6470,7 @@
             "include_adult": true,
             "with_genres": "10770",
             "with_original_language": "en",
-            "with_release_type": "4",
+            "with_release_type": "4|5|6",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -6472,7 +6498,9 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5",
+              "6"
             ],
             "tmdbTvTypes": [
               "0",
@@ -6513,7 +6541,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=10770&with_original_language=en&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-19"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=10770&with_original_language=en&with_release_type=4%7C5%7C6&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -6638,7 +6666,7 @@
             "include_adult": true,
             "with_genres": "10752",
             "with_original_language": "en",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -6666,7 +6694,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "0",
@@ -6707,7 +6736,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=10752&with_original_language=en&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-19"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=10752&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -6732,7 +6761,7 @@
             "include_adult": true,
             "with_genres": "37",
             "with_original_language": "en",
-            "with_release_type": "4",
+            "with_release_type": "4|5",
             "vote_average.gte": 5,
             "vote_count.gte": 25,
             "release_date.lte": "__tmdb_date__:today:to"
@@ -6760,7 +6789,8 @@
             "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
-              "4"
+              "4",
+              "5"
             ],
             "tmdbTvTypes": [
               "0",
@@ -6801,7 +6831,7 @@
           }
         },
         "description": "TMDB Discover (movie)",
-        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=37&with_original_language=en&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-19"
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=37&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
       }
     },
     {
@@ -8911,7 +8941,7 @@
             "certificationValue": "",
             "certificationMode": "exact",
             "includeAdult": true,
-            "releasedOnly": false,
+            "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
               "4",
@@ -9005,7 +9035,7 @@
             "certificationValue": "",
             "certificationMode": "exact",
             "includeAdult": true,
-            "releasedOnly": false,
+            "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
               "4",
@@ -9099,7 +9129,7 @@
             "certificationValue": "",
             "certificationMode": "exact",
             "includeAdult": true,
-            "releasedOnly": false,
+            "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
               "4",
@@ -9192,7 +9222,7 @@
             "certificationValue": "",
             "certificationMode": "exact",
             "includeAdult": true,
-            "releasedOnly": false,
+            "releasedOnly": true,
             "tmdbTvStatuses": [],
             "tmdbMovieReleaseTypes": [
               "4",
