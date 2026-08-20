@@ -22,5 +22,9 @@
   {
     "expression": "/*Library Streams*/ library(streams)",
     "enabled": false
+  },
+  {
+    "expression": "/*Movie ID Match passthrough (*/ queryType == 'movie' ? passthrough(idMatched(streams), 'title') : []",
+    "enabled": true
   }
 ]
