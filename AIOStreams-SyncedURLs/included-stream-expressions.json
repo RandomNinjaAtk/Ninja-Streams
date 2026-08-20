@@ -24,7 +24,7 @@
     "enabled": false
   },
   {
-    "expression": "/*Movie ID Match passthrough (*/ queryType == 'movie' ? passthrough(idMatched(streams), 'title') : []",
+    "expression": "/*Movie ID Match - Title Filter Passthrough*/ queryType == 'movie' ? passthrough(idMatched(streams), 'title') : []",
     "enabled": true
   }
 ]
