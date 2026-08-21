@@ -1,5 +1,1055 @@
 [
   {
+    "id": "6f3f27e0-914a-42e2-aba1-8a91ae23a74f",
+    "title": "🚀 New & Trending",
+    "backdropImageUrl": null,
+    "pinToTop": false,
+    "focusGlowEnabled": true,
+    "viewMode": "FOLLOW_LAYOUT",
+    "showAllTab": true,
+    "folders": [
+      {
+        "id": "f9291a19-1e01-4ecf-9243-34e0e5ba484b",
+        "title": "📅 Latest",
+        "coverImageUrl": "https://raw.githubusercontent.com/RandomNinjaAtk/Ninja-Streams/refs/heads/main/AIOMetadata/artwork/collection-latest.png",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.airing_this_week.ninja_streams",
+            "catalogName": "📅 Airing This Week",
+            "title": "📅 Airing This Week",
+            "genre": null,
+            "aiometadata": {
+              "version": 1,
+              "catalog": {
+                "id": "tmdb.discover.series.airing_this_week.ninja_streams",
+                "type": "series",
+                "name": "📅 Airing This Week",
+                "source": "tmdb",
+                "enabled": true,
+                "showInHome": true,
+                "cacheTTL": 21600,
+                "metadata": {
+                  "discover": {
+                    "version": 2,
+                    "source": "tmdb",
+                    "mediaType": "tv",
+                    "params": {
+                      "sort_by": "popularity.desc",
+                      "include_adult": true,
+                      "without_genres": "10767|10766|10764|10763|99",
+                      "with_original_language": "en",
+                      "without_keywords": "191498|210024",
+                      "with_type": "2|4",
+                      "with_status": "0|3|4|5",
+                      "vote_average.gte": 5,
+                      "vote_count.gte": 25,
+                      "air_date.gte": "__tmdb_date__:this_week:from",
+                      "air_date.lte": "__tmdb_date__:this_week:to"
+                    },
+                    "formState": {
+                      "catalogName": "📅 Airing This Week",
+                      "discoverSource": "tmdb",
+                      "sortBy": "popularity.desc",
+                      "cacheTTL": 21600,
+                      "catalogType": "series",
+                      "includeGenres": [],
+                      "excludeGenres": [
+                        {
+                          "id": 10767,
+                          "label": "Talk"
+                        },
+                        {
+                          "id": 10766,
+                          "label": "Soap"
+                        },
+                        {
+                          "id": 10764,
+                          "label": "Reality"
+                        },
+                        {
+                          "id": 10763,
+                          "label": "News"
+                        },
+                        {
+                          "id": 99,
+                          "label": "Documentary"
+                        }
+                      ],
+                      "genreJoinMode": "or",
+                      "originalLanguage": "en",
+                      "originCountry": "",
+                      "certificationCountry": "",
+                      "certificationValue": "",
+                      "certificationMode": "exact",
+                      "includeAdult": true,
+                      "releasedOnly": true,
+                      "tmdbTvStatuses": [
+                        "0",
+                        "3",
+                        "4",
+                        "5"
+                      ],
+                      "tmdbMovieReleaseTypes": [],
+                      "tmdbTvTypes": [
+                        "4",
+                        "2"
+                      ],
+                      "selectedPeople": [],
+                      "peopleJoinMode": "or",
+                      "withCompanies": [],
+                      "withoutCompanies": [],
+                      "companyJoinMode": "or",
+                      "withNetworks": [],
+                      "withKeywords": [],
+                      "withoutKeywords": [
+                        {
+                          "id": 191498,
+                          "label": "sports entertainment"
+                        },
+                        {
+                          "id": 210024,
+                          "label": "anime"
+                        }
+                      ],
+                      "keywordJoinMode": "or",
+                      "watchRegion": "",
+                      "watchProviders": [],
+                      "providerJoinMode": "or",
+                      "voteAverageRange": [
+                        5,
+                        10
+                      ],
+                      "voteCountMin": 25,
+                      "runtimeRange": [
+                        0,
+                        400
+                      ],
+                      "primaryReleaseFrom": "",
+                      "primaryReleaseTo": "",
+                      "movieDatePreset": "clear",
+                      "firstAirFrom": "",
+                      "firstAirTo": "",
+                      "seriesDatePreset": "clear",
+                      "airDateFrom": "2026-08-17",
+                      "airDateTo": "2026-08-23",
+                      "airDatePreset": "this_week",
+                      "releaseRegion": ""
+                    }
+                  },
+                  "description": "TMDB Discover (tv)",
+                  "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=true&without_genres=10767%7C10766%7C10764%7C10763%7C99&with_original_language=en&without_keywords=191498%7C210024&with_type=2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&air_date.gte=2026-08-17&air_date.lte=2026-08-23"
+                }
+              }
+            }
+          },
+          {
+            "provider": "addon",
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.latest.ninja_streams",
+            "catalogName": "📅 Latest",
+            "title": "📅 Latest",
+            "genre": "None",
+            "aiometadata": {
+              "version": 1,
+              "catalog": {
+                "id": "tmdb.discover.movie.latest.ninja_streams",
+                "type": "movie",
+                "name": "📅 Latest",
+                "source": "tmdb",
+                "enabled": true,
+                "showInHome": false,
+                "cacheTTL": 21600,
+                "metadata": {
+                  "discover": {
+                    "version": 2,
+                    "source": "tmdb",
+                    "mediaType": "movie",
+                    "params": {
+                      "sort_by": "primary_release_date.desc",
+                      "include_adult": true,
+                      "with_original_language": "en",
+                      "without_keywords": "210024",
+                      "with_release_type": "4|5",
+                      "vote_average.gte": 5,
+                      "vote_count.gte": 25,
+                      "release_date.lte": "__tmdb_date__:today:to"
+                    },
+                    "formState": {
+                      "catalogName": "📅 Latest",
+                      "discoverSource": "tmdb",
+                      "sortBy": "primary_release_date.desc",
+                      "cacheTTL": 21600,
+                      "catalogType": "movie",
+                      "includeGenres": [],
+                      "excludeGenres": [],
+                      "genreJoinMode": "or",
+                      "originalLanguage": "en",
+                      "originCountry": "",
+                      "certificationCountry": "",
+                      "certificationValue": "",
+                      "certificationMode": "exact",
+                      "includeAdult": true,
+                      "releasedOnly": true,
+                      "tmdbTvStatuses": [],
+                      "tmdbMovieReleaseTypes": [
+                        "4",
+                        "5"
+                      ],
+                      "tmdbTvTypes": [
+                        "4"
+                      ],
+                      "selectedPeople": [],
+                      "peopleJoinMode": "or",
+                      "withCompanies": [],
+                      "withoutCompanies": [],
+                      "companyJoinMode": "or",
+                      "withNetworks": [],
+                      "withKeywords": [],
+                      "withoutKeywords": [
+                        {
+                          "id": 210024,
+                          "label": "anime"
+                        }
+                      ],
+                      "keywordJoinMode": "or",
+                      "watchRegion": "",
+                      "watchProviders": [],
+                      "providerJoinMode": "or",
+                      "voteAverageRange": [
+                        5,
+                        10
+                      ],
+                      "voteCountMin": 25,
+                      "runtimeRange": [
+                        0,
+                        400
+                      ],
+                      "primaryReleaseFrom": "",
+                      "primaryReleaseTo": "",
+                      "movieDatePreset": "clear",
+                      "firstAirFrom": "",
+                      "firstAirTo": "",
+                      "seriesDatePreset": "clear",
+                      "airDateFrom": "2026-08-20",
+                      "airDateTo": "2026-08-20",
+                      "airDatePreset": "today",
+                      "releaseRegion": ""
+                    }
+                  },
+                  "description": "TMDB Discover (movie)",
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=primary_release_date.desc&include_adult=true&with_original_language=en&without_keywords=210024&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
+                }
+              }
+            }
+          },
+          {
+            "provider": "addon",
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.latest.ninja_streams",
+            "catalogName": "📅 Latest",
+            "title": "📅 Latest",
+            "genre": "None",
+            "aiometadata": {
+              "version": 1,
+              "catalog": {
+                "id": "tmdb.discover.series.latest.ninja_streams",
+                "type": "series",
+                "name": "📅 Latest",
+                "source": "tmdb",
+                "enabled": true,
+                "showInHome": false,
+                "cacheTTL": 21600,
+                "metadata": {
+                  "discover": {
+                    "version": 2,
+                    "source": "tmdb",
+                    "mediaType": "tv",
+                    "params": {
+                      "sort_by": "first_air_date.desc",
+                      "include_adult": true,
+                      "with_original_language": "en",
+                      "without_keywords": "191498|210024",
+                      "with_type": "0|2|4",
+                      "with_status": "0|3|4|5",
+                      "vote_average.gte": 5,
+                      "vote_count.gte": 25
+                    },
+                    "formState": {
+                      "catalogName": "📅 Latest",
+                      "discoverSource": "tmdb",
+                      "sortBy": "first_air_date.desc",
+                      "cacheTTL": 21600,
+                      "catalogType": "series",
+                      "includeGenres": [],
+                      "excludeGenres": [],
+                      "genreJoinMode": "or",
+                      "originalLanguage": "en",
+                      "originCountry": "",
+                      "certificationCountry": "",
+                      "certificationValue": "",
+                      "certificationMode": "exact",
+                      "includeAdult": true,
+                      "releasedOnly": true,
+                      "tmdbTvStatuses": [
+                        "0",
+                        "3",
+                        "4",
+                        "5"
+                      ],
+                      "tmdbMovieReleaseTypes": [
+                        "4",
+                        "5"
+                      ],
+                      "tmdbTvTypes": [
+                        "4",
+                        "0",
+                        "2"
+                      ],
+                      "selectedPeople": [],
+                      "peopleJoinMode": "or",
+                      "withCompanies": [],
+                      "withoutCompanies": [],
+                      "companyJoinMode": "or",
+                      "withNetworks": [],
+                      "withKeywords": [],
+                      "withoutKeywords": [
+                        {
+                          "id": 191498,
+                          "label": "sports entertainment"
+                        },
+                        {
+                          "id": 210024,
+                          "label": "anime"
+                        }
+                      ],
+                      "keywordJoinMode": "or",
+                      "watchRegion": "",
+                      "watchProviders": [],
+                      "providerJoinMode": "or",
+                      "voteAverageRange": [
+                        5,
+                        10
+                      ],
+                      "voteCountMin": 25,
+                      "runtimeRange": [
+                        0,
+                        400
+                      ],
+                      "primaryReleaseFrom": "",
+                      "primaryReleaseTo": "",
+                      "movieDatePreset": "clear",
+                      "firstAirFrom": "",
+                      "firstAirTo": "",
+                      "seriesDatePreset": "clear",
+                      "airDateFrom": "",
+                      "airDateTo": "",
+                      "airDatePreset": "clear",
+                      "releaseRegion": ""
+                    }
+                  },
+                  "description": "TMDB Discover (tv)",
+                  "url": "https://www.themoviedb.org/discover/tv?sort_by=first_air_date.desc&include_adult=true&with_original_language=en&without_keywords=191498%7C210024&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
+                }
+              }
+            }
+          }
+        ],
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.airing_this_week.ninja_streams",
+            "catalogName": "📅 Airing This Week",
+            "title": "📅 Airing This Week",
+            "genre": null
+          },
+          {
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.latest.ninja_streams",
+            "catalogName": "📅 Latest",
+            "title": "📅 Latest",
+            "genre": "None"
+          },
+          {
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.latest.ninja_streams",
+            "catalogName": "📅 Latest",
+            "title": "📅 Latest",
+            "genre": "None"
+          }
+        ],
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null
+      },
+      {
+        "id": "b7269b2e-cc48-4aa4-8865-cbf4e1373e51",
+        "title": "🔥 Trending",
+        "coverImageUrl": "https://raw.githubusercontent.com/RandomNinjaAtk/Ninja-Streams/refs/heads/main/AIOMetadata/artwork/collection-trending.png",
+        "focusGifUrl": null,
+        "focusGifEnabled": true,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "movie",
+            "catalogId": "mdblist.202247",
+            "catalogName": "🔥 Trending",
+            "title": "🔥 Trending",
+            "genre": "None",
+            "aiometadata": {
+              "version": 1,
+              "catalog": {
+                "id": "mdblist.202247",
+                "type": "movie",
+                "name": "🔥 Trending",
+                "source": "mdblist",
+                "enabled": true,
+                "showInHome": false,
+                "cacheTTL": 21600,
+                "sort": "default",
+                "metadata": {
+                  "itemCount": 166,
+                  "url": "https://mdblist.com/lists/traktusr80/tmdb-trending",
+                  "mediatype": "movie",
+                  "author": "traktusr80"
+                }
+              }
+            }
+          },
+          {
+            "provider": "addon",
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "series",
+            "catalogId": "mdblist.202249",
+            "catalogName": "🔥 Trending",
+            "title": "🔥 Trending",
+            "genre": "None",
+            "aiometadata": {
+              "version": 1,
+              "catalog": {
+                "id": "mdblist.202249",
+                "type": "series",
+                "name": "🔥 Trending",
+                "source": "mdblist",
+                "enabled": true,
+                "showInHome": false,
+                "cacheTTL": 21600,
+                "sort": "default",
+                "metadata": {
+                  "itemCount": 162,
+                  "url": "https://mdblist.com/lists/traktusr80/tmdb-trending",
+                  "mediatype": "show",
+                  "author": "traktusr80"
+                }
+              }
+            }
+          }
+        ],
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "movie",
+            "catalogId": "mdblist.202247",
+            "catalogName": "🔥 Trending",
+            "title": "🔥 Trending",
+            "genre": "None"
+          },
+          {
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "series",
+            "catalogId": "mdblist.202249",
+            "catalogName": "🔥 Trending",
+            "title": "🔥 Trending",
+            "genre": "None"
+          }
+        ],
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null
+      },
+      {
+        "id": "01def11e-11ed-4c7c-bbc7-16dbceb706ab",
+        "title": "🏆 Popular",
+        "coverImageUrl": "https://raw.githubusercontent.com/RandomNinjaAtk/Ninja-Streams/refs/heads/main/AIOMetadata/artwork/collection-popular.png",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.popular.ninja_streams",
+            "catalogName": "🏆 Popular",
+            "title": "🏆 Popular",
+            "genre": "None",
+            "aiometadata": {
+              "version": 1,
+              "catalog": {
+                "id": "tmdb.discover.movie.popular.ninja_streams",
+                "type": "movie",
+                "name": "🏆 Popular",
+                "source": "tmdb",
+                "enabled": true,
+                "showInHome": false,
+                "cacheTTL": 21600,
+                "metadata": {
+                  "discover": {
+                    "version": 2,
+                    "source": "tmdb",
+                    "mediaType": "movie",
+                    "params": {
+                      "sort_by": "popularity.desc",
+                      "include_adult": true,
+                      "with_original_language": "en",
+                      "without_keywords": "210024",
+                      "with_release_type": "4|5",
+                      "vote_average.gte": 5,
+                      "vote_count.gte": 25,
+                      "release_date.lte": "__tmdb_date__:today:to"
+                    },
+                    "formState": {
+                      "catalogName": "🏆 Popular",
+                      "discoverSource": "tmdb",
+                      "sortBy": "popularity.desc",
+                      "cacheTTL": 21600,
+                      "catalogType": "movie",
+                      "includeGenres": [],
+                      "excludeGenres": [],
+                      "genreJoinMode": "or",
+                      "originalLanguage": "en",
+                      "originCountry": "",
+                      "certificationCountry": "",
+                      "certificationValue": "",
+                      "certificationMode": "exact",
+                      "includeAdult": true,
+                      "releasedOnly": true,
+                      "tmdbTvStatuses": [],
+                      "tmdbMovieReleaseTypes": [
+                        "4",
+                        "5"
+                      ],
+                      "tmdbTvTypes": [
+                        "4"
+                      ],
+                      "selectedPeople": [],
+                      "peopleJoinMode": "or",
+                      "withCompanies": [],
+                      "withoutCompanies": [],
+                      "companyJoinMode": "or",
+                      "withNetworks": [],
+                      "withKeywords": [],
+                      "withoutKeywords": [
+                        {
+                          "id": 210024,
+                          "label": "anime"
+                        }
+                      ],
+                      "keywordJoinMode": "or",
+                      "watchRegion": "",
+                      "watchProviders": [],
+                      "providerJoinMode": "or",
+                      "voteAverageRange": [
+                        5,
+                        10
+                      ],
+                      "voteCountMin": 25,
+                      "runtimeRange": [
+                        0,
+                        400
+                      ],
+                      "primaryReleaseFrom": "",
+                      "primaryReleaseTo": "",
+                      "movieDatePreset": "clear",
+                      "firstAirFrom": "",
+                      "firstAirTo": "",
+                      "seriesDatePreset": "clear",
+                      "airDateFrom": "",
+                      "airDateTo": "",
+                      "airDatePreset": "clear",
+                      "releaseRegion": ""
+                    }
+                  },
+                  "description": "TMDB Discover (movie)",
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=true&with_original_language=en&without_keywords=210024&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
+                }
+              }
+            }
+          },
+          {
+            "provider": "addon",
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.popular.ninja_streams",
+            "catalogName": "🏆 Popular",
+            "title": "🏆 Popular",
+            "genre": "None",
+            "aiometadata": {
+              "version": 1,
+              "catalog": {
+                "id": "tmdb.discover.series.popular.ninja_streams",
+                "type": "series",
+                "name": "🏆 Popular",
+                "source": "tmdb",
+                "enabled": true,
+                "showInHome": false,
+                "cacheTTL": 21600,
+                "metadata": {
+                  "discover": {
+                    "version": 2,
+                    "source": "tmdb",
+                    "mediaType": "tv",
+                    "params": {
+                      "sort_by": "popularity.desc",
+                      "include_adult": false,
+                      "with_original_language": "en",
+                      "without_keywords": "191498|210024",
+                      "with_type": "0|2|4",
+                      "with_status": "0|3|4|5",
+                      "vote_average.gte": 5,
+                      "vote_count.gte": 25
+                    },
+                    "formState": {
+                      "catalogName": "🏆 Popular",
+                      "discoverSource": "tmdb",
+                      "sortBy": "popularity.desc",
+                      "cacheTTL": 21600,
+                      "catalogType": "series",
+                      "includeGenres": [],
+                      "excludeGenres": [],
+                      "genreJoinMode": "or",
+                      "originalLanguage": "en",
+                      "originCountry": "",
+                      "certificationCountry": "",
+                      "certificationValue": "",
+                      "certificationMode": "exact",
+                      "includeAdult": true,
+                      "releasedOnly": true,
+                      "tmdbTvStatuses": [
+                        "0",
+                        "3",
+                        "4",
+                        "5"
+                      ],
+                      "tmdbMovieReleaseTypes": [
+                        "4",
+                        "5"
+                      ],
+                      "tmdbTvTypes": [
+                        "4",
+                        "0",
+                        "2"
+                      ],
+                      "selectedPeople": [],
+                      "peopleJoinMode": "or",
+                      "withCompanies": [],
+                      "withoutCompanies": [],
+                      "companyJoinMode": "or",
+                      "withNetworks": [],
+                      "withKeywords": [],
+                      "withoutKeywords": [
+                        {
+                          "id": 191498,
+                          "label": "sports entertainment"
+                        },
+                        {
+                          "id": 210024,
+                          "label": "anime"
+                        }
+                      ],
+                      "keywordJoinMode": "or",
+                      "watchRegion": "",
+                      "watchProviders": [],
+                      "providerJoinMode": "or",
+                      "voteAverageRange": [
+                        5,
+                        10
+                      ],
+                      "voteCountMin": 25,
+                      "runtimeRange": [
+                        0,
+                        400
+                      ],
+                      "primaryReleaseFrom": "",
+                      "primaryReleaseTo": "",
+                      "movieDatePreset": "clear",
+                      "firstAirFrom": "",
+                      "firstAirTo": "",
+                      "seriesDatePreset": "clear",
+                      "airDateFrom": "",
+                      "airDateTo": "",
+                      "airDatePreset": "clear",
+                      "releaseRegion": ""
+                    }
+                  },
+                  "description": "TMDB Discover (tv)",
+                  "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=false&with_original_language=en&without_keywords=191498%7C210024&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
+                }
+              }
+            }
+          }
+        ],
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.popular.ninja_streams",
+            "catalogName": "🏆 Popular",
+            "title": "🏆 Popular",
+            "genre": "None"
+          },
+          {
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.popular.ninja_streams",
+            "catalogName": "🏆 Popular",
+            "title": "🏆 Popular",
+            "genre": "None"
+          }
+        ],
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null
+      },
+      {
+        "id": "ca89d729-51b7-4f29-8e16-4c73abf6578f",
+        "title": "⭐ Top",
+        "coverImageUrl": "https://raw.githubusercontent.com/RandomNinjaAtk/Ninja-Streams/refs/heads/main/AIOMetadata/artwork/collection-top.png",
+        "focusGifUrl": null,
+        "focusGifEnabled": true,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "movie",
+            "catalogId": "mdblist.155786",
+            "catalogName": "🏴‍☠️ Top Pirated of the Week",
+            "title": "🏴‍☠️ Top Pirated of the Week",
+            "genre": null,
+            "aiometadata": {
+              "version": 1,
+              "catalog": {
+                "id": "mdblist.155786",
+                "type": "movie",
+                "name": "🏴‍☠️ Top Pirated of the Week",
+                "source": "mdblist",
+                "enabled": true,
+                "showInHome": true,
+                "cacheTTL": 21600,
+                "sort": "releasedigital",
+                "metadata": {
+                  "itemCount": 9,
+                  "url": "https://mdblist.com/lists/k0meta/top-ten-pirated-movies-of-the-week-torrent-freakcom",
+                  "mediatype": "movie",
+                  "author": "k0meta"
+                }
+              }
+            }
+          },
+          {
+            "provider": "addon",
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.top.ninja_streams",
+            "catalogName": "⭐ Top",
+            "title": "⭐ Top",
+            "genre": "None",
+            "aiometadata": {
+              "version": 1,
+              "catalog": {
+                "id": "tmdb.discover.movie.top.ninja_streams",
+                "type": "movie",
+                "name": "⭐ Top",
+                "source": "tmdb",
+                "enabled": true,
+                "showInHome": false,
+                "cacheTTL": 21600,
+                "metadata": {
+                  "discover": {
+                    "version": 2,
+                    "source": "tmdb",
+                    "mediaType": "movie",
+                    "params": {
+                      "sort_by": "vote_average.desc",
+                      "include_adult": true,
+                      "with_original_language": "en",
+                      "without_keywords": "210024",
+                      "with_release_type": "4|5",
+                      "vote_average.gte": 7,
+                      "vote_count.gte": 300,
+                      "release_date.lte": "__tmdb_date__:today:to"
+                    },
+                    "formState": {
+                      "catalogName": "⭐ Top",
+                      "discoverSource": "tmdb",
+                      "sortBy": "vote_average.desc",
+                      "cacheTTL": 21600,
+                      "catalogType": "movie",
+                      "includeGenres": [],
+                      "excludeGenres": [],
+                      "genreJoinMode": "or",
+                      "originalLanguage": "en",
+                      "originCountry": "",
+                      "certificationCountry": "",
+                      "certificationValue": "",
+                      "certificationMode": "exact",
+                      "includeAdult": true,
+                      "releasedOnly": true,
+                      "tmdbTvStatuses": [],
+                      "tmdbMovieReleaseTypes": [
+                        "4",
+                        "5"
+                      ],
+                      "tmdbTvTypes": [
+                        "4"
+                      ],
+                      "selectedPeople": [],
+                      "peopleJoinMode": "or",
+                      "withCompanies": [],
+                      "withoutCompanies": [],
+                      "companyJoinMode": "or",
+                      "withNetworks": [],
+                      "withKeywords": [],
+                      "withoutKeywords": [
+                        {
+                          "id": 210024,
+                          "label": "anime"
+                        }
+                      ],
+                      "keywordJoinMode": "or",
+                      "watchRegion": "",
+                      "watchProviders": [],
+                      "providerJoinMode": "or",
+                      "voteAverageRange": [
+                        7,
+                        10
+                      ],
+                      "voteCountMin": 300,
+                      "runtimeRange": [
+                        0,
+                        400
+                      ],
+                      "primaryReleaseFrom": "",
+                      "primaryReleaseTo": "",
+                      "movieDatePreset": "clear",
+                      "firstAirFrom": "",
+                      "firstAirTo": "",
+                      "seriesDatePreset": "clear",
+                      "airDateFrom": "2026-08-20",
+                      "airDateTo": "2026-08-20",
+                      "airDatePreset": "today",
+                      "releaseRegion": ""
+                    }
+                  },
+                  "description": "TMDB Discover (movie)",
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=vote_average.desc&include_adult=true&with_original_language=en&without_keywords=210024&with_release_type=4%7C5&vote_average.gte=7&vote_count.gte=300&release_date.lte=2026-08-20"
+                }
+              }
+            }
+          },
+          {
+            "provider": "addon",
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.top.ninja_streams",
+            "catalogName": "⭐ Top",
+            "title": "⭐ Top",
+            "genre": "None",
+            "aiometadata": {
+              "version": 1,
+              "catalog": {
+                "id": "tmdb.discover.series.top.ninja_streams",
+                "type": "series",
+                "name": "⭐ Top",
+                "source": "tmdb",
+                "enabled": true,
+                "showInHome": false,
+                "cacheTTL": 21600,
+                "metadata": {
+                  "discover": {
+                    "version": 2,
+                    "source": "tmdb",
+                    "mediaType": "tv",
+                    "params": {
+                      "sort_by": "vote_average.desc",
+                      "include_adult": false,
+                      "with_original_language": "en",
+                      "without_keywords": "210024",
+                      "with_type": "0|2|4",
+                      "with_status": "0|3|4|5",
+                      "vote_average.gte": 7,
+                      "vote_count.gte": 300
+                    },
+                    "formState": {
+                      "catalogName": "⭐ Top",
+                      "discoverSource": "tmdb",
+                      "sortBy": "vote_average.desc",
+                      "cacheTTL": 21600,
+                      "catalogType": "series",
+                      "includeGenres": [],
+                      "excludeGenres": [],
+                      "genreJoinMode": "or",
+                      "originalLanguage": "en",
+                      "originCountry": "",
+                      "certificationCountry": "",
+                      "certificationValue": "",
+                      "certificationMode": "exact",
+                      "includeAdult": true,
+                      "releasedOnly": true,
+                      "tmdbTvStatuses": [
+                        "0",
+                        "3",
+                        "4",
+                        "5"
+                      ],
+                      "tmdbMovieReleaseTypes": [
+                        "4",
+                        "5"
+                      ],
+                      "tmdbTvTypes": [
+                        "4",
+                        "0",
+                        "2"
+                      ],
+                      "selectedPeople": [],
+                      "peopleJoinMode": "or",
+                      "withCompanies": [],
+                      "withoutCompanies": [],
+                      "companyJoinMode": "or",
+                      "withNetworks": [],
+                      "withKeywords": [],
+                      "withoutKeywords": [
+                        {
+                          "id": 210024,
+                          "label": "anime"
+                        }
+                      ],
+                      "keywordJoinMode": "or",
+                      "watchRegion": "",
+                      "watchProviders": [],
+                      "providerJoinMode": "or",
+                      "voteAverageRange": [
+                        7,
+                        10
+                      ],
+                      "voteCountMin": 300,
+                      "runtimeRange": [
+                        0,
+                        400
+                      ],
+                      "primaryReleaseFrom": "",
+                      "primaryReleaseTo": "",
+                      "movieDatePreset": "clear",
+                      "firstAirFrom": "",
+                      "firstAirTo": "",
+                      "seriesDatePreset": "clear",
+                      "airDateFrom": "",
+                      "airDateTo": "",
+                      "airDatePreset": "clear",
+                      "releaseRegion": ""
+                    }
+                  },
+                  "description": "TMDB Discover (tv)",
+                  "url": "https://www.themoviedb.org/discover/tv?sort_by=vote_average.desc&include_adult=false&with_original_language=en&without_keywords=210024&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=7&vote_count.gte=300"
+                }
+              }
+            }
+          }
+        ],
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "movie",
+            "catalogId": "mdblist.155786",
+            "catalogName": "🏴‍☠️ Top Pirated of the Week",
+            "title": "🏴‍☠️ Top Pirated of the Week",
+            "genre": null
+          },
+          {
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.top.ninja_streams",
+            "catalogName": "⭐ Top",
+            "title": "⭐ Top",
+            "genre": "None"
+          },
+          {
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.top.ninja_streams",
+            "catalogName": "⭐ Top",
+            "title": "⭐ Top",
+            "genre": "None"
+          }
+        ],
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null
+      }
+    ]
+  },
+  {
     "id": "3b34ff3c-725a-4c42-81c9-2777ea814e01",
     "title": "🕸️ Streaming Services",
     "backdropImageUrl": null,
@@ -11,11 +1061,11 @@
       {
         "id": "3f4f79ee-00f0-4936-83bc-53ffbb3c604b",
         "title": "AppleTV+",
-        "coverImageUrl": "https://gitlab.com/DuckKota/omni-images/-/raw/main/streaming_services/apple_tv.jpg",
-        "focusGifUrl": null,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.apple_tv_plus.webp",
+        "focusGifUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.apple_tv_plus.focus.gif",
         "focusGifEnabled": true,
         "coverEmoji": null,
-        "tileShape": "POSTER",
+        "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "sources": [
           {
@@ -27,7 +1077,7 @@
             "catalogId": "tmdb.discover.movie.apple_tv.ninja_streams",
             "catalogName": "🕸️ Apple TV",
             "title": "🕸️ Apple TV",
-            "genre": null,
+            "genre": "None",
             "aiometadata": {
               "version": 1,
               "catalog": {
@@ -36,7 +1086,7 @@
                 "name": "🕸️ Apple TV",
                 "source": "tmdb",
                 "enabled": true,
-                "showInHome": true,
+                "showInHome": false,
                 "cacheTTL": 21600,
                 "metadata": {
                   "discover": {
@@ -132,7 +1182,7 @@
             "catalogId": "tmdb.discover.series.apple_tv.ninja_streams",
             "catalogName": "🕸️ Apple TV",
             "title": "🕸️ Apple TV",
-            "genre": null,
+            "genre": "None",
             "aiometadata": {
               "version": 1,
               "catalog": {
@@ -141,7 +1191,7 @@
                 "name": "🕸️ Apple TV",
                 "source": "tmdb",
                 "enabled": true,
-                "showInHome": true,
+                "showInHome": false,
                 "cacheTTL": 21600,
                 "metadata": {
                   "discover": {
@@ -247,7 +1297,7 @@
             "catalogId": "tmdb.discover.movie.apple_tv.ninja_streams",
             "catalogName": "🕸️ Apple TV",
             "title": "🕸️ Apple TV",
-            "genre": null
+            "genre": "None"
           },
           {
             "addonId": "aio-metadata",
@@ -257,21 +1307,21 @@
             "catalogId": "tmdb.discover.series.apple_tv.ninja_streams",
             "catalogName": "🕸️ Apple TV",
             "title": "🕸️ Apple TV",
-            "genre": null
+            "genre": "None"
           }
         ],
         "heroBackdropUrl": null,
         "heroVideoUrl": null,
-        "titleLogoUrl": null
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/streaming_services.apple_tv_plus.logo.webp"
       },
       {
         "id": "300e3f32-6198-4469-9e42-306aabc5a442",
         "title": "Disney+",
-        "coverImageUrl": "https://gitlab.com/DuckKota/omni-images/-/raw/main/streaming_services/disney_plus.jpg",
-        "focusGifUrl": null,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.disney_plus.webp",
+        "focusGifUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.disney_plus.focus.gif",
         "focusGifEnabled": true,
         "coverEmoji": null,
-        "tileShape": "POSTER",
+        "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "sources": [
           {
@@ -283,7 +1333,7 @@
             "catalogId": "tmdb.discover.movie.disney_plus.ninja_streams",
             "catalogName": "🕸️ Disney+",
             "title": "🕸️ Disney+",
-            "genre": null,
+            "genre": "None",
             "aiometadata": {
               "version": 1,
               "catalog": {
@@ -292,7 +1342,7 @@
                 "name": "🕸️ Disney+",
                 "source": "tmdb",
                 "enabled": true,
-                "showInHome": true,
+                "showInHome": false,
                 "cacheTTL": 21600,
                 "metadata": {
                   "discover": {
@@ -384,7 +1434,7 @@
             "catalogId": "tmdb.discover.series.disney_plus.ninja_streams",
             "catalogName": "🕸️ Disney+",
             "title": "🕸️ Disney+",
-            "genre": null,
+            "genre": "None",
             "aiometadata": {
               "version": 1,
               "catalog": {
@@ -393,7 +1443,7 @@
                 "name": "🕸️ Disney+",
                 "source": "tmdb",
                 "enabled": true,
-                "showInHome": true,
+                "showInHome": false,
                 "cacheTTL": 21600,
                 "metadata": {
                   "discover": {
@@ -495,7 +1545,7 @@
             "catalogId": "tmdb.discover.movie.disney_plus.ninja_streams",
             "catalogName": "🕸️ Disney+",
             "title": "🕸️ Disney+",
-            "genre": null
+            "genre": "None"
           },
           {
             "addonId": "aio-metadata",
@@ -505,21 +1555,21 @@
             "catalogId": "tmdb.discover.series.disney_plus.ninja_streams",
             "catalogName": "🕸️ Disney+",
             "title": "🕸️ Disney+",
-            "genre": null
+            "genre": "None"
           }
         ],
         "heroBackdropUrl": null,
         "heroVideoUrl": null,
-        "titleLogoUrl": null
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/streaming_services.disney_plus.logo.webp"
       },
       {
         "id": "f7869c75-713e-40d9-8afb-49728eb22f55",
         "title": "HBO Max",
-        "coverImageUrl": "https://gitlab.com/DuckKota/omni-images/-/raw/main/streaming_services/max.jpg",
-        "focusGifUrl": null,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.hbo_max.webp",
+        "focusGifUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.hbo_max.focus.gif",
         "focusGifEnabled": true,
         "coverEmoji": null,
-        "tileShape": "POSTER",
+        "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "sources": [
           {
@@ -531,7 +1581,7 @@
             "catalogId": "tmdb.discover.movie.hbo_max.ninja_streams",
             "catalogName": "🕸️ HBO Max",
             "title": "🕸️ HBO Max",
-            "genre": null,
+            "genre": "None",
             "aiometadata": {
               "version": 1,
               "catalog": {
@@ -540,7 +1590,7 @@
                 "name": "🕸️ HBO Max",
                 "source": "tmdb",
                 "enabled": true,
-                "showInHome": true,
+                "showInHome": false,
                 "cacheTTL": 21600,
                 "metadata": {
                   "discover": {
@@ -636,7 +1686,7 @@
             "catalogId": "tmdb.discover.series.hbo_max.ninja_streams",
             "catalogName": "🕸️ HBO Max",
             "title": "🕸️ HBO Max",
-            "genre": null,
+            "genre": "None",
             "aiometadata": {
               "version": 1,
               "catalog": {
@@ -645,7 +1695,7 @@
                 "name": "🕸️ HBO Max",
                 "source": "tmdb",
                 "enabled": true,
-                "showInHome": true,
+                "showInHome": false,
                 "cacheTTL": 21600,
                 "metadata": {
                   "discover": {
@@ -751,7 +1801,7 @@
             "catalogId": "tmdb.discover.movie.hbo_max.ninja_streams",
             "catalogName": "🕸️ HBO Max",
             "title": "🕸️ HBO Max",
-            "genre": null
+            "genre": "None"
           },
           {
             "addonId": "aio-metadata",
@@ -761,21 +1811,21 @@
             "catalogId": "tmdb.discover.series.hbo_max.ninja_streams",
             "catalogName": "🕸️ HBO Max",
             "title": "🕸️ HBO Max",
-            "genre": null
+            "genre": "None"
           }
         ],
         "heroBackdropUrl": null,
         "heroVideoUrl": null,
-        "titleLogoUrl": null
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/streaming_services.hbo_max.logo.webp"
       },
       {
         "id": "3d442824-bfa5-4df0-aced-60d4d61c1ccf",
         "title": "Netflix",
-        "coverImageUrl": "https://gitlab.com/DuckKota/omni-images/-/raw/main/streaming_services/netflix.jpg",
-        "focusGifUrl": null,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.netflix.webp",
+        "focusGifUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.netflix.focus.gif",
         "focusGifEnabled": true,
         "coverEmoji": null,
-        "tileShape": "POSTER",
+        "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "sources": [
           {
@@ -787,7 +1837,7 @@
             "catalogId": "tmdb.discover.movie.netflix.ninja_streams",
             "catalogName": "🕸️ Netflix",
             "title": "🕸️ Netflix",
-            "genre": null,
+            "genre": "None",
             "aiometadata": {
               "version": 1,
               "catalog": {
@@ -796,7 +1846,7 @@
                 "name": "🕸️ Netflix",
                 "source": "tmdb",
                 "enabled": true,
-                "showInHome": true,
+                "showInHome": false,
                 "cacheTTL": 21600,
                 "metadata": {
                   "discover": {
@@ -896,7 +1946,7 @@
             "catalogId": "tmdb.discover.series.netflix.ninja_streams",
             "catalogName": "🕸️ Netflix",
             "title": "🕸️ Netflix",
-            "genre": null,
+            "genre": "None",
             "aiometadata": {
               "version": 1,
               "catalog": {
@@ -905,7 +1955,7 @@
                 "name": "🕸️ Netflix",
                 "source": "tmdb",
                 "enabled": true,
-                "showInHome": true,
+                "showInHome": false,
                 "cacheTTL": 21600,
                 "metadata": {
                   "discover": {
@@ -1015,7 +2065,7 @@
             "catalogId": "tmdb.discover.movie.netflix.ninja_streams",
             "catalogName": "🕸️ Netflix",
             "title": "🕸️ Netflix",
-            "genre": null
+            "genre": "None"
           },
           {
             "addonId": "aio-metadata",
@@ -1025,21 +2075,21 @@
             "catalogId": "tmdb.discover.series.netflix.ninja_streams",
             "catalogName": "🕸️ Netflix",
             "title": "🕸️ Netflix",
-            "genre": null
+            "genre": "None"
           }
         ],
         "heroBackdropUrl": null,
         "heroVideoUrl": null,
-        "titleLogoUrl": null
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/streaming_services.netflix.logo.webp"
       },
       {
         "id": "2e234a71-3139-47c2-b6f2-1ef4f3653480",
         "title": "Hulu",
-        "coverImageUrl": "https://gitlab.com/DuckKota/omni-images/-/raw/main/streaming_services/hulu.jpg",
-        "focusGifUrl": null,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.hulu.webp",
+        "focusGifUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.hulu.focus.gif",
         "focusGifEnabled": true,
         "coverEmoji": null,
-        "tileShape": "POSTER",
+        "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "sources": [
           {
@@ -1051,7 +2101,7 @@
             "catalogId": "tmdb.discover.movie.hulu.ninja_streams",
             "catalogName": "🕸️ Hulu",
             "title": "🕸️ Hulu",
-            "genre": null,
+            "genre": "None",
             "aiometadata": {
               "version": 1,
               "catalog": {
@@ -1060,7 +2110,7 @@
                 "name": "🕸️ Hulu",
                 "source": "tmdb",
                 "enabled": true,
-                "showInHome": true,
+                "showInHome": false,
                 "cacheTTL": 21600,
                 "metadata": {
                   "discover": {
@@ -1152,7 +2202,7 @@
             "catalogId": "tmdb.discover.series.hulu.ninja_streams",
             "catalogName": "🕸️ Hulu",
             "title": "🕸️ Hulu",
-            "genre": null,
+            "genre": "None",
             "aiometadata": {
               "version": 1,
               "catalog": {
@@ -1161,7 +2211,7 @@
                 "name": "🕸️ Hulu",
                 "source": "tmdb",
                 "enabled": true,
-                "showInHome": true,
+                "showInHome": false,
                 "cacheTTL": 21600,
                 "metadata": {
                   "discover": {
@@ -1263,7 +2313,7 @@
             "catalogId": "tmdb.discover.movie.hulu.ninja_streams",
             "catalogName": "🕸️ Hulu",
             "title": "🕸️ Hulu",
-            "genre": null
+            "genre": "None"
           },
           {
             "addonId": "aio-metadata",
@@ -1273,21 +2323,21 @@
             "catalogId": "tmdb.discover.series.hulu.ninja_streams",
             "catalogName": "🕸️ Hulu",
             "title": "🕸️ Hulu",
-            "genre": null
+            "genre": "None"
           }
         ],
         "heroBackdropUrl": null,
         "heroVideoUrl": null,
-        "titleLogoUrl": null
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/streaming_services.hulu.logo.webp"
       },
       {
         "id": "a0593b5d-d822-47aa-bceb-607872269838",
         "title": "Prime Video",
-        "coverImageUrl": "https://gitlab.com/DuckKota/omni-images/-/raw/main/streaming_services/prime_video.jpg",
-        "focusGifUrl": null,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.prime_video.webp",
+        "focusGifUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.prime_video.focus.gif",
         "focusGifEnabled": true,
         "coverEmoji": null,
-        "tileShape": "POSTER",
+        "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "sources": [
           {
@@ -1299,7 +2349,7 @@
             "catalogId": "tmdb.discover.movie.prime_video.ninja_streams",
             "catalogName": "🕸️ Prime Video",
             "title": "🕸️ Prime Video",
-            "genre": null,
+            "genre": "None",
             "aiometadata": {
               "version": 1,
               "catalog": {
@@ -1308,7 +2358,7 @@
                 "name": "🕸️ Prime Video",
                 "source": "tmdb",
                 "enabled": true,
-                "showInHome": true,
+                "showInHome": false,
                 "cacheTTL": 21600,
                 "metadata": {
                   "discover": {
@@ -1408,7 +2458,7 @@
             "catalogId": "tmdb.discover.series.prime_video.ninja_streams",
             "catalogName": "🕸️ Prime Video",
             "title": "🕸️ Prime Video",
-            "genre": null,
+            "genre": "None",
             "aiometadata": {
               "version": 1,
               "catalog": {
@@ -1417,7 +2467,7 @@
                 "name": "🕸️ Prime Video",
                 "source": "tmdb",
                 "enabled": true,
-                "showInHome": true,
+                "showInHome": false,
                 "cacheTTL": 21600,
                 "metadata": {
                   "discover": {
@@ -1527,7 +2577,7 @@
             "catalogId": "tmdb.discover.movie.prime_video.ninja_streams",
             "catalogName": "🕸️ Prime Video",
             "title": "🕸️ Prime Video",
-            "genre": null
+            "genre": "None"
           },
           {
             "addonId": "aio-metadata",
@@ -1537,21 +2587,21 @@
             "catalogId": "tmdb.discover.series.prime_video.ninja_streams",
             "catalogName": "🕸️ Prime Video",
             "title": "🕸️ Prime Video",
-            "genre": null
+            "genre": "None"
           }
         ],
         "heroBackdropUrl": null,
         "heroVideoUrl": null,
-        "titleLogoUrl": null
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/streaming_services.prime_video.logo.webp"
       },
       {
         "id": "7cdb614d-accc-49b0-89b0-747301758d99",
         "title": "Paramount+",
-        "coverImageUrl": "https://gitlab.com/DuckKota/omni-images/-/raw/main/streaming_services/paramount_plus.jpg",
-        "focusGifUrl": null,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.paramount_plus.webp",
+        "focusGifUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.paramount_plus.focus.gif",
         "focusGifEnabled": true,
         "coverEmoji": null,
-        "tileShape": "POSTER",
+        "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "sources": [
           {
@@ -1563,7 +2613,7 @@
             "catalogId": "tmdb.discover.movie.paramount_plus.ninja_streams",
             "catalogName": "🕸️ Paramount+",
             "title": "🕸️ Paramount+",
-            "genre": null,
+            "genre": "None",
             "aiometadata": {
               "version": 1,
               "catalog": {
@@ -1572,7 +2622,7 @@
                 "name": "🕸️ Paramount+",
                 "source": "tmdb",
                 "enabled": true,
-                "showInHome": true,
+                "showInHome": false,
                 "cacheTTL": 21600,
                 "metadata": {
                   "discover": {
@@ -1676,7 +2726,7 @@
             "catalogId": "tmdb.discover.series.paramount_plus.ninja_streams",
             "catalogName": "🕸️ Paramount+",
             "title": "🕸️ Paramount+",
-            "genre": null,
+            "genre": "None",
             "aiometadata": {
               "version": 1,
               "catalog": {
@@ -1685,7 +2735,7 @@
                 "name": "🕸️ Paramount+",
                 "source": "tmdb",
                 "enabled": true,
-                "showInHome": true,
+                "showInHome": false,
                 "cacheTTL": 21600,
                 "metadata": {
                   "discover": {
@@ -1803,7 +2853,7 @@
             "catalogId": "tmdb.discover.movie.paramount_plus.ninja_streams",
             "catalogName": "🕸️ Paramount+",
             "title": "🕸️ Paramount+",
-            "genre": null
+            "genre": "None"
           },
           {
             "addonId": "aio-metadata",
@@ -1813,21 +2863,21 @@
             "catalogId": "tmdb.discover.series.paramount_plus.ninja_streams",
             "catalogName": "🕸️ Paramount+",
             "title": "🕸️ Paramount+",
-            "genre": null
+            "genre": "None"
           }
         ],
         "heroBackdropUrl": null,
         "heroVideoUrl": null,
-        "titleLogoUrl": null
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/streaming_services.paramount_plus.logo.webp"
       },
       {
         "id": "89a8e1a8-c5c3-40fb-b72d-125b707436b3",
         "title": "Peacock",
-        "coverImageUrl": "https://gitlab.com/DuckKota/omni-images/-/raw/main/streaming_services/peacock.jpg",
-        "focusGifUrl": null,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.peacock.webp",
+        "focusGifUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.peacock.focus.gif",
         "focusGifEnabled": true,
         "coverEmoji": null,
-        "tileShape": "POSTER",
+        "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "sources": [
           {
@@ -1839,7 +2889,7 @@
             "catalogId": "tmdb.discover.movie.peacock.ninja_streams",
             "catalogName": "🕸️ Peacock",
             "title": "🕸️ Peacock",
-            "genre": null,
+            "genre": "None",
             "aiometadata": {
               "version": 1,
               "catalog": {
@@ -1848,7 +2898,7 @@
                 "name": "🕸️ Peacock",
                 "source": "tmdb",
                 "enabled": true,
-                "showInHome": true,
+                "showInHome": false,
                 "cacheTTL": 21600,
                 "metadata": {
                   "discover": {
@@ -1948,7 +2998,7 @@
             "catalogId": "tmdb.discover.series.peacock.ninja_streams",
             "catalogName": "🕸️ Peacock",
             "title": "🕸️ Peacock",
-            "genre": null,
+            "genre": "None",
             "aiometadata": {
               "version": 1,
               "catalog": {
@@ -1957,7 +3007,7 @@
                 "name": "🕸️ Peacock",
                 "source": "tmdb",
                 "enabled": true,
-                "showInHome": true,
+                "showInHome": false,
                 "cacheTTL": 21600,
                 "metadata": {
                   "discover": {
@@ -2067,7 +3117,7 @@
             "catalogId": "tmdb.discover.movie.peacock.ninja_streams",
             "catalogName": "🕸️ Peacock",
             "title": "🕸️ Peacock",
-            "genre": null
+            "genre": "None"
           },
           {
             "addonId": "aio-metadata",
@@ -2077,12 +3127,268 @@
             "catalogId": "tmdb.discover.series.peacock.ninja_streams",
             "catalogName": "🕸️ Peacock",
             "title": "🕸️ Peacock",
-            "genre": null
+            "genre": "None"
           }
         ],
         "heroBackdropUrl": null,
         "heroVideoUrl": null,
-        "titleLogoUrl": null
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/streaming_services.peacock.logo.webp"
+      },
+      {
+        "id": "ef8c724c-d50e-41ee-8b77-642fa5674a82",
+        "title": "Crunchyroll",
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.crunchyroll.webp",
+        "focusGifUrl": "https://cdn.xperience-app.com/covers/default/streaming_services.crunchyroll.focus.gif",
+        "focusGifEnabled": true,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.crunchyroll.ninja_streams",
+            "catalogName": "🕸️ Crunchyroll",
+            "title": "🕸️ Crunchyroll",
+            "genre": "None",
+            "aiometadata": {
+              "version": 1,
+              "catalog": {
+                "id": "tmdb.discover.movie.crunchyroll.ninja_streams",
+                "type": "movie",
+                "name": "🕸️ Crunchyroll",
+                "source": "tmdb",
+                "enabled": true,
+                "showInHome": false,
+                "cacheTTL": 21600,
+                "metadata": {
+                  "discover": {
+                    "version": 2,
+                    "source": "tmdb",
+                    "mediaType": "movie",
+                    "params": {
+                      "sort_by": "title.asc",
+                      "include_adult": true,
+                      "watch_region": "US",
+                      "with_watch_providers": "1968|283",
+                      "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+                      "with_release_type": "4",
+                      "vote_average.gte": 5,
+                      "vote_count.gte": 25,
+                      "release_date.lte": "__tmdb_date__:today:to"
+                    },
+                    "formState": {
+                      "catalogName": "🕸️ Crunchyroll",
+                      "discoverSource": "tmdb",
+                      "sortBy": "title.asc",
+                      "cacheTTL": 21600,
+                      "catalogType": "movie",
+                      "includeGenres": [],
+                      "excludeGenres": [],
+                      "genreJoinMode": "or",
+                      "originalLanguage": "",
+                      "originCountry": "",
+                      "certificationCountry": "",
+                      "certificationValue": "",
+                      "certificationMode": "exact",
+                      "includeAdult": true,
+                      "releasedOnly": true,
+                      "tmdbTvStatuses": [],
+                      "tmdbMovieReleaseTypes": [
+                        "4"
+                      ],
+                      "tmdbTvTypes": [],
+                      "selectedPeople": [],
+                      "peopleJoinMode": "or",
+                      "withCompanies": [],
+                      "withoutCompanies": [],
+                      "companyJoinMode": "or",
+                      "withNetworks": [],
+                      "withKeywords": [],
+                      "withoutKeywords": [],
+                      "keywordJoinMode": "or",
+                      "watchRegion": "US",
+                      "watchProviders": [
+                        {
+                          "id": 1968,
+                          "label": "Crunchyroll Amazon Channel"
+                        },
+                        {
+                          "id": 283,
+                          "label": "Crunchyroll"
+                        }
+                      ],
+                      "providerJoinMode": "or",
+                      "voteAverageRange": [
+                        5,
+                        10
+                      ],
+                      "voteCountMin": 25,
+                      "runtimeRange": [
+                        0,
+                        400
+                      ],
+                      "primaryReleaseFrom": "",
+                      "primaryReleaseTo": "",
+                      "movieDatePreset": "clear",
+                      "firstAirFrom": "",
+                      "firstAirTo": "",
+                      "seriesDatePreset": "clear",
+                      "airDateFrom": "",
+                      "airDateTo": "",
+                      "airDatePreset": "clear",
+                      "releaseRegion": ""
+                    }
+                  },
+                  "description": "TMDB Discover (movie)",
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&watch_region=US&with_watch_providers=1968%7C283&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_release_type=4&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-18"
+                }
+              }
+            }
+          },
+          {
+            "provider": "addon",
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.crunchyroll.ninja_streams",
+            "catalogName": "🕸️ Crunchyroll",
+            "title": "🕸️ Crunchyroll",
+            "genre": "None",
+            "aiometadata": {
+              "version": 1,
+              "catalog": {
+                "id": "tmdb.discover.series.crunchyroll.ninja_streams",
+                "type": "series",
+                "name": "🕸️ Crunchyroll",
+                "source": "tmdb",
+                "enabled": true,
+                "showInHome": false,
+                "cacheTTL": 21600,
+                "metadata": {
+                  "discover": {
+                    "version": 2,
+                    "source": "tmdb",
+                    "mediaType": "tv",
+                    "params": {
+                      "sort_by": "name.asc",
+                      "include_adult": true,
+                      "watch_region": "US",
+                      "with_watch_providers": "1968|283",
+                      "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+                      "with_type": "0|2|4",
+                      "with_status": "0|3|4|5",
+                      "vote_average.gte": 5,
+                      "vote_count.gte": 25
+                    },
+                    "formState": {
+                      "catalogName": "🕸️ Crunchyroll",
+                      "discoverSource": "tmdb",
+                      "sortBy": "name.asc",
+                      "cacheTTL": 21600,
+                      "catalogType": "series",
+                      "includeGenres": [],
+                      "excludeGenres": [],
+                      "genreJoinMode": "or",
+                      "originalLanguage": "",
+                      "originCountry": "",
+                      "certificationCountry": "",
+                      "certificationValue": "",
+                      "certificationMode": "exact",
+                      "includeAdult": true,
+                      "releasedOnly": true,
+                      "tmdbTvStatuses": [
+                        "0",
+                        "3",
+                        "4",
+                        "5"
+                      ],
+                      "tmdbMovieReleaseTypes": [
+                        "4"
+                      ],
+                      "tmdbTvTypes": [
+                        "0",
+                        "2",
+                        "4"
+                      ],
+                      "selectedPeople": [],
+                      "peopleJoinMode": "or",
+                      "withCompanies": [],
+                      "withoutCompanies": [],
+                      "companyJoinMode": "or",
+                      "withNetworks": [],
+                      "withKeywords": [],
+                      "withoutKeywords": [],
+                      "keywordJoinMode": "or",
+                      "watchRegion": "US",
+                      "watchProviders": [
+                        {
+                          "id": 1968,
+                          "label": "Crunchyroll Amazon Channel"
+                        },
+                        {
+                          "id": 283,
+                          "label": "Crunchyroll"
+                        }
+                      ],
+                      "providerJoinMode": "or",
+                      "voteAverageRange": [
+                        5,
+                        10
+                      ],
+                      "voteCountMin": 25,
+                      "runtimeRange": [
+                        0,
+                        400
+                      ],
+                      "primaryReleaseFrom": "",
+                      "primaryReleaseTo": "",
+                      "movieDatePreset": "clear",
+                      "firstAirFrom": "",
+                      "firstAirTo": "",
+                      "seriesDatePreset": "clear",
+                      "airDateFrom": "",
+                      "airDateTo": "",
+                      "airDatePreset": "clear",
+                      "releaseRegion": ""
+                    }
+                  },
+                  "description": "TMDB Discover (tv)",
+                  "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&watch_region=US&with_watch_providers=1968%7C283&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
+                }
+              }
+            }
+          }
+        ],
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.crunchyroll.ninja_streams",
+            "catalogName": "🕸️ Crunchyroll",
+            "title": "🕸️ Crunchyroll",
+            "genre": "None"
+          },
+          {
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.crunchyroll.ninja_streams",
+            "catalogName": "🕸️ Crunchyroll",
+            "title": "🕸️ Crunchyroll",
+            "genre": "None"
+          }
+        ],
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/streaming_services.crunchyroll.logo.webp"
       }
     ]
   },
@@ -2205,7 +3511,7 @@
                     }
                   },
                   "description": "TMDB Discover (movie)",
-                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=28&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-16"
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=28&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
                 }
               }
             }
@@ -2457,7 +3763,7 @@
                     }
                   },
                   "description": "TMDB Discover (movie)",
-                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=12&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-16"
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=12&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
                 }
               }
             }
@@ -2610,7 +3916,7 @@
                     }
                   },
                   "description": "TMDB Discover (movie)",
-                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=16&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-16"
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=16&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
                 }
               }
             }
@@ -2792,10 +4098,10 @@
                       "include_adult": true,
                       "with_genres": "35",
                       "with_original_language": "en",
-                      "with_release_type": "4|5|6",
-                      "release_date.lte": "__tmdb_date__:today:to",
+                      "with_release_type": "4|5",
                       "vote_average.gte": 5,
-                      "vote_count.gte": 25
+                      "vote_count.gte": 25,
+                      "release_date.lte": "__tmdb_date__:today:to"
                     },
                     "formState": {
                       "catalogName": "🎭 Comedy",
@@ -2819,6 +4125,15 @@
                       "includeAdult": true,
                       "releasedOnly": true,
                       "tmdbTvStatuses": [],
+                      "tmdbMovieReleaseTypes": [
+                        "4",
+                        "5"
+                      ],
+                      "tmdbTvTypes": [
+                        "4",
+                        "2",
+                        "0"
+                      ],
                       "selectedPeople": [],
                       "peopleJoinMode": "or",
                       "withCompanies": [],
@@ -2853,7 +4168,7 @@
                     }
                   },
                   "description": "TMDB Discover (movie)",
-                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=35&with_original_language=en&with_release_type=4%7C5%7C6&release_date.lte=2026-08-07&vote_average.gte=5&vote_count.gte=25"
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=35&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
                 }
               }
             }
@@ -3105,7 +4420,7 @@
                     }
                   },
                   "description": "TMDB Discover (movie)",
-                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=80&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-16"
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=80&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
                 }
               }
             }
@@ -3357,7 +4672,7 @@
                     }
                   },
                   "description": "TMDB Discover (movie)",
-                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=99&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-16"
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=99&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
                 }
               }
             }
@@ -3609,7 +4924,7 @@
                     }
                   },
                   "description": "TMDB Discover (movie)",
-                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=18&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-16"
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=18&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
                 }
               }
             }
@@ -3861,7 +5176,7 @@
                     }
                   },
                   "description": "TMDB Discover (movie)",
-                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=14&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-16"
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=14&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
                 }
               }
             }
@@ -4113,7 +5428,7 @@
                     }
                   },
                   "description": "TMDB Discover (movie)",
-                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=36&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-16"
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=36&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
                 }
               }
             }
@@ -4248,7 +5563,7 @@
                     }
                   },
                   "description": "TMDB Discover (movie)",
-                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=27&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-16"
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=27&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
                 }
               }
             }
@@ -4380,7 +5695,7 @@
                     }
                   },
                   "description": "TMDB Discover (movie)",
-                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=10402&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-16"
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=10402&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
                 }
               }
             }
@@ -4515,7 +5830,7 @@
                     }
                   },
                   "description": "TMDB Discover (movie)",
-                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=9648&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-16"
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=9648&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
                 }
               }
             }
@@ -4767,7 +6082,7 @@
                     }
                   },
                   "description": "TMDB Discover (movie)",
-                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=10749&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-16"
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=10749&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
                 }
               }
             }
@@ -4899,7 +6214,7 @@
                     }
                   },
                   "description": "TMDB Discover (movie)",
-                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=878&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-16"
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=878&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
                 }
               }
             }
@@ -5055,7 +6370,7 @@
                     }
                   },
                   "description": "TMDB Discover (movie)",
-                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=53&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-16"
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=53&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
                 }
               }
             }
@@ -5187,7 +6502,7 @@
                     }
                   },
                   "description": "TMDB Discover (movie)",
-                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=10752&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-16"
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_genres=10752&with_original_language=en&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-20"
                 }
               }
             }
@@ -5343,9 +6658,9 @@
       {
         "id": "1147ce7e-0c84-42f8-8cb8-a6cf1418e006",
         "title": "1980s",
-        "coverImageUrl": "https://gitlab.com/DuckKota/omni-images/-/raw/main/decades/1980.jpg",
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/by_decade.1980s.webp?v=7",
         "focusGifUrl": null,
-        "focusGifEnabled": true,
+        "focusGifEnabled": false,
         "coverEmoji": null,
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
@@ -5479,6 +6794,7 @@
                       "sort_by": "name.asc",
                       "include_adult": true,
                       "with_original_language": "en",
+                      "without_keywords": "191498",
                       "with_type": "0|2|4",
                       "with_status": "0|3|4|5",
                       "vote_average.gte": 5,
@@ -5524,7 +6840,12 @@
                       "companyJoinMode": "or",
                       "withNetworks": [],
                       "withKeywords": [],
-                      "withoutKeywords": [],
+                      "withoutKeywords": [
+                        {
+                          "id": 191498,
+                          "label": "sports entertainment"
+                        }
+                      ],
                       "keywordJoinMode": "or",
                       "watchRegion": "",
                       "watchProviders": [],
@@ -5551,7 +6872,7 @@
                     }
                   },
                   "description": "TMDB Discover (tv)",
-                  "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&first_air_date.gte=1980-01-01&first_air_date.lte=1989-12-31"
+                  "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&without_keywords=191498&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&first_air_date.gte=1980-01-01&first_air_date.lte=1989-12-31"
                 }
               }
             }
@@ -5581,14 +6902,14 @@
         ],
         "heroBackdropUrl": null,
         "heroVideoUrl": null,
-        "titleLogoUrl": null
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/by_decade.1980s.logo.webp?v=7"
       },
       {
         "id": "b9634c7b-a224-40dd-b374-13f8543de034",
         "title": "1990s",
-        "coverImageUrl": "https://gitlab.com/DuckKota/omni-images/-/raw/main/decades/1990.jpg",
-        "focusGifUrl": null,
-        "focusGifEnabled": true,
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/by_decade.1990s.webp?v=7",
+        "focusGifUrl": "https://cdn.xperience-app.com/covers/default/by_decade.1990s.webp?v=7",
+        "focusGifEnabled": false,
         "coverEmoji": null,
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
@@ -5722,6 +7043,7 @@
                       "sort_by": "name.asc",
                       "include_adult": true,
                       "with_original_language": "en",
+                      "without_keywords": "191498",
                       "with_type": "0|2|4",
                       "with_status": "0|3|4|5",
                       "vote_average.gte": 5,
@@ -5767,7 +7089,12 @@
                       "companyJoinMode": "or",
                       "withNetworks": [],
                       "withKeywords": [],
-                      "withoutKeywords": [],
+                      "withoutKeywords": [
+                        {
+                          "id": 191498,
+                          "label": "sports entertainment"
+                        }
+                      ],
                       "keywordJoinMode": "or",
                       "watchRegion": "",
                       "watchProviders": [],
@@ -5794,7 +7121,7 @@
                     }
                   },
                   "description": "TMDB Discover (tv)",
-                  "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&first_air_date.gte=1990-01-01&first_air_date.lte=1999-12-31"
+                  "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&without_keywords=191498&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&first_air_date.gte=1990-01-01&first_air_date.lte=1999-12-31"
                 }
               }
             }
@@ -5824,14 +7151,14 @@
         ],
         "heroBackdropUrl": null,
         "heroVideoUrl": null,
-        "titleLogoUrl": null
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/by_decade.1990s.logo.webp?v=7"
       },
       {
         "id": "710e2551-3436-4d3e-b37a-b84b6d4dec24",
         "title": "2000s",
-        "coverImageUrl": "https://gitlab.com/DuckKota/omni-images/-/raw/main/decades/2000.jpg",
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/by_decade.2000s.webp?v=7",
         "focusGifUrl": null,
-        "focusGifEnabled": true,
+        "focusGifEnabled": false,
         "coverEmoji": null,
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
@@ -5965,6 +7292,8 @@
                       "sort_by": "name.asc",
                       "include_adult": true,
                       "with_original_language": "en",
+                      "without_keywords": "191498",
+                      "with_type": "0|2|4",
                       "with_status": "0|3|4|5",
                       "vote_average.gte": 5,
                       "vote_count.gte": 25,
@@ -5993,6 +7322,15 @@
                         "4",
                         "5"
                       ],
+                      "tmdbMovieReleaseTypes": [
+                        "4",
+                        "5"
+                      ],
+                      "tmdbTvTypes": [
+                        "4",
+                        "0",
+                        "2"
+                      ],
                       "selectedPeople": [],
                       "peopleJoinMode": "or",
                       "withCompanies": [],
@@ -6000,7 +7338,12 @@
                       "companyJoinMode": "or",
                       "withNetworks": [],
                       "withKeywords": [],
-                      "withoutKeywords": [],
+                      "withoutKeywords": [
+                        {
+                          "id": 191498,
+                          "label": "sports entertainment"
+                        }
+                      ],
                       "keywordJoinMode": "or",
                       "watchRegion": "",
                       "watchProviders": [],
@@ -6027,7 +7370,7 @@
                     }
                   },
                   "description": "TMDB Discover (tv)",
-                  "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&first_air_date.gte=2000-01-01&first_air_date.lte=2009-12-31"
+                  "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&without_keywords=191498&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&first_air_date.gte=2000-01-01&first_air_date.lte=2009-12-31"
                 }
               }
             }
@@ -6057,14 +7400,14 @@
         ],
         "heroBackdropUrl": null,
         "heroVideoUrl": null,
-        "titleLogoUrl": null
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/by_decade.2000s.logo.webp?v=7"
       },
       {
         "id": "82f864da-a6e9-44e8-acdd-beb9fa8e170f",
         "title": "2010s",
-        "coverImageUrl": "https://gitlab.com/DuckKota/omni-images/-/raw/main/decades/2010.jpg",
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/by_decade.2010s.webp?v=7",
         "focusGifUrl": null,
-        "focusGifEnabled": true,
+        "focusGifEnabled": false,
         "coverEmoji": null,
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
@@ -6300,14 +7643,14 @@
         ],
         "heroBackdropUrl": null,
         "heroVideoUrl": null,
-        "titleLogoUrl": null
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/by_decade.2010s.logo.webp?v=7"
       },
       {
         "id": "f3c4f364-fc27-4e22-87ed-1cbdc99fc8f6",
         "title": "2020s",
-        "coverImageUrl": "https://gitlab.com/DuckKota/omni-images/-/raw/main/decades/2020.jpg",
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/by_decade.2020s.webp?v=7",
         "focusGifUrl": null,
-        "focusGifEnabled": true,
+        "focusGifEnabled": false,
         "coverEmoji": null,
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
@@ -6545,7 +7888,540 @@
         ],
         "heroBackdropUrl": null,
         "heroVideoUrl": null,
-        "titleLogoUrl": null
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/by_decade.2020s.logo.webp?v=7"
+      }
+    ]
+  },
+  {
+    "id": "3f5c8851-9610-4397-b8ea-e768969070fc",
+    "title": "🕒 Runtime",
+    "backdropImageUrl": null,
+    "pinToTop": false,
+    "focusGlowEnabled": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": true,
+    "folders": [
+      {
+        "id": "8c2b5a17-e4a2-4e39-8b5b-ff91e5192069",
+        "title": "Short (Under 90 min)",
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/runtime.short.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.length_short.ninja_streams",
+            "catalogName": "🕒 Short (Under 90 min)",
+            "title": "🕒 Short (Under 90 min)",
+            "genre": "None",
+            "aiometadata": {
+              "version": 1,
+              "catalog": {
+                "id": "tmdb.discover.movie.length_short.ninja_streams",
+                "type": "movie",
+                "name": "🕒 Short (Under 90 min)",
+                "source": "tmdb",
+                "enabled": true,
+                "showInHome": false,
+                "cacheTTL": 21600,
+                "metadata": {
+                  "discover": {
+                    "version": 2,
+                    "source": "tmdb",
+                    "mediaType": "movie",
+                    "params": {
+                      "sort_by": "popularity.desc",
+                      "include_adult": true,
+                      "with_original_language": "en",
+                      "without_keywords": "210024",
+                      "watch_region": "US",
+                      "with_release_type": "4|5",
+                      "vote_average.gte": 5,
+                      "vote_count.gte": 25,
+                      "with_runtime.lte": 89,
+                      "release_date.lte": "__tmdb_date__:today:to"
+                    },
+                    "formState": {
+                      "catalogName": "🕒 Short (Under 90 min)",
+                      "discoverSource": "tmdb",
+                      "sortBy": "popularity.desc",
+                      "cacheTTL": 21600,
+                      "catalogType": "movie",
+                      "includeGenres": [],
+                      "excludeGenres": [],
+                      "genreJoinMode": "or",
+                      "originalLanguage": "en",
+                      "originCountry": "",
+                      "certificationCountry": "",
+                      "certificationValue": "",
+                      "certificationMode": "exact",
+                      "includeAdult": true,
+                      "releasedOnly": true,
+                      "tmdbTvStatuses": [],
+                      "tmdbMovieReleaseTypes": [
+                        "4",
+                        "5"
+                      ],
+                      "tmdbTvTypes": [],
+                      "selectedPeople": [],
+                      "peopleJoinMode": "or",
+                      "withCompanies": [],
+                      "withoutCompanies": [],
+                      "companyJoinMode": "or",
+                      "withNetworks": [],
+                      "withKeywords": [],
+                      "withoutKeywords": [
+                        {
+                          "id": 210024,
+                          "label": "anime"
+                        }
+                      ],
+                      "keywordJoinMode": "or",
+                      "watchRegion": "US",
+                      "watchProviders": [],
+                      "providerJoinMode": "or",
+                      "voteAverageRange": [
+                        5,
+                        10
+                      ],
+                      "voteCountMin": 25,
+                      "runtimeRange": [
+                        0,
+                        89
+                      ],
+                      "primaryReleaseFrom": "",
+                      "primaryReleaseTo": "",
+                      "movieDatePreset": "clear",
+                      "firstAirFrom": "",
+                      "firstAirTo": "",
+                      "seriesDatePreset": "clear",
+                      "airDateFrom": "",
+                      "airDateTo": "",
+                      "airDatePreset": "clear",
+                      "releaseRegion": ""
+                    }
+                  },
+                  "description": "TMDB Discover (movie)",
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=true&with_original_language=en&without_keywords=210024&watch_region=US&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&with_runtime.lte=89&release_date.lte=2026-08-20"
+                }
+              }
+            }
+          }
+        ],
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.length_short.ninja_streams",
+            "catalogName": "🕒 Short (Under 90 min)",
+            "title": "🕒 Short (Under 90 min)",
+            "genre": "None"
+          }
+        ],
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/runtime.short.logo.webp?v=7"
+      },
+      {
+        "id": "45205924-6331-4e62-bfdd-09ac75f5d02c",
+        "title": "Standard (90-120 min)",
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/runtime.standard.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.length_standard.ninja_streams",
+            "catalogName": "🕒 Standard (90-120 min)",
+            "title": "🕒 Standard (90-120 min)",
+            "genre": "None",
+            "aiometadata": {
+              "version": 1,
+              "catalog": {
+                "id": "tmdb.discover.movie.length_standard.ninja_streams",
+                "type": "movie",
+                "name": "🕒 Standard (90-120 min)",
+                "source": "tmdb",
+                "enabled": true,
+                "showInHome": false,
+                "cacheTTL": 21600,
+                "metadata": {
+                  "discover": {
+                    "version": 2,
+                    "source": "tmdb",
+                    "mediaType": "movie",
+                    "params": {
+                      "sort_by": "popularity.desc",
+                      "include_adult": true,
+                      "with_original_language": "en",
+                      "without_keywords": "210024",
+                      "watch_region": "US",
+                      "with_release_type": "4|5",
+                      "vote_average.gte": 5,
+                      "vote_count.gte": 25,
+                      "with_runtime.gte": 90,
+                      "with_runtime.lte": 120,
+                      "release_date.lte": "__tmdb_date__:today:to"
+                    },
+                    "formState": {
+                      "catalogName": "🕒 Standard (90-120 min)",
+                      "discoverSource": "tmdb",
+                      "sortBy": "popularity.desc",
+                      "cacheTTL": 21600,
+                      "catalogType": "movie",
+                      "includeGenres": [],
+                      "excludeGenres": [],
+                      "genreJoinMode": "or",
+                      "originalLanguage": "en",
+                      "originCountry": "",
+                      "certificationCountry": "",
+                      "certificationValue": "",
+                      "certificationMode": "exact",
+                      "includeAdult": true,
+                      "releasedOnly": true,
+                      "tmdbTvStatuses": [],
+                      "tmdbMovieReleaseTypes": [
+                        "4",
+                        "5"
+                      ],
+                      "tmdbTvTypes": [],
+                      "selectedPeople": [],
+                      "peopleJoinMode": "or",
+                      "withCompanies": [],
+                      "withoutCompanies": [],
+                      "companyJoinMode": "or",
+                      "withNetworks": [],
+                      "withKeywords": [],
+                      "withoutKeywords": [
+                        {
+                          "id": 210024,
+                          "label": "anime"
+                        }
+                      ],
+                      "keywordJoinMode": "or",
+                      "watchRegion": "US",
+                      "watchProviders": [],
+                      "providerJoinMode": "or",
+                      "voteAverageRange": [
+                        5,
+                        10
+                      ],
+                      "voteCountMin": 25,
+                      "runtimeRange": [
+                        90,
+                        120
+                      ],
+                      "primaryReleaseFrom": "",
+                      "primaryReleaseTo": "",
+                      "movieDatePreset": "clear",
+                      "firstAirFrom": "",
+                      "firstAirTo": "",
+                      "seriesDatePreset": "clear",
+                      "airDateFrom": "",
+                      "airDateTo": "",
+                      "airDatePreset": "clear",
+                      "releaseRegion": ""
+                    }
+                  },
+                  "description": "TMDB Discover (movie)",
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=true&with_original_language=en&without_keywords=210024&watch_region=US&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&with_runtime.gte=90&with_runtime.lte=120&release_date.lte=2026-08-20"
+                }
+              }
+            }
+          }
+        ],
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.length_standard.ninja_streams",
+            "catalogName": "🕒 Standard (90-120 min)",
+            "title": "🕒 Standard (90-120 min)",
+            "genre": "None"
+          }
+        ],
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/runtime.standard.logo.webp"
+      },
+      {
+        "id": "a4277f43-68fd-472f-ac17-2a6af52fdd71",
+        "title": "Long (2-2.5 hrs)",
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/runtime.long.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.length_long.ninja_streams",
+            "catalogName": "🕒 Long (2-2.5 hrs)",
+            "title": "🕒 Long (2-2.5 hrs)",
+            "genre": "None",
+            "aiometadata": {
+              "version": 1,
+              "catalog": {
+                "id": "tmdb.discover.movie.length_long.ninja_streams",
+                "type": "movie",
+                "name": "🕒 Long (2-2.5 hrs)",
+                "source": "tmdb",
+                "enabled": true,
+                "showInHome": false,
+                "cacheTTL": 21600,
+                "metadata": {
+                  "discover": {
+                    "version": 2,
+                    "source": "tmdb",
+                    "mediaType": "movie",
+                    "params": {
+                      "sort_by": "popularity.desc",
+                      "include_adult": true,
+                      "with_original_language": "en",
+                      "without_keywords": "210024",
+                      "watch_region": "US",
+                      "with_release_type": "4|5",
+                      "vote_average.gte": 5,
+                      "vote_count.gte": 25,
+                      "with_runtime.gte": 121,
+                      "with_runtime.lte": 150,
+                      "release_date.lte": "__tmdb_date__:today:to"
+                    },
+                    "formState": {
+                      "catalogName": "🕒 Long (2-2.5 hrs)",
+                      "discoverSource": "tmdb",
+                      "sortBy": "popularity.desc",
+                      "cacheTTL": 21600,
+                      "catalogType": "movie",
+                      "includeGenres": [],
+                      "excludeGenres": [],
+                      "genreJoinMode": "or",
+                      "originalLanguage": "en",
+                      "originCountry": "",
+                      "certificationCountry": "",
+                      "certificationValue": "",
+                      "certificationMode": "exact",
+                      "includeAdult": true,
+                      "releasedOnly": true,
+                      "tmdbTvStatuses": [],
+                      "tmdbMovieReleaseTypes": [
+                        "4",
+                        "5"
+                      ],
+                      "tmdbTvTypes": [],
+                      "selectedPeople": [],
+                      "peopleJoinMode": "or",
+                      "withCompanies": [],
+                      "withoutCompanies": [],
+                      "companyJoinMode": "or",
+                      "withNetworks": [],
+                      "withKeywords": [],
+                      "withoutKeywords": [
+                        {
+                          "id": 210024,
+                          "label": "anime"
+                        }
+                      ],
+                      "keywordJoinMode": "or",
+                      "watchRegion": "US",
+                      "watchProviders": [],
+                      "providerJoinMode": "or",
+                      "voteAverageRange": [
+                        5,
+                        10
+                      ],
+                      "voteCountMin": 25,
+                      "runtimeRange": [
+                        121,
+                        150
+                      ],
+                      "primaryReleaseFrom": "",
+                      "primaryReleaseTo": "",
+                      "movieDatePreset": "clear",
+                      "firstAirFrom": "",
+                      "firstAirTo": "",
+                      "seriesDatePreset": "clear",
+                      "airDateFrom": "",
+                      "airDateTo": "",
+                      "airDatePreset": "clear",
+                      "releaseRegion": ""
+                    }
+                  },
+                  "description": "TMDB Discover (movie)",
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=true&with_original_language=en&without_keywords=210024&watch_region=US&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&with_runtime.gte=121&with_runtime.lte=150&release_date.lte=2026-08-20"
+                }
+              }
+            }
+          }
+        ],
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.length_long.ninja_streams",
+            "catalogName": "🕒 Long (2-2.5 hrs)",
+            "title": "🕒 Long (2-2.5 hrs)",
+            "genre": "None"
+          }
+        ],
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/runtime.long.logo.webp"
+      },
+      {
+        "id": "71f46a08-11ea-4ded-bd3b-e112841f1542",
+        "title": "Epic (150 min+)",
+        "coverImageUrl": "https://cdn.xperience-app.com/covers/default/runtime.epic.webp",
+        "focusGifUrl": null,
+        "focusGifEnabled": false,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.length_epic.ninja_streams",
+            "catalogName": "🕒 Epic (150 min+)",
+            "title": "🕒 Epic (150 min+)",
+            "genre": "None",
+            "aiometadata": {
+              "version": 1,
+              "catalog": {
+                "id": "tmdb.discover.movie.length_epic.ninja_streams",
+                "type": "movie",
+                "name": "🕒 Epic (150 min+)",
+                "source": "tmdb",
+                "enabled": true,
+                "showInHome": false,
+                "cacheTTL": 21600,
+                "metadata": {
+                  "discover": {
+                    "version": 2,
+                    "source": "tmdb",
+                    "mediaType": "movie",
+                    "params": {
+                      "sort_by": "popularity.desc",
+                      "include_adult": true,
+                      "with_original_language": "en",
+                      "without_keywords": "210024",
+                      "watch_region": "US",
+                      "with_release_type": "4|5",
+                      "vote_average.gte": 5,
+                      "vote_count.gte": 25,
+                      "with_runtime.gte": 151,
+                      "release_date.lte": "__tmdb_date__:today:to"
+                    },
+                    "formState": {
+                      "catalogName": "🕒 Epic (150 min+)",
+                      "discoverSource": "tmdb",
+                      "sortBy": "popularity.desc",
+                      "cacheTTL": 21600,
+                      "catalogType": "movie",
+                      "includeGenres": [],
+                      "excludeGenres": [],
+                      "genreJoinMode": "or",
+                      "originalLanguage": "en",
+                      "originCountry": "",
+                      "certificationCountry": "",
+                      "certificationValue": "",
+                      "certificationMode": "exact",
+                      "includeAdult": true,
+                      "releasedOnly": true,
+                      "tmdbTvStatuses": [],
+                      "tmdbMovieReleaseTypes": [
+                        "4",
+                        "5"
+                      ],
+                      "tmdbTvTypes": [],
+                      "selectedPeople": [],
+                      "peopleJoinMode": "or",
+                      "withCompanies": [],
+                      "withoutCompanies": [],
+                      "companyJoinMode": "or",
+                      "withNetworks": [],
+                      "withKeywords": [],
+                      "withoutKeywords": [
+                        {
+                          "id": 210024,
+                          "label": "anime"
+                        }
+                      ],
+                      "keywordJoinMode": "or",
+                      "watchRegion": "US",
+                      "watchProviders": [],
+                      "providerJoinMode": "or",
+                      "voteAverageRange": [
+                        5,
+                        10
+                      ],
+                      "voteCountMin": 25,
+                      "runtimeRange": [
+                        151,
+                        399
+                      ],
+                      "primaryReleaseFrom": "",
+                      "primaryReleaseTo": "",
+                      "movieDatePreset": "clear",
+                      "firstAirFrom": "",
+                      "firstAirTo": "",
+                      "seriesDatePreset": "clear",
+                      "airDateFrom": "",
+                      "airDateTo": "",
+                      "airDatePreset": "clear",
+                      "releaseRegion": ""
+                    }
+                  },
+                  "description": "TMDB Discover (movie)",
+                  "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=true&with_original_language=en&without_keywords=210024&watch_region=US&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&with_runtime.gte=151&release_date.lte=2026-08-21"
+                }
+              }
+            }
+          }
+        ],
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "addonBaseUrl": null,
+            "addonName": "Ninja Streams | AIOMetadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.length_epic.ninja_streams",
+            "catalogName": "🕒 Epic (150 min+)",
+            "title": "🕒 Epic (150 min+)",
+            "genre": "None"
+          }
+        ],
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": "https://cdn.xperience-app.com/covers/default/runtime.epic.logo.webp"
       }
     ]
   }
