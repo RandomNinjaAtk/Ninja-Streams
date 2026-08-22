@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-21T20:44:33.321Z",
+  "exportedAt": "2026-08-22T18:24:26.387Z",
   "catalogs": [
     {
       "id": "tmdb.discover.series.airing_this_week.ninja_streams",
@@ -9274,6 +9274,782 @@
         "description": "TMDB Discover (movie)",
         "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=true&with_original_language=en&without_keywords=210024&watch_region=US&with_release_type=4%7C5&vote_average.gte=5&vote_count.gte=25&with_runtime.gte=151&release_date.lte=2026-08-21"
       }
+    },
+    {
+      "id": "tmdb.discover.movie.illumination.ninja_streams",
+      "type": "movie",
+      "name": "Illumination",
+      "enabled": true,
+      "showInHome": false,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "tags": [
+        "movie",
+        "studios"
+      ],
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "movie",
+          "params": {
+            "sort_by": "title.asc",
+            "include_adult": true,
+            "with_original_language": "en",
+            "with_companies": "6704",
+            "region": "US",
+            "with_release_type": "3|4|5",
+            "vote_average.gte": 1,
+            "vote_count.gte": 5,
+            "release_date.lte": "__tmdb_date__:today:to"
+          },
+          "formState": {
+            "catalogName": "Illumination",
+            "discoverSource": "tmdb",
+            "sortBy": "title.asc",
+            "cacheTTL": 21600,
+            "catalogType": "movie",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "en",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": false,
+            "tmdbTvStatuses": [],
+            "tmdbMovieReleaseTypes": [
+              "4",
+              "5",
+              "3"
+            ],
+            "tmdbTvTypes": [],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [
+              {
+                "id": 6704,
+                "label": "Illumination"
+              }
+            ],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "",
+            "watchProviders": [],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              1,
+              10
+            ],
+            "voteCountMin": 5,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (movie)",
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_original_language=en&with_companies=6704&region=US&with_release_type=3%7C4%7C5&vote_average.gte=1&vote_count.gte=5&release_date.lte=2026-08-22"
+      }
+    },
+    {
+      "id": "tmdb.discover.movie.lucasfilm.ninja_streams",
+      "type": "movie",
+      "name": "Lucasfilm",
+      "enabled": true,
+      "showInHome": false,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "tags": [
+        "movie",
+        "studios"
+      ],
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "movie",
+          "params": {
+            "sort_by": "original_title.asc",
+            "include_adult": true,
+            "with_original_language": "en",
+            "with_companies": "1|108270|71126|262977",
+            "watch_region": "US",
+            "with_watch_providers": "337",
+            "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+            "region": "US",
+            "with_release_type": "3|4|5",
+            "vote_average.gte": 1,
+            "vote_count.gte": 5,
+            "release_date.lte": "__tmdb_date__:today:to"
+          },
+          "formState": {
+            "catalogName": "Lucasfilm",
+            "discoverSource": "tmdb",
+            "sortBy": "original_title.asc",
+            "cacheTTL": 21600,
+            "catalogType": "movie",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "en",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [],
+            "tmdbMovieReleaseTypes": [
+              "4",
+              "5",
+              "3"
+            ],
+            "tmdbTvTypes": [],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [
+              {
+                "id": 1,
+                "label": "Lucasfilm Ltd."
+              },
+              {
+                "id": 108270,
+                "label": "Lucasfilm Animation"
+              },
+              {
+                "id": 71126,
+                "label": "Lucasfilm Kids"
+              },
+              {
+                "id": 262977,
+                "label": "LucasFilm Productions"
+              }
+            ],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "US",
+            "watchProviders": [
+              {
+                "id": 337,
+                "label": "Disney Plus"
+              }
+            ],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              1,
+              10
+            ],
+            "voteCountMin": 5,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (movie)",
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=original_title.asc&include_adult=true&with_original_language=en&with_companies=1%7C108270%7C71126%7C262977&watch_region=US&with_watch_providers=337&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&region=US&with_release_type=3%7C4%7C5&vote_average.gte=1&vote_count.gte=5&release_date.lte=2026-08-22"
+      }
+    },
+    {
+      "id": "tmdb.discover.series.lucasfilm.ninja_streams",
+      "type": "series",
+      "name": "Lucasfilm",
+      "enabled": true,
+      "showInHome": false,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "tags": [
+        "series",
+        "studios"
+      ],
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "tv",
+          "params": {
+            "sort_by": "original_name.asc",
+            "include_adult": true,
+            "with_original_language": "en",
+            "with_companies": "1|262977|71126|108270",
+            "watch_region": "US",
+            "with_watch_providers": "337",
+            "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+            "with_type": "0|2|4",
+            "with_status": "0|3|4|5",
+            "vote_average.gte": 1,
+            "vote_count.gte": 5
+          },
+          "formState": {
+            "catalogName": "Lucasfilm",
+            "discoverSource": "tmdb",
+            "sortBy": "original_name.asc",
+            "cacheTTL": 21600,
+            "catalogType": "series",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "en",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [
+              "0",
+              "3",
+              "4",
+              "5"
+            ],
+            "tmdbMovieReleaseTypes": [
+              "4",
+              "5"
+            ],
+            "tmdbTvTypes": [
+              "4",
+              "0",
+              "2"
+            ],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [
+              {
+                "id": 1,
+                "label": "Lucasfilm Ltd."
+              },
+              {
+                "id": 262977,
+                "label": "LucasFilm Productions"
+              },
+              {
+                "id": 71126,
+                "label": "Lucasfilm Kids"
+              },
+              {
+                "id": 108270,
+                "label": "Lucasfilm Animation"
+              }
+            ],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "US",
+            "watchProviders": [
+              {
+                "id": 337,
+                "label": "Disney Plus"
+              }
+            ],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              1,
+              10
+            ],
+            "voteCountMin": 5,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (tv)",
+        "url": "https://www.themoviedb.org/discover/tv?sort_by=original_name.asc&include_adult=true&with_original_language=en&with_companies=1%7C262977%7C71126%7C108270&watch_region=US&with_watch_providers=337&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=1&vote_count.gte=5"
+      }
+    },
+    {
+      "id": "tmdb.discover.movie.marvel.ninja_streams",
+      "type": "movie",
+      "name": "Marvel",
+      "enabled": true,
+      "showInHome": false,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "tags": [
+        "movie",
+        "studios"
+      ],
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "movie",
+          "params": {
+            "sort_by": "original_title.asc",
+            "include_adult": true,
+            "with_original_language": "en",
+            "with_companies": "420|38679|13252|7505",
+            "watch_region": "US",
+            "with_watch_providers": "337",
+            "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+            "region": "US",
+            "with_release_type": "3|4|5",
+            "vote_average.gte": 1,
+            "vote_count.gte": 5,
+            "release_date.lte": "__tmdb_date__:today:to"
+          },
+          "formState": {
+            "catalogName": "Marvel",
+            "discoverSource": "tmdb",
+            "sortBy": "original_title.asc",
+            "cacheTTL": 21600,
+            "catalogType": "movie",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "en",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [],
+            "tmdbMovieReleaseTypes": [
+              "4",
+              "5",
+              "3"
+            ],
+            "tmdbTvTypes": [],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [
+              {
+                "id": 420,
+                "label": "Marvel Studios"
+              },
+              {
+                "id": 38679,
+                "label": "Marvel Television"
+              },
+              {
+                "id": 13252,
+                "label": "Marvel Animation"
+              },
+              {
+                "id": 7505,
+                "label": "Marvel Entertainment"
+              }
+            ],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "US",
+            "watchProviders": [
+              {
+                "id": 337,
+                "label": "Disney Plus"
+              }
+            ],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              1,
+              10
+            ],
+            "voteCountMin": 5,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (movie)",
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=original_title.asc&include_adult=true&with_original_language=en&with_companies=420%7C38679%7C13252%7C7505&watch_region=US&with_watch_providers=337&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&region=US&with_release_type=3%7C4%7C5&vote_average.gte=1&vote_count.gte=5&release_date.lte=2026-08-22"
+      }
+    },
+    {
+      "id": "tmdb.discover.series.marvel.ninja_streams",
+      "type": "series",
+      "name": "Marvel",
+      "enabled": true,
+      "showInHome": false,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "tags": [
+        "series",
+        "studios"
+      ],
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "tv",
+          "params": {
+            "sort_by": "original_name.asc",
+            "include_adult": true,
+            "with_original_language": "en",
+            "with_companies": "420|38679|13252|7505",
+            "watch_region": "US",
+            "with_watch_providers": "337",
+            "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+            "with_type": "0|2|4",
+            "with_status": "0|3|4|5",
+            "vote_average.gte": 1,
+            "vote_count.gte": 5
+          },
+          "formState": {
+            "catalogName": "Marvel",
+            "discoverSource": "tmdb",
+            "sortBy": "original_name.asc",
+            "cacheTTL": 21600,
+            "catalogType": "series",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "en",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [
+              "0",
+              "3",
+              "4",
+              "5"
+            ],
+            "tmdbMovieReleaseTypes": [
+              "4",
+              "5"
+            ],
+            "tmdbTvTypes": [
+              "4",
+              "0",
+              "2"
+            ],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [
+              {
+                "id": 420,
+                "label": "Marvel Studios"
+              },
+              {
+                "id": 38679,
+                "label": "Marvel Television"
+              },
+              {
+                "id": 13252,
+                "label": "Marvel Animation"
+              },
+              {
+                "id": 7505,
+                "label": "Marvel Entertainment"
+              }
+            ],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "US",
+            "watchProviders": [
+              {
+                "id": 337,
+                "label": "Disney Plus"
+              }
+            ],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              1,
+              10
+            ],
+            "voteCountMin": 5,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (tv)",
+        "url": "https://www.themoviedb.org/discover/tv?sort_by=original_name.asc&include_adult=true&with_original_language=en&with_companies=420%7C38679%7C13252%7C7505&watch_region=US&with_watch_providers=337&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=1&vote_count.gte=5"
+      }
+    },
+    {
+      "id": "tmdb.discover.movie.pixar.ninja_streams",
+      "type": "movie",
+      "name": "Pixar",
+      "enabled": true,
+      "showInHome": false,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "tags": [
+        "movie",
+        "studios"
+      ],
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "movie",
+          "params": {
+            "sort_by": "original_title.asc",
+            "include_adult": true,
+            "with_original_language": "en",
+            "with_companies": "3|219390",
+            "watch_region": "US",
+            "with_watch_providers": "337",
+            "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+            "region": "US",
+            "with_release_type": "3|4|5",
+            "vote_average.gte": 1,
+            "vote_count.gte": 5,
+            "release_date.lte": "__tmdb_date__:today:to"
+          },
+          "formState": {
+            "catalogName": "Pixar",
+            "discoverSource": "tmdb",
+            "sortBy": "original_title.asc",
+            "cacheTTL": 21600,
+            "catalogType": "movie",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "en",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [],
+            "tmdbMovieReleaseTypes": [
+              "4",
+              "5",
+              "3"
+            ],
+            "tmdbTvTypes": [],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [
+              {
+                "id": 3,
+                "label": "Pixar"
+              },
+              {
+                "id": 219390,
+                "label": "Pixar Canada"
+              }
+            ],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "US",
+            "watchProviders": [
+              {
+                "id": 337,
+                "label": "Disney Plus"
+              }
+            ],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              1,
+              10
+            ],
+            "voteCountMin": 5,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (movie)",
+        "url": "https://www.themoviedb.org/discover/movie?sort_by=original_title.asc&include_adult=true&with_original_language=en&with_companies=3%7C219390&watch_region=US&with_watch_providers=337&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&region=US&with_release_type=3%7C4%7C5&vote_average.gte=1&vote_count.gte=5&release_date.lte=2026-08-22"
+      }
+    },
+    {
+      "id": "tmdb.discover.series.pixar.ninja_streams",
+      "type": "series",
+      "name": "Pixar",
+      "enabled": true,
+      "showInHome": false,
+      "source": "tmdb",
+      "cacheTTL": 21600,
+      "tags": [
+        "series",
+        "studios"
+      ],
+      "metadata": {
+        "discover": {
+          "version": 2,
+          "source": "tmdb",
+          "mediaType": "tv",
+          "params": {
+            "sort_by": "original_name.asc",
+            "include_adult": true,
+            "with_original_language": "en",
+            "with_companies": "3|219390",
+            "watch_region": "US",
+            "with_watch_providers": "337",
+            "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+            "with_type": "0|2|4",
+            "with_status": "0|3|4|5",
+            "vote_average.gte": 1,
+            "vote_count.gte": 5
+          },
+          "formState": {
+            "catalogName": "Pixar",
+            "discoverSource": "tmdb",
+            "sortBy": "original_name.asc",
+            "cacheTTL": 21600,
+            "catalogType": "series",
+            "includeGenres": [],
+            "excludeGenres": [],
+            "genreJoinMode": "or",
+            "originalLanguage": "en",
+            "originCountry": "",
+            "certificationCountry": "",
+            "certificationValue": "",
+            "certificationMode": "exact",
+            "includeAdult": true,
+            "releasedOnly": true,
+            "tmdbTvStatuses": [
+              "0",
+              "3",
+              "4",
+              "5"
+            ],
+            "tmdbMovieReleaseTypes": [
+              "4",
+              "5"
+            ],
+            "tmdbTvTypes": [
+              "4",
+              "0",
+              "2"
+            ],
+            "selectedPeople": [],
+            "peopleJoinMode": "or",
+            "withCompanies": [
+              {
+                "id": 3,
+                "label": "Pixar"
+              },
+              {
+                "id": 219390,
+                "label": "Pixar Canada"
+              }
+            ],
+            "withoutCompanies": [],
+            "companyJoinMode": "or",
+            "withNetworks": [],
+            "withKeywords": [],
+            "withoutKeywords": [],
+            "keywordJoinMode": "or",
+            "watchRegion": "US",
+            "watchProviders": [
+              {
+                "id": 337,
+                "label": "Disney Plus"
+              }
+            ],
+            "providerJoinMode": "or",
+            "voteAverageRange": [
+              1,
+              10
+            ],
+            "voteCountMin": 5,
+            "runtimeRange": [
+              0,
+              400
+            ],
+            "primaryReleaseFrom": "",
+            "primaryReleaseTo": "",
+            "movieDatePreset": "clear",
+            "firstAirFrom": "",
+            "firstAirTo": "",
+            "seriesDatePreset": "clear",
+            "airDateFrom": "",
+            "airDateTo": "",
+            "airDatePreset": "clear",
+            "releaseRegion": ""
+          }
+        },
+        "description": "TMDB Discover (tv)",
+        "url": "https://www.themoviedb.org/discover/tv?sort_by=original_name.asc&include_adult=true&with_original_language=en&with_companies=3%7C219390&watch_region=US&with_watch_providers=337&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=1&vote_count.gte=5"
+      }
     }
   ],
   "tags": [
@@ -9332,6 +10108,10 @@
     {
       "name": "stremio",
       "color": "green"
+    },
+    {
+      "name": "studios",
+      "color": "red"
     }
   ]
 }
