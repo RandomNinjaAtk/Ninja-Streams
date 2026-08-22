@@ -4,7 +4,7 @@ This page features AIOStreams templates and AIOMetadata configs for your perfect
 ## AIOStreams:
 ### How to use:
 
-Import the following config: [Ninja Streams Config](https://raw.githubusercontent.com/RandomNinjaAtk/Ninja-Streams/main/AIOStreams-Config/ninja-streams-config.json) using the AIOStreams Backup Feature.
+Import the following config: [Ninja Streams Config](https://github.com/RandomNinjaAtk/Ninja-Streams/blob/main/AIOStreams-Config/ninja-streams-config.json) using the AIOStreams Backup Feature.
 
 ### Steps
 1. Download the config (right click link and save as): [Ninja Streams Config](https://raw.githubusercontent.com/RandomNinjaAtk/Ninja-Streams/main/AIOStreams-Config/ninja-streams-config.json)
