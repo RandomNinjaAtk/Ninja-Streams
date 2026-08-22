@@ -1,6 +1,6 @@
 {
-  "version": "2.14.0",
-  "exportedAt": "2026-08-22T20:10:03.571Z",
+  "version": "2.14.1",
+  "exportedAt": "2026-08-22T21:52:11.548Z",
   "config": {
     "language": "en-US",
     "includeAdult": false,
@@ -15,7 +15,7 @@
     "hideUnreleasedDigitalSearch": false,
     "providers": {
       "movie": "tmdb",
-      "series": "tmdb",
+      "series": "tvdb",
       "anime": "imdb",
       "anime_id_provider": "kitsu",
       "forceAnimeForDetectedImdb": false
