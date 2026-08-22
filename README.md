@@ -20,7 +20,7 @@ Import the following config: [Ninja Streams Config](https://raw.githubuserconten
 
 ## AIOMetadata:
 ### How to use:
-Import the following config: [Ninja Streams AIOMetadata Full Config](https://raw.githubusercontent.com/RandomNinjaAtk/Ninja-Streams/refs/heads/main/AIOMetadata/ninja-streams-aiometadata-full-config.json) using the AIOMetadata Import Configuration feature.
+Import the following config: [Ninja Streams AIOMetadata Full Config](https://github.com/RandomNinjaAtk/Ninja-Streams/blob/main/AIOMetadata/ninja-streams-aiometadata-full-config.json) using the AIOMetadata Import Configuration feature.
 
 ### Steps
 1. Download the config (right click link and save as): [Ninja Streams AIOMetadata Full Config](https://raw.githubusercontent.com/RandomNinjaAtk/Ninja-Streams/refs/heads/main/AIOMetadata/ninja-streams-aiometadata-full-config.json)
