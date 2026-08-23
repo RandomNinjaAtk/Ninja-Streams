@@ -1,6 +1,6 @@
 {
   "version": "2.14.1",
-  "exportedAt": "2026-08-23T02:14:12.177Z",
+  "exportedAt": "2026-08-23T20:01:55.924Z",
   "config": {
     "language": "en-US",
     "includeAdult": false,
@@ -11929,6 +11929,246 @@
         }
       },
       {
+        "id": "tmdb.discover.series.ae.ninja_streams",
+        "type": "series",
+        "name": "A&E",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10763|10764|10766|10767",
+              "with_original_language": "en",
+              "with_networks": "129",
+              "without_keywords": "191498|204045",
+              "with_type": "0|2|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 5
+            },
+            "formState": {
+              "catalogName": "A&E",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10763,
+                  "label": "News"
+                },
+                {
+                  "id": 10764,
+                  "label": "Reality"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "en",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 129,
+                  "label": "A&E"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [
+                {
+                  "id": 191498,
+                  "label": "sports entertainment"
+                },
+                {
+                  "id": 204045,
+                  "label": "awards show"
+                }
+              ],
+              "keywordJoinMode": "or",
+              "watchRegion": "",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 5,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10764%7C10766%7C10767&with_original_language=en&with_networks=129&without_keywords=191498%7C204045&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
+        }
+      },
+      {
+        "id": "tmdb.discover.series.abc.ninja_streams",
+        "type": "series",
+        "name": "ABC",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10767|10766|10764|10763",
+              "with_original_language": "en",
+              "with_networks": "2",
+              "with_type": "0|2|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 5
+            },
+            "formState": {
+              "catalogName": "ABC",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10764,
+                  "label": "Reality"
+                },
+                {
+                  "id": 10763,
+                  "label": "News"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "en",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 2,
+                  "label": "ABC"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [],
+              "keywordJoinMode": "or",
+              "watchRegion": "",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 5,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10767%7C10766%7C10764%7C10763&with_original_language=en&with_networks=2&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
+        }
+      },
+      {
         "id": "tmdb.discover.series.adult_swim.ninja_streams",
         "type": "series",
         "name": "Adult Swim",
@@ -11953,7 +12193,7 @@
               "watch_region": "US",
               "with_type": "0|2|4",
               "with_status": "0|3|4|5",
-              "vote_average.gte": 1,
+              "vote_average.gte": 5,
               "vote_count.gte": 5
             },
             "formState": {
@@ -12019,7 +12259,7 @@
               "watchProviders": [],
               "providerJoinMode": "or",
               "voteAverageRange": [
-                1,
+                5,
                 10
               ],
               "voteCountMin": 5,
@@ -12040,7 +12280,240 @@
             }
           },
           "description": "TMDB Discover (tv)",
-          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10767%7C10766%7C10764%7C10763&with_networks=80&watch_region=US&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=1&vote_count.gte=5"
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10767%7C10766%7C10764%7C10763&with_networks=80&watch_region=US&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
+        }
+      },
+      {
+        "id": "tmdb.discover.series.bbc_one.ninja_streams",
+        "type": "series",
+        "name": "BBC One",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10763|10764|10766|10767",
+              "with_original_language": "en",
+              "with_networks": "4",
+              "without_keywords": "191498|204045",
+              "with_type": "0|2|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 5
+            },
+            "formState": {
+              "catalogName": "BBC One",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10763,
+                  "label": "News"
+                },
+                {
+                  "id": 10764,
+                  "label": "Reality"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "en",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 4,
+                  "label": "BBC One"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [
+                {
+                  "id": 191498,
+                  "label": "sports entertainment"
+                },
+                {
+                  "id": 204045,
+                  "label": "awards show"
+                }
+              ],
+              "keywordJoinMode": "or",
+              "watchRegion": "",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 5,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10764%7C10766%7C10767&with_original_language=en&with_networks=4&without_keywords=191498%7C204045&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
+        }
+      },
+      {
+        "id": "tmdb.discover.series.bravo.ninja_streams",
+        "type": "series",
+        "name": "Bravo",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "with_original_language": "en",
+              "with_networks": "74",
+              "without_keywords": "191498|204045",
+              "with_type": "0|2|3|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 10
+            },
+            "formState": {
+              "catalogName": "Bravo",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [],
+              "genreJoinMode": "or",
+              "originalLanguage": "en",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0",
+                "3"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 74,
+                  "label": "Bravo"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [
+                {
+                  "id": 191498,
+                  "label": "sports entertainment"
+                },
+                {
+                  "id": 204045,
+                  "label": "awards show"
+                }
+              ],
+              "keywordJoinMode": "or",
+              "watchRegion": "",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 10,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_networks=74&without_keywords=191498%7C204045&with_type=0%7C2%7C3%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=10"
         }
       },
       {
@@ -12068,7 +12541,7 @@
               "watch_region": "US",
               "with_type": "0|2|4",
               "with_status": "0|3|4|5",
-              "vote_average.gte": 1,
+              "vote_average.gte": 5,
               "vote_count.gte": 5
             },
             "formState": {
@@ -12134,7 +12607,7 @@
               "watchProviders": [],
               "providerJoinMode": "or",
               "voteAverageRange": [
-                1,
+                5,
                 10
               ],
               "voteCountMin": 5,
@@ -12155,7 +12628,247 @@
             }
           },
           "description": "TMDB Discover (tv)",
-          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10767%7C10766%7C10764%7C10763&with_networks=56&watch_region=US&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=1&vote_count.gte=5"
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10767%7C10766%7C10764%7C10763&with_networks=56&watch_region=US&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
+        }
+      },
+      {
+        "id": "tmdb.discover.series.cbs.ninja_streams",
+        "type": "series",
+        "name": "CBS",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10767|10766|10764|10763",
+              "with_original_language": "en",
+              "with_networks": "16",
+              "with_type": "0|2|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 5
+            },
+            "formState": {
+              "catalogName": "CBS",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10764,
+                  "label": "Reality"
+                },
+                {
+                  "id": 10763,
+                  "label": "News"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "en",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 16,
+                  "label": "CBS"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [],
+              "keywordJoinMode": "or",
+              "watchRegion": "",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 5,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10767%7C10766%7C10764%7C10763&with_original_language=en&with_networks=16&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
+        }
+      },
+      {
+        "id": "tmdb.discover.series.channel_4.ninja_streams",
+        "type": "series",
+        "name": "Channel 4",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10763|10766|10767|10764",
+              "with_original_language": "en",
+              "with_networks": "26",
+              "without_keywords": "191498|204045",
+              "with_type": "0|2|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 10
+            },
+            "formState": {
+              "catalogName": "Channel 4",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10763,
+                  "label": "News"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                },
+                {
+                  "id": 10764,
+                  "label": "Reality"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "en",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 26,
+                  "label": "Channel 4"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [
+                {
+                  "id": 191498,
+                  "label": "sports entertainment"
+                },
+                {
+                  "id": 204045,
+                  "label": "awards show"
+                }
+              ],
+              "keywordJoinMode": "or",
+              "watchRegion": "",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 10,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10766%7C10767%7C10764&with_original_language=en&with_networks=26&without_keywords=191498%7C204045&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=10"
         }
       },
       {
@@ -12178,11 +12891,11 @@
             "params": {
               "sort_by": "name.asc",
               "include_adult": true,
+              "with_original_language": "en",
               "with_networks": "47",
-              "watch_region": "US",
               "with_type": "0|2|4|5",
               "with_status": "0|3|4|5",
-              "vote_average.gte": 1,
+              "vote_average.gte": 5,
               "vote_count.gte": 5
             },
             "formState": {
@@ -12194,7 +12907,7 @@
               "includeGenres": [],
               "excludeGenres": [],
               "genreJoinMode": "or",
-              "originalLanguage": "",
+              "originalLanguage": "en",
               "originCountry": "",
               "certificationCountry": "",
               "certificationValue": "",
@@ -12228,11 +12941,11 @@
               "withKeywords": [],
               "withoutKeywords": [],
               "keywordJoinMode": "or",
-              "watchRegion": "US",
+              "watchRegion": "",
               "watchProviders": [],
               "providerJoinMode": "or",
               "voteAverageRange": [
-                1,
+                5,
                 10
               ],
               "voteCountMin": 5,
@@ -12253,7 +12966,220 @@
             }
           },
           "description": "TMDB Discover (tv)",
-          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_networks=47&watch_region=US&with_type=0%7C2%7C4%7C5&with_status=0%7C3%7C4%7C5&vote_average.gte=1&vote_count.gte=5"
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_networks=47&with_type=0%7C2%7C4%7C5&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
+        }
+      },
+      {
+        "id": "tmdb.discover.series.the_cw.ninja_streams",
+        "type": "series",
+        "name": "The CW",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "with_original_language": "en",
+              "with_networks": "71",
+              "with_type": "0|2|4|5",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 5
+            },
+            "formState": {
+              "catalogName": "The CW",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [],
+              "genreJoinMode": "or",
+              "originalLanguage": "en",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0",
+                "5"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 71,
+                  "label": "The CW"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [],
+              "keywordJoinMode": "or",
+              "watchRegion": "",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 5,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_networks=71&with_type=0%7C2%7C4%7C5&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
+        }
+      },
+      {
+        "id": "tmdb.discover.series.discovery.ninja_streams",
+        "type": "series",
+        "name": "Discovery",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10767|10766|10763|10764",
+              "with_original_language": "en",
+              "with_networks": "64",
+              "with_type": "0|2|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 5
+            },
+            "formState": {
+              "catalogName": "Discovery",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10763,
+                  "label": "News"
+                },
+                {
+                  "id": 10764,
+                  "label": "Reality"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "en",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 64,
+                  "label": "Discovery"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [],
+              "keywordJoinMode": "or",
+              "watchRegion": "",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 5,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10767%7C10766%7C10763%7C10764&with_original_language=en&with_networks=64&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
         }
       },
       {
@@ -12277,11 +13203,12 @@
               "sort_by": "name.asc",
               "include_adult": true,
               "without_genres": "10767|10766|10763|10764",
+              "with_original_language": "en",
               "with_networks": "54",
               "watch_region": "US",
               "with_type": "0|2|4",
               "with_status": "0|3|4|5",
-              "vote_average.gte": 1,
+              "vote_average.gte": 5,
               "vote_count.gte": 5
             },
             "formState": {
@@ -12310,7 +13237,7 @@
                 }
               ],
               "genreJoinMode": "or",
-              "originalLanguage": "",
+              "originalLanguage": "en",
               "originCountry": "",
               "certificationCountry": "",
               "certificationValue": "",
@@ -12347,7 +13274,7 @@
               "watchProviders": [],
               "providerJoinMode": "or",
               "voteAverageRange": [
-                1,
+                5,
                 10
               ],
               "voteCountMin": 5,
@@ -12368,7 +13295,7 @@
             }
           },
           "description": "TMDB Discover (tv)",
-          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10767%7C10766%7C10763%7C10764&with_networks=54&watch_region=US&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=1&vote_count.gte=5"
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10767%7C10766%7C10763%7C10764&with_original_language=en&with_networks=54&watch_region=US&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
         }
       },
       {
@@ -12394,9 +13321,9 @@
               "without_genres": "10764|10766|10767|10763",
               "with_networks": "281",
               "watch_region": "US",
-              "with_type": "0|1|2|3|4|5",
+              "with_type": "0|2|4",
               "with_status": "0|3|4|5",
-              "vote_average.gte": 1,
+              "vote_average.gte": 5,
               "vote_count.gte": 5
             },
             "formState": {
@@ -12441,11 +13368,8 @@
               "tmdbMovieReleaseTypes": [],
               "tmdbTvTypes": [
                 "4",
-                "1",
                 "2",
-                "5",
-                "0",
-                "3"
+                "0"
               ],
               "selectedPeople": [],
               "peopleJoinMode": "or",
@@ -12465,7 +13389,7 @@
               "watchProviders": [],
               "providerJoinMode": "or",
               "voteAverageRange": [
-                1,
+                5,
                 10
               ],
               "voteCountMin": 5,
@@ -12486,7 +13410,123 @@
             }
           },
           "description": "TMDB Discover (tv)",
-          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10764%7C10766%7C10767%7C10763&with_networks=281&watch_region=US&with_type=0%7C1%7C2%7C3%7C4%7C5&with_status=0%7C3%7C4%7C5&vote_average.gte=1&vote_count.gte=5"
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10764%7C10766%7C10767%7C10763&with_networks=281&watch_region=US&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
+        }
+      },
+      {
+        "id": "tmdb.discover.series.food_network.ninja_streams",
+        "type": "series",
+        "name": "Food Network",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "with_original_language": "en",
+              "with_networks": "143|4638|5452|5545",
+              "without_keywords": "191498",
+              "with_type": "0|2|3|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 10
+            },
+            "formState": {
+              "catalogName": "Food Network",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [],
+              "genreJoinMode": "or",
+              "originalLanguage": "en",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0",
+                "3"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 143,
+                  "label": "Food Network"
+                },
+                {
+                  "id": 4638,
+                  "label": "Food Network"
+                },
+                {
+                  "id": 5452,
+                  "label": "Food Network"
+                },
+                {
+                  "id": 5545,
+                  "label": "Food Network"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [
+                {
+                  "id": 191498,
+                  "label": "sports entertainment"
+                }
+              ],
+              "keywordJoinMode": "or",
+              "watchRegion": "",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 10,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_networks=143%7C4638%7C5452%7C5545&without_keywords=191498&with_type=0%7C2%7C3%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=10"
         }
       },
       {
@@ -12611,6 +13651,825 @@
         }
       },
       {
+        "id": "tmdb.discover.series.hgtv.ninja_streams",
+        "type": "series",
+        "name": "HGTV",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10763|10766|10767",
+              "with_original_language": "en",
+              "with_networks": "210",
+              "with_type": "0|2|3|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 5
+            },
+            "formState": {
+              "catalogName": "HGTV",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10763,
+                  "label": "News"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "en",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0",
+                "3"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 210,
+                  "label": "HGTV"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [],
+              "keywordJoinMode": "or",
+              "watchRegion": "",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 5,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10766%7C10767&with_original_language=en&with_networks=210&with_type=0%7C2%7C3%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
+        }
+      },
+      {
+        "id": "tmdb.discover.series.history.ninja_streams",
+        "type": "series",
+        "name": "History",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10763|10766|10767|10764",
+              "with_original_language": "en",
+              "with_networks": "65",
+              "with_type": "0|2|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 5
+            },
+            "formState": {
+              "catalogName": "History",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10763,
+                  "label": "News"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                },
+                {
+                  "id": 10764,
+                  "label": "Reality"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "en",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 65,
+                  "label": "History"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [],
+              "keywordJoinMode": "or",
+              "watchRegion": "",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 5,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10766%7C10767%7C10764&with_original_language=en&with_networks=65&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
+        }
+      },
+      {
+        "id": "tmdb.discover.series.mtv.ninja_streams",
+        "type": "series",
+        "name": "MTV",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10763|10766|10767",
+              "with_original_language": "en",
+              "with_networks": "33",
+              "without_keywords": "191498|204045",
+              "with_type": "0|2|3|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 5
+            },
+            "formState": {
+              "catalogName": "MTV",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10763,
+                  "label": "News"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "en",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0",
+                "3"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 33,
+                  "label": "MTV"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [
+                {
+                  "id": 191498,
+                  "label": "sports entertainment"
+                },
+                {
+                  "id": 204045,
+                  "label": "awards show"
+                }
+              ],
+              "keywordJoinMode": "or",
+              "watchRegion": "",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 5,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10766%7C10767&with_original_language=en&with_networks=33&without_keywords=191498%7C204045&with_type=0%7C2%7C3%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
+        }
+      },
+      {
+        "id": "tmdb.discover.series.national_geographic.ninja_streams",
+        "type": "series",
+        "name": "National Geographic",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10763|10766|10767|10764",
+              "with_original_language": "en",
+              "with_networks": "43",
+              "with_type": "0|2|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 5
+            },
+            "formState": {
+              "catalogName": "National Geographic",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10763,
+                  "label": "News"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                },
+                {
+                  "id": 10764,
+                  "label": "Reality"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "en",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 43,
+                  "label": "National Geographic"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [],
+              "keywordJoinMode": "or",
+              "watchRegion": "",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 5,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10766%7C10767%7C10764&with_original_language=en&with_networks=43&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
+        }
+      },
+      {
+        "id": "tmdb.discover.series.nbc.ninja_streams",
+        "type": "series",
+        "name": "NBC",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10763|10766|10767|10764",
+              "with_original_language": "en",
+              "with_networks": "6",
+              "with_type": "0|2|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 5
+            },
+            "formState": {
+              "catalogName": "NBC",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10763,
+                  "label": "News"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                },
+                {
+                  "id": 10764,
+                  "label": "Reality"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "en",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 6,
+                  "label": "NBC"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [],
+              "keywordJoinMode": "or",
+              "watchRegion": "",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 5,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10766%7C10767%7C10764&with_original_language=en&with_networks=6&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
+        }
+      },
+      {
+        "id": "tmdb.discover.series.pbs.ninja_streams",
+        "type": "series",
+        "name": "PBS",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10763|10766|10767|10764",
+              "with_original_language": "en",
+              "with_networks": "14",
+              "with_type": "0|2|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 5
+            },
+            "formState": {
+              "catalogName": "PBS",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10763,
+                  "label": "News"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                },
+                {
+                  "id": 10764,
+                  "label": "Reality"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "en",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 14,
+                  "label": "PBS"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [],
+              "keywordJoinMode": "or",
+              "watchRegion": "",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 5,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10766%7C10767%7C10764&with_original_language=en&with_networks=14&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
+        }
+      },
+      {
+        "id": "tmdb.discover.series.showtime.ninja_streams",
+        "type": "series",
+        "name": "Showtime",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10763|10764|10766|10767",
+              "with_original_language": "en",
+              "with_networks": "67",
+              "without_keywords": "191498|204045",
+              "with_type": "0|2|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 5
+            },
+            "formState": {
+              "catalogName": "Showtime",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10763,
+                  "label": "News"
+                },
+                {
+                  "id": 10764,
+                  "label": "Reality"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "en",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 67,
+                  "label": "Showtime"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [
+                {
+                  "id": 191498,
+                  "label": "sports entertainment"
+                },
+                {
+                  "id": 204045,
+                  "label": "awards show"
+                }
+              ],
+              "keywordJoinMode": "or",
+              "watchRegion": "",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 5,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10764%7C10766%7C10767&with_original_language=en&with_networks=67&without_keywords=191498%7C204045&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
+        }
+      },
+      {
         "id": "tmdb.discover.series.syfy.ninja_streams",
         "type": "series",
         "name": "Syfy",
@@ -12631,13 +14490,14 @@
               "sort_by": "name.asc",
               "include_adult": true,
               "without_genres": "10763|10764|10766|10767",
+              "with_original_language": "en",
               "with_networks": "77",
               "without_keywords": "191498",
               "watch_region": "US",
               "with_type": "0|2|4",
               "with_status": "0|3|4|5",
               "vote_average.gte": 5,
-              "vote_count.gte": 25
+              "vote_count.gte": 5
             },
             "formState": {
               "catalogName": "Syfy",
@@ -12665,7 +14525,7 @@
                 }
               ],
               "genreJoinMode": "or",
-              "originalLanguage": "",
+              "originalLanguage": "en",
               "originCountry": "",
               "certificationCountry": "",
               "certificationValue": "",
@@ -12710,7 +14570,7 @@
                 5,
                 10
               ],
-              "voteCountMin": 25,
+              "voteCountMin": 5,
               "runtimeRange": [
                 0,
                 400
@@ -12728,7 +14588,7 @@
             }
           },
           "description": "TMDB Discover (tv)",
-          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10764%7C10766%7C10767&with_networks=77&without_keywords=191498&watch_region=US&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10764%7C10766%7C10767&with_original_language=en&with_networks=77&without_keywords=191498&watch_region=US&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
         }
       },
       {
@@ -12752,12 +14612,13 @@
               "sort_by": "name.asc",
               "include_adult": true,
               "without_genres": "10763|10764|10766|10767",
+              "with_original_language": "en",
               "with_networks": "68",
               "without_keywords": "191498",
               "watch_region": "US",
               "with_type": "0|2|4",
               "with_status": "0|3|4|5",
-              "vote_average.gte": 1,
+              "vote_average.gte": 5,
               "vote_count.gte": 5
             },
             "formState": {
@@ -12786,7 +14647,7 @@
                 }
               ],
               "genreJoinMode": "or",
-              "originalLanguage": "",
+              "originalLanguage": "en",
               "originCountry": "",
               "certificationCountry": "",
               "certificationValue": "",
@@ -12828,7 +14689,7 @@
               "watchProviders": [],
               "providerJoinMode": "or",
               "voteAverageRange": [
-                1,
+                5,
                 10
               ],
               "voteCountMin": 5,
@@ -12849,7 +14710,379 @@
             }
           },
           "description": "TMDB Discover (tv)",
-          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10764%7C10766%7C10767&with_networks=68&without_keywords=191498&watch_region=US&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=1&vote_count.gte=5"
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10764%7C10766%7C10767&with_original_language=en&with_networks=68&without_keywords=191498&watch_region=US&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
+        }
+      },
+      {
+        "id": "tmdb.discover.series.tnt.ninja_streams",
+        "type": "series",
+        "name": "TNT",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10763|10764|10766|10767",
+              "with_original_language": "en",
+              "with_networks": "41",
+              "without_keywords": "191498|204045",
+              "with_type": "0|2|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 5
+            },
+            "formState": {
+              "catalogName": "TNT",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10763,
+                  "label": "News"
+                },
+                {
+                  "id": 10764,
+                  "label": "Reality"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "en",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 41,
+                  "label": "TNT"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [
+                {
+                  "id": 191498,
+                  "label": "sports entertainment"
+                },
+                {
+                  "id": 204045,
+                  "label": "awards show"
+                }
+              ],
+              "keywordJoinMode": "or",
+              "watchRegion": "",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 5,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10764%7C10766%7C10767&with_original_language=en&with_networks=41&without_keywords=191498%7C204045&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
+        }
+      },
+      {
+        "id": "tmdb.discover.series.usa_network.ninja_streams",
+        "type": "series",
+        "name": "USA Network",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10763|10764|10766|10767",
+              "with_original_language": "en",
+              "with_networks": "30",
+              "without_keywords": "191498|204045",
+              "with_type": "0|2|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 5
+            },
+            "formState": {
+              "catalogName": "USA Network",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10763,
+                  "label": "News"
+                },
+                {
+                  "id": 10764,
+                  "label": "Reality"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "en",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 30,
+                  "label": "USA Network"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [
+                {
+                  "id": 191498,
+                  "label": "sports entertainment"
+                },
+                {
+                  "id": 204045,
+                  "label": "awards show"
+                }
+              ],
+              "keywordJoinMode": "or",
+              "watchRegion": "",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 5,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10764%7C10766%7C10767&with_original_language=en&with_networks=30&without_keywords=191498%7C204045&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
+        }
+      },
+      {
+        "id": "tmdb.discover.series.tlc.ninja_streams",
+        "type": "series",
+        "name": "TLC",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10763|10766|10767",
+              "with_original_language": "en",
+              "with_networks": "84",
+              "without_keywords": "191498|204045",
+              "with_type": "0|2|3|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 10
+            },
+            "formState": {
+              "catalogName": "TLC",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10763,
+                  "label": "News"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "en",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0",
+                "3"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 84,
+                  "label": "TLC"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [
+                {
+                  "id": 191498,
+                  "label": "sports entertainment"
+                },
+                {
+                  "id": 204045,
+                  "label": "awards show"
+                }
+              ],
+              "keywordJoinMode": "or",
+              "watchRegion": "",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 10,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10766%7C10767&with_original_language=en&with_networks=84&without_keywords=191498%7C204045&with_type=0%7C2%7C3%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=10"
         }
       }
     ],
@@ -12893,10 +15126,10 @@
       }
     },
     "streaming": [],
-    "lastModified": 1787435526779,
-    "configVersion": 1787435526780,
+    "lastModified": 1787451525752,
+    "configVersion": 1787451525753,
     "catalogSetupComplete": true,
-    "configHash": "5bd7d3fc41102e42",
+    "configHash": "b0a74cbc7e4b11d4",
     "exclusionKeywords": "",
     "customPosterUrlPattern": "",
     "hideUnreleasedShows": true,
@@ -13025,7 +15258,7 @@
       {
         "kind": "collection",
         "id": "6f3f27e0-914a-42e2-aba1-8a91ae23a74f",
-        "title": "🚀 New & Trending",
+        "title": "New & Trending",
         "hideTitle": true,
         "backdropImageUrl": "",
         "pinToTop": false,
@@ -13160,7 +15393,7 @@
       {
         "kind": "collection",
         "id": "3b34ff3c-725a-4c42-81c9-2777ea814e01",
-        "title": "🕸️ Streaming Services",
+        "title": "Streaming Services",
         "hideTitle": false,
         "backdropImageUrl": "",
         "pinToTop": false,
@@ -13432,7 +15665,7 @@
       {
         "kind": "collection",
         "id": "36e8fee7-498e-4db9-adf6-7405084241e3",
-        "title": "🎭 Genres",
+        "title": "Genres",
         "hideTitle": false,
         "backdropImageUrl": "",
         "pinToTop": false,
@@ -13874,7 +16107,7 @@
       {
         "kind": "collection",
         "id": "b993d47c-65e8-44c2-ba7a-66c45dc41427",
-        "title": "🗓️ Decades",
+        "title": "Decades",
         "hideTitle": false,
         "backdropImageUrl": "",
         "pinToTop": false,
@@ -14032,7 +16265,7 @@
       {
         "kind": "collection",
         "id": "3f5c8851-9610-4397-b8ea-e768969070fc",
-        "title": "🕒 Runtime",
+        "title": "Runtime",
         "hideTitle": false,
         "backdropImageUrl": "",
         "pinToTop": false,
@@ -14409,6 +16642,28 @@
         "showAllTab": true,
         "folders": [
           {
+            "id": "909547fb-5e5c-4e65-9ace-39d895d41f77",
+            "title": "ABC",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.abc.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.abc.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.abc.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.abc.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.abc.ninja_streams",
+                "type": "series",
+                "name": "ABC",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
             "id": "2a1b6e80-f62e-4176-a64c-849508966850",
             "title": "Adult Swim",
             "shape": "LANDSCAPE",
@@ -14425,7 +16680,7 @@
                 "catalogId": "tmdb.discover.series.adult_swim.ninja_streams",
                 "type": "series",
                 "name": "Adult Swim",
-                "genre": null,
+                "genre": "None",
                 "baseType": "series"
               }
             ]
@@ -14447,7 +16702,29 @@
                 "catalogId": "tmdb.discover.series.cartoon_network.ninja_streams",
                 "type": "series",
                 "name": "Cartoon Network",
-                "genre": null,
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "a6a623dc-e4c3-44ee-9d12-7484924ff5bc",
+            "title": "CBS",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.cbs.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.cbs.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.cbs.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.cbs.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.cbs.ninja_streams",
+                "type": "series",
+                "name": "CBS",
+                "genre": "None",
                 "baseType": "series"
               }
             ]
@@ -14469,7 +16746,29 @@
                 "catalogId": "tmdb.discover.series.comedy_central.ninja_streams",
                 "type": "series",
                 "name": "Comedy Central",
-                "genre": null,
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "df6312dd-bf78-4285-abfc-77b6e628dfb8",
+            "title": "Discovery",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.discovery.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.discovery.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.discovery.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.discovery.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.discovery.ninja_streams",
+                "type": "series",
+                "name": "Discovery",
+                "genre": "None",
                 "baseType": "series"
               }
             ]
@@ -14491,7 +16790,7 @@
                 "catalogId": "tmdb.discover.series.disney_channel.ninja_streams",
                 "type": "series",
                 "name": "Disney Channel",
-                "genre": null,
+                "genre": "None",
                 "baseType": "series"
               }
             ]
@@ -14513,7 +16812,7 @@
                 "catalogId": "tmdb.discover.series.disney_junior.ninja_streams",
                 "type": "series",
                 "name": "Disney Junior",
-                "genre": null,
+                "genre": "None",
                 "baseType": "series"
               }
             ]
@@ -14535,7 +16834,95 @@
                 "catalogId": "tmdb.discover.series.fox.ninja_streams",
                 "type": "series",
                 "name": "FOX",
-                "genre": null,
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "d00a56fd-80b3-45b1-a5c9-568ec7b5fea7",
+            "title": "HGTV",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.hgtv.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.hgtv.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.hgtv.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.hgtv.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.hgtv.ninja_streams",
+                "type": "series",
+                "name": "HGTV",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "df45cc68-56de-4fa7-946c-264e538d5c93",
+            "title": "History",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.history.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.history.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.history.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.history.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.history.ninja_streams",
+                "type": "series",
+                "name": "History",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "7bc49933-c41a-4e11-87f1-f72bfce80043",
+            "title": "National Geographic",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.national_geographic.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.national_geographic.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.national_geographic.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.national_geographic.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.national_geographic.ninja_streams",
+                "type": "series",
+                "name": "National Geographic",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "d40cf032-5796-4f1d-ac33-7f0f1181354f",
+            "title": "NBC",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.nbc.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.nbc.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.nbc.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.nbc.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.nbc.ninja_streams",
+                "type": "series",
+                "name": "NBC",
+                "genre": "None",
                 "baseType": "series"
               }
             ]
@@ -14557,7 +16944,7 @@
                 "catalogId": "tmdb.discover.series.syfy.ninja_streams",
                 "type": "series",
                 "name": "Syfy",
-                "genre": null,
+                "genre": "None",
                 "baseType": "series"
               }
             ]
@@ -14579,7 +16966,271 @@
                 "catalogId": "tmdb.discover.series.tbs.ninja_streams",
                 "type": "series",
                 "name": "TBS",
-                "genre": null,
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "9811a3f8-648e-4649-b898-f380a464aa80",
+            "title": "The CW",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.the_cw.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.the_cw.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.the_cw.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.the_cw.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.the_cw.ninja_streams",
+                "type": "series",
+                "name": "The CW",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "18c031be-a25a-43c4-9cd1-7ec30b23f0eb",
+            "title": "PBS",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.pbs.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.pbs.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.pbs.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.pbs.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.pbs.ninja_streams",
+                "type": "series",
+                "name": "PBS",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "132fd408-d02c-43e6-8b0e-1138e3f2eea6",
+            "title": "Showtime",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.showtime.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.showtime.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.showtime.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.showtime.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.showtime.ninja_streams",
+                "type": "series",
+                "name": "Showtime",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "309bb219-f0b0-4b4f-800d-790612bf8ee7",
+            "title": "TNT",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.tnt.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.tnt.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.tnt.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.tnt.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.tnt.ninja_streams",
+                "type": "series",
+                "name": "TNT",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "ff0cc24a-d79d-404d-9ba2-1bc6109a631d",
+            "title": "USA Network",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.usa_network.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.usa_network.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.usa_network.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.usa_network.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.usa_network.ninja_streams",
+                "type": "series",
+                "name": "USA Network",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "a5b4378f-5d82-46c7-84bb-807ff8dcf4f9",
+            "title": "MTV",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.mtv.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.mtv.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.mtv.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.mtv.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.mtv.ninja_streams",
+                "type": "series",
+                "name": "MTV",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "07bf42bd-174e-4c2d-83d6-cc17e465db98",
+            "title": "Bravo",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.bravo.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.bravo.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.bravo.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.bravo.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.bravo.ninja_streams",
+                "type": "series",
+                "name": "Bravo",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "30be669a-b8bb-40c7-862f-a17f1494906d",
+            "title": "A&E",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.a_e.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.a_e.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.a_e.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.a_e.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.ae.ninja_streams",
+                "type": "series",
+                "name": "A&E",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "3aa4b12d-74a8-474d-9f16-31fdf18bdff8",
+            "title": "BBC One",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.bbc_one.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.bbc_one.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.bbc_one.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.bbc_one.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.bbc_one.ninja_streams",
+                "type": "series",
+                "name": "BBC One",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "4fa6bec0-5025-4bfb-a6f9-c0ed636a8c67",
+            "title": "Channel 4",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.channel_4.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.channel_4.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.channel_4.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.channel_4.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.channel_4.ninja_streams",
+                "type": "series",
+                "name": "Channel 4",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "cc1a0be3-b659-4ff7-905d-b603ea94acd2",
+            "title": "TLC",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.tlc.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.tlc.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.tlc.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.tlc.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.tlc.ninja_streams",
+                "type": "series",
+                "name": "TLC",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "6e3b077e-fc69-4cf3-a122-196586b23860",
+            "title": "Food Network",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.food_network.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.food_network.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.food_network.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.food_network.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.food_network.ninja_streams",
+                "type": "series",
+                "name": "Food Network",
+                "genre": "None",
                 "baseType": "series"
               }
             ]
@@ -14657,7 +17308,7 @@
   },
   "metadata": {
     "apiKeysExcluded": true,
-    "totalCatalogs": 204,
-    "enabledCatalogs": 140
+    "totalCatalogs": 223,
+    "enabledCatalogs": 159
   }
 }
