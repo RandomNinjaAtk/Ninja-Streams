@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "exportedAt": "2026-08-23T01:51:12.002Z",
+  "exportedAt": "2026-08-23T02:18:53.994Z",
   "catalogs": [
     {
       "id": "tmdb.discover.series.airing_this_week.ninja_streams",
@@ -11219,7 +11219,7 @@
       "type": "series",
       "name": "Adult Swim",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -11334,7 +11334,7 @@
       "type": "series",
       "name": "Cartoon Network",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -11449,7 +11449,7 @@
       "type": "series",
       "name": "Comedy Central",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -11547,7 +11547,7 @@
       "type": "series",
       "name": "Disney Channel",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -11662,7 +11662,7 @@
       "type": "series",
       "name": "Disney Junior",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -11780,7 +11780,7 @@
       "type": "series",
       "name": "FOX",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -11901,7 +11901,7 @@
       "type": "series",
       "name": "Syfy",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
@@ -12022,7 +12022,7 @@
       "type": "series",
       "name": "TBS",
       "enabled": true,
-      "showInHome": true,
+      "showInHome": false,
       "source": "tmdb",
       "cacheTTL": 21600,
       "tags": [
