@@ -1,6 +1,6 @@
 {
   "version": "2.14.1",
-  "exportedAt": "2026-08-22T21:52:11.548Z",
+  "exportedAt": "2026-08-23T02:10:19.543Z",
   "config": {
     "language": "en-US",
     "includeAdult": false,
@@ -76,6 +76,646 @@
     "sessionId": "90b1fd68dfece6cb7fc1213cf3dbd581987b351b",
     "timezone": "America/New_York",
     "catalogs": [
+      {
+        "id": "streaming.nfx",
+        "name": "Netflix (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.nfx",
+        "name": "Netflix (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.nfk",
+        "name": "Netflix Kids (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.nfk",
+        "name": "Netflix Kids (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hbm",
+        "name": "HBO Max (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hbm",
+        "name": "HBO Max (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.dnp",
+        "name": "Disney+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.dnp",
+        "name": "Disney+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.amp",
+        "name": "Prime Video (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.amp",
+        "name": "Prime Video (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.atp",
+        "name": "Apple TV+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.atp",
+        "name": "Apple TV+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.pmp",
+        "name": "Paramount+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.pmp",
+        "name": "Paramount+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.pcp",
+        "name": "Peacock Premium (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.pcp",
+        "name": "Peacock Premium (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hlu",
+        "name": "Hulu (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hlu",
+        "name": "Hulu (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.cts",
+        "name": "Curiosity Stream (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.cts",
+        "name": "Curiosity Stream (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.mgl",
+        "name": "MagellanTV (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.mgl",
+        "name": "MagellanTV (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.cru",
+        "name": "Crunchyroll (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.cru",
+        "name": "Crunchyroll (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hay",
+        "name": "Hayu (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hay",
+        "name": "Hayu (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.clv",
+        "name": "Clarovideo (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.clv",
+        "name": "Clarovideo (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.gop",
+        "name": "Globoplay (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.gop",
+        "name": "Globoplay (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hst",
+        "name": "JioHotstar (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hst",
+        "name": "JioHotstar (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.slv",
+        "name": "Sony Liv (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.slv",
+        "name": "Sony Liv (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.zee",
+        "name": "Zee5 (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.zee",
+        "name": "Zee5 (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.nlz",
+        "name": "NLZIET (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.nlz",
+        "name": "NLZIET (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.vil",
+        "name": "Videoland (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.vil",
+        "name": "Videoland (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.sst",
+        "name": "SkyShowtime (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.sst",
+        "name": "SkyShowtime (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.sky",
+        "name": "Sky Go (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.sky",
+        "name": "Sky Go (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.wow",
+        "name": "WOW (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.wow",
+        "name": "WOW (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.blv",
+        "name": "BluTV (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.blv",
+        "name": "BluTV (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.cpd",
+        "name": "Canal+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.cpd",
+        "name": "Canal+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.crv",
+        "name": "Crave (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.crv",
+        "name": "Crave (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.dpe",
+        "name": "Discovery+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.dpe",
+        "name": "Discovery+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.bet",
+        "name": "Bet+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.bet",
+        "name": "Bet+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.mub",
+        "name": "MUBI (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.mub",
+        "name": "MUBI (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.sta",
+        "name": "Starz (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.sta",
+        "name": "Starz (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.crc",
+        "name": "Criterion Channel (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.crc",
+        "name": "Criterion Channel (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hid",
+        "name": "HIDIVE (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hid",
+        "name": "HIDIVE (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
       {
         "id": "tmdb.discover.series.airing_this_week.ninja_streams",
         "type": "series",
@@ -9362,8 +10002,6 @@
           "studios"
         ],
         "metadata": {
-          "description": "TMDB Discover (movie)",
-          "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_original_language=en&with_companies=25%7C11749%7C1556&watch_region=US&region=US&with_release_type=3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-22",
           "discover": {
             "version": 2,
             "source": "tmdb",
@@ -9448,7 +10086,9 @@
               "airDatePreset": "clear",
               "releaseRegion": ""
             }
-          }
+          },
+          "description": "TMDB Discover (movie)",
+          "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_original_language=en&with_companies=25%7C11749%7C1556&watch_region=US&region=US&with_release_type=3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-22"
         }
       },
       {
@@ -9591,8 +10231,6 @@
           "studios"
         ],
         "metadata": {
-          "description": "TMDB Discover (movie)",
-          "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_original_language=en&with_companies=184898%7C295608%7C429%7C10576%7C9993&watch_region=US&region=US&with_release_type=3%7C4%7C5&vote_average.gte=1&vote_count.gte=5&release_date.lte=2026-08-22",
           "discover": {
             "version": 2,
             "source": "tmdb",
@@ -9685,7 +10323,9 @@
               "airDatePreset": "clear",
               "releaseRegion": ""
             }
-          }
+          },
+          "description": "TMDB Discover (movie)",
+          "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_original_language=en&with_companies=184898%7C295608%7C429%7C10576%7C9993&watch_region=US&region=US&with_release_type=3%7C4%7C5&vote_average.gte=1&vote_count.gte=5&release_date.lte=2026-08-22"
         }
       },
       {
@@ -11090,8 +11730,6 @@
           "studios"
         ],
         "metadata": {
-          "description": "TMDB Discover (movie)",
-          "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_original_language=en&with_companies=33%7C104278%7C26727&watch_region=US&region=US&with_release_type=3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-22",
           "discover": {
             "version": 2,
             "source": "tmdb",
@@ -11176,7 +11814,9 @@
               "airDatePreset": "clear",
               "releaseRegion": ""
             }
-          }
+          },
+          "description": "TMDB Discover (movie)",
+          "url": "https://www.themoviedb.org/discover/movie?sort_by=title.asc&include_adult=true&with_original_language=en&with_companies=33%7C104278%7C26727&watch_region=US&region=US&with_release_type=3%7C4%7C5&vote_average.gte=5&vote_count.gte=25&release_date.lte=2026-08-22"
         }
       },
       {
@@ -11192,8 +11832,6 @@
           "studios"
         ],
         "metadata": {
-          "description": "TMDB Discover (tv)",
-          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_companies=33%7C26727%7C104278&watch_region=US&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=1&vote_count.gte=25",
           "discover": {
             "version": 2,
             "source": "tmdb",
@@ -11285,648 +11923,934 @@
               "airDatePreset": "clear",
               "releaseRegion": ""
             }
-          }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_original_language=en&with_companies=33%7C26727%7C104278&watch_region=US&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=1&vote_count.gte=25"
         }
       },
       {
-        "id": "streaming.nfx",
-        "name": "Netflix (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.nfx",
-        "name": "Netflix (Series)",
+        "id": "tmdb.discover.series.adult_swim.ninja_streams",
         "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
+        "name": "Adult Swim",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10767|10766|10764|10763",
+              "with_networks": "80",
+              "watch_region": "US",
+              "with_type": "0|2|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 1,
+              "vote_count.gte": 5
+            },
+            "formState": {
+              "catalogName": "Adult Swim",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10764,
+                  "label": "Reality"
+                },
+                {
+                  "id": 10763,
+                  "label": "News"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 80,
+                  "label": "Adult Swim"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [],
+              "keywordJoinMode": "or",
+              "watchRegion": "US",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                1,
+                10
+              ],
+              "voteCountMin": 5,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10767%7C10766%7C10764%7C10763&with_networks=80&watch_region=US&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=1&vote_count.gte=5"
+        }
       },
       {
-        "id": "streaming.nfk",
-        "name": "Netflix Kids (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.nfk",
-        "name": "Netflix Kids (Series)",
+        "id": "tmdb.discover.series.cartoon_network.ninja_streams",
         "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
+        "name": "Cartoon Network",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10767|10766|10764|10763",
+              "with_networks": "56",
+              "watch_region": "US",
+              "with_type": "0|2|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 1,
+              "vote_count.gte": 5
+            },
+            "formState": {
+              "catalogName": "Cartoon Network",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10764,
+                  "label": "Reality"
+                },
+                {
+                  "id": 10763,
+                  "label": "News"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 56,
+                  "label": "Cartoon Network"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [],
+              "keywordJoinMode": "or",
+              "watchRegion": "US",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                1,
+                10
+              ],
+              "voteCountMin": 5,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10767%7C10766%7C10764%7C10763&with_networks=56&watch_region=US&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=1&vote_count.gte=5"
+        }
       },
       {
-        "id": "streaming.hbm",
-        "name": "HBO Max (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.hbm",
-        "name": "HBO Max (Series)",
+        "id": "tmdb.discover.series.comedy_central.ninja_streams",
         "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
+        "name": "Comedy Central",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "with_networks": "47",
+              "watch_region": "US",
+              "with_type": "0|2|4|5",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 1,
+              "vote_count.gte": 5
+            },
+            "formState": {
+              "catalogName": "Comedy Central",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [],
+              "genreJoinMode": "or",
+              "originalLanguage": "",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0",
+                "5"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 47,
+                  "label": "Comedy Central"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [],
+              "keywordJoinMode": "or",
+              "watchRegion": "US",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                1,
+                10
+              ],
+              "voteCountMin": 5,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&with_networks=47&watch_region=US&with_type=0%7C2%7C4%7C5&with_status=0%7C3%7C4%7C5&vote_average.gte=1&vote_count.gte=5"
+        }
       },
       {
-        "id": "streaming.dnp",
-        "name": "Disney+ (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.dnp",
-        "name": "Disney+ (Series)",
+        "id": "tmdb.discover.series.disney_channel.ninja_streams",
         "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
+        "name": "Disney Channel",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10767|10766|10763|10764",
+              "with_networks": "54",
+              "watch_region": "US",
+              "with_type": "0|2|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 1,
+              "vote_count.gte": 5
+            },
+            "formState": {
+              "catalogName": "Disney Channel",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10763,
+                  "label": "News"
+                },
+                {
+                  "id": 10764,
+                  "label": "Reality"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 54,
+                  "label": "Disney Channel"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [],
+              "keywordJoinMode": "or",
+              "watchRegion": "US",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                1,
+                10
+              ],
+              "voteCountMin": 5,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10767%7C10766%7C10763%7C10764&with_networks=54&watch_region=US&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=1&vote_count.gte=5"
+        }
       },
       {
-        "id": "streaming.amp",
-        "name": "Prime Video (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.amp",
-        "name": "Prime Video (Series)",
+        "id": "tmdb.discover.series.disney_junior.ninja_streams",
         "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
+        "name": "Disney Junior",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10764|10766|10767|10763",
+              "with_networks": "281",
+              "watch_region": "US",
+              "with_type": "0|1|2|3|4|5",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 1,
+              "vote_count.gte": 5
+            },
+            "formState": {
+              "catalogName": "Disney Junior",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10764,
+                  "label": "Reality"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                },
+                {
+                  "id": 10763,
+                  "label": "News"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "1",
+                "2",
+                "5",
+                "0",
+                "3"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 281,
+                  "label": "Disney Junior"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [],
+              "keywordJoinMode": "or",
+              "watchRegion": "US",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                1,
+                10
+              ],
+              "voteCountMin": 5,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10764%7C10766%7C10767%7C10763&with_networks=281&watch_region=US&with_type=0%7C1%7C2%7C3%7C4%7C5&with_status=0%7C3%7C4%7C5&vote_average.gte=1&vote_count.gte=5"
+        }
       },
       {
-        "id": "streaming.atp",
-        "name": "Apple TV+ (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.atp",
-        "name": "Apple TV+ (Series)",
+        "id": "tmdb.discover.series.fox.ninja_streams",
         "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
+        "name": "FOX",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10763|10764|10766|10767",
+              "with_networks": "19",
+              "without_keywords": "191498",
+              "watch_region": "US",
+              "with_type": "0|2|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 25
+            },
+            "formState": {
+              "catalogName": "FOX",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10763,
+                  "label": "News"
+                },
+                {
+                  "id": 10764,
+                  "label": "Reality"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 19,
+                  "label": "FOX"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [
+                {
+                  "id": 191498,
+                  "label": "sports entertainment"
+                }
+              ],
+              "keywordJoinMode": "or",
+              "watchRegion": "US",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 25,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10764%7C10766%7C10767&with_networks=19&without_keywords=191498&watch_region=US&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
+        }
       },
       {
-        "id": "streaming.pmp",
-        "name": "Paramount+ (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.pmp",
-        "name": "Paramount+ (Series)",
+        "id": "tmdb.discover.series.syfy.ninja_streams",
         "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
+        "name": "Syfy",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10763|10764|10766|10767",
+              "with_networks": "77",
+              "without_keywords": "191498",
+              "watch_region": "US",
+              "with_type": "0|2|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 25
+            },
+            "formState": {
+              "catalogName": "Syfy",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10763,
+                  "label": "News"
+                },
+                {
+                  "id": 10764,
+                  "label": "Reality"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 77,
+                  "label": "Syfy"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [
+                {
+                  "id": 191498,
+                  "label": "sports entertainment"
+                }
+              ],
+              "keywordJoinMode": "or",
+              "watchRegion": "US",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 25,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10764%7C10766%7C10767&with_networks=77&without_keywords=191498&watch_region=US&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=25"
+        }
       },
       {
-        "id": "streaming.pcp",
-        "name": "Peacock Premium (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.pcp",
-        "name": "Peacock Premium (Series)",
+        "id": "tmdb.discover.series.tbs.ninja_streams",
         "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.hlu",
-        "name": "Hulu (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.hlu",
-        "name": "Hulu (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.cts",
-        "name": "Curiosity Stream (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.cts",
-        "name": "Curiosity Stream (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.mgl",
-        "name": "MagellanTV (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.mgl",
-        "name": "MagellanTV (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.cru",
-        "name": "Crunchyroll (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.cru",
-        "name": "Crunchyroll (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.hay",
-        "name": "Hayu (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.hay",
-        "name": "Hayu (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.clv",
-        "name": "Clarovideo (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.clv",
-        "name": "Clarovideo (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.gop",
-        "name": "Globoplay (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.gop",
-        "name": "Globoplay (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.hst",
-        "name": "JioHotstar (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.hst",
-        "name": "JioHotstar (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.slv",
-        "name": "Sony Liv (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.slv",
-        "name": "Sony Liv (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.zee",
-        "name": "Zee5 (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.zee",
-        "name": "Zee5 (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.nlz",
-        "name": "NLZIET (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.nlz",
-        "name": "NLZIET (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.vil",
-        "name": "Videoland (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.vil",
-        "name": "Videoland (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.sst",
-        "name": "SkyShowtime (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.sst",
-        "name": "SkyShowtime (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.sky",
-        "name": "Sky Go (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.sky",
-        "name": "Sky Go (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.wow",
-        "name": "WOW (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.wow",
-        "name": "WOW (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.blv",
-        "name": "BluTV (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.blv",
-        "name": "BluTV (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.cpd",
-        "name": "Canal+ (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.cpd",
-        "name": "Canal+ (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.crv",
-        "name": "Crave (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.crv",
-        "name": "Crave (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.dpe",
-        "name": "Discovery+ (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.dpe",
-        "name": "Discovery+ (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.bet",
-        "name": "Bet+ (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.bet",
-        "name": "Bet+ (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.mub",
-        "name": "MUBI (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.mub",
-        "name": "MUBI (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.sta",
-        "name": "Starz (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.sta",
-        "name": "Starz (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.crc",
-        "name": "Criterion Channel (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.crc",
-        "name": "Criterion Channel (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.hid",
-        "name": "HIDIVE (Movies)",
-        "type": "movie",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
-      },
-      {
-        "id": "streaming.hid",
-        "name": "HIDIVE (Series)",
-        "type": "series",
-        "source": "streaming",
-        "enabled": false,
-        "showInHome": false,
-        "sort": "default",
-        "order": "asc"
+        "name": "TBS",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10763|10764|10766|10767",
+              "with_networks": "68",
+              "without_keywords": "191498",
+              "watch_region": "US",
+              "with_type": "0|2|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 1,
+              "vote_count.gte": 5
+            },
+            "formState": {
+              "catalogName": "TBS",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10763,
+                  "label": "News"
+                },
+                {
+                  "id": 10764,
+                  "label": "Reality"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 68,
+                  "label": "TBS"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [
+                {
+                  "id": 191498,
+                  "label": "sports entertainment"
+                }
+              ],
+              "keywordJoinMode": "or",
+              "watchRegion": "US",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                1,
+                10
+              ],
+              "voteCountMin": 5,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10764%7C10766%7C10767&with_networks=68&without_keywords=191498&watch_region=US&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=1&vote_count.gte=5"
+        }
       }
     ],
     "search": {
@@ -11969,10 +12893,10 @@
       }
     },
     "streaming": [],
-    "lastModified": 1787345425434,
-    "configVersion": 1787345425435,
+    "lastModified": 1787435526779,
+    "configVersion": 1787435526780,
     "catalogSetupComplete": true,
-    "configHash": "73fd00fe3860e732",
+    "configHash": "5bd7d3fc41102e42",
     "exclusionKeywords": "",
     "customPosterUrlPattern": "",
     "hideUnreleasedShows": true,
@@ -13472,6 +14396,195 @@
             ]
           }
         ]
+      },
+      {
+        "kind": "collection",
+        "id": "5492434e-b3b5-4ab2-a47e-e6d622cb1fc5",
+        "title": "Networks",
+        "hideTitle": false,
+        "backdropImageUrl": "",
+        "pinToTop": false,
+        "focusGlowEnabled": true,
+        "viewMode": "TABBED_GRID",
+        "showAllTab": true,
+        "folders": [
+          {
+            "id": "2a1b6e80-f62e-4176-a64c-849508966850",
+            "title": "Adult Swim",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.adult_swim.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.adult_swim.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.adult_swim.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.adult_swim.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.adult_swim.ninja_streams",
+                "type": "series",
+                "name": "Adult Swim",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "93913b62-40b2-4414-9aa3-6c3cee820fb3",
+            "title": "Cartoon Network",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.cartoon_network.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.cartoon_network.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.cartoon_network.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.cartoon_network.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.cartoon_network.ninja_streams",
+                "type": "series",
+                "name": "Cartoon Network",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "3bbc12dc-4bc9-4b09-8cec-fd9ea4e7a069",
+            "title": "Comedy Central",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.comedy_central.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.comedy_central.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.comedy_central.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.comedy_central.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.comedy_central.ninja_streams",
+                "type": "series",
+                "name": "Comedy Central",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "bf468dac-e7fc-4599-b539-436724664d7f",
+            "title": "Disney Channel",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.disney_channel.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.disney_channel.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.disney_channel.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.disney_channel.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.disney_channel.ninja_streams",
+                "type": "series",
+                "name": "Disney Channel",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "7aeda5d6-cc9b-4bfa-90cd-6b91ffcd05a8",
+            "title": "Disney Junior",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://pbs.twimg.com/media/GNGRJIdXQAAMQwR.png",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.disney_channel.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3a9e9425-78dc-4ba0-8cf0-74c8eb23f673/di2dv4j-0fd74c12-3ce6-4ca0-ba32-4ac9a1fa84d4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi8zYTllOTQyNS03OGRjLTRiYTAtOGNmMC03NGM4ZWIyM2Y2NzMvZGkyZHY0ai0wZmQ3NGMxMi0zY2U2LTRjYTAtYmEzMi00YWM5YTFmYTg0ZDQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.PIVEDPOJC9M41actcjJ-UYSdIOBxhMceI9WRp2Zldxw",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.disney_junior.ninja_streams",
+                "type": "series",
+                "name": "Disney Junior",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "54365ce6-68af-4ed4-b2e0-7de21e3a99bf",
+            "title": "FOX",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.fox.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.fox.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.fox.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.fox.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.fox.ninja_streams",
+                "type": "series",
+                "name": "FOX",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "e494cbfc-2055-4554-9e2d-c0b034bfc2b7",
+            "title": "Syfy",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.syfy.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.syfy.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.syfy.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.syfy.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.syfy.ninja_streams",
+                "type": "series",
+                "name": "Syfy",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "3760af1c-d21d-4700-b576-a68e7cdfe8b2",
+            "title": "TBS",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.tbs.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.tbs.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.tbs.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.tbs.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.tbs.ninja_streams",
+                "type": "series",
+                "name": "TBS",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          }
+        ]
       }
     ],
     "tags": [
@@ -13534,13 +14647,17 @@
       {
         "name": "studios",
         "color": "red"
+      },
+      {
+        "name": "networks",
+        "color": "violet"
       }
     ],
     "hideStremioCatalogs": true
   },
   "metadata": {
     "apiKeysExcluded": true,
-    "totalCatalogs": 196,
-    "enabledCatalogs": 132
+    "totalCatalogs": 204,
+    "enabledCatalogs": 140
   }
 }
