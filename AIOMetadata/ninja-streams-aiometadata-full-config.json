@@ -1,6 +1,6 @@
 {
   "version": "2.14.1",
-  "exportedAt": "2026-08-23T02:10:19.543Z",
+  "exportedAt": "2026-08-23T02:14:12.177Z",
   "config": {
     "language": "en-US",
     "includeAdult": false,
@@ -11933,7 +11933,7 @@
         "type": "series",
         "name": "Adult Swim",
         "enabled": true,
-        "showInHome": true,
+        "showInHome": false,
         "source": "tmdb",
         "cacheTTL": 21600,
         "tags": [
@@ -12048,7 +12048,7 @@
         "type": "series",
         "name": "Cartoon Network",
         "enabled": true,
-        "showInHome": true,
+        "showInHome": false,
         "source": "tmdb",
         "cacheTTL": 21600,
         "tags": [
@@ -12163,7 +12163,7 @@
         "type": "series",
         "name": "Comedy Central",
         "enabled": true,
-        "showInHome": true,
+        "showInHome": false,
         "source": "tmdb",
         "cacheTTL": 21600,
         "tags": [
@@ -12261,7 +12261,7 @@
         "type": "series",
         "name": "Disney Channel",
         "enabled": true,
-        "showInHome": true,
+        "showInHome": false,
         "source": "tmdb",
         "cacheTTL": 21600,
         "tags": [
@@ -12376,7 +12376,7 @@
         "type": "series",
         "name": "Disney Junior",
         "enabled": true,
-        "showInHome": true,
+        "showInHome": false,
         "source": "tmdb",
         "cacheTTL": 21600,
         "tags": [
@@ -12494,7 +12494,7 @@
         "type": "series",
         "name": "FOX",
         "enabled": true,
-        "showInHome": true,
+        "showInHome": false,
         "source": "tmdb",
         "cacheTTL": 21600,
         "tags": [
@@ -12615,7 +12615,7 @@
         "type": "series",
         "name": "Syfy",
         "enabled": true,
-        "showInHome": true,
+        "showInHome": false,
         "source": "tmdb",
         "cacheTTL": 21600,
         "tags": [
@@ -12736,7 +12736,7 @@
         "type": "series",
         "name": "TBS",
         "enabled": true,
-        "showInHome": true,
+        "showInHome": false,
         "source": "tmdb",
         "cacheTTL": 21600,
         "tags": [
