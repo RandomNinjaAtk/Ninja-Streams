@@ -1,6 +1,6 @@
 {
   "version": "2.14.1",
-  "exportedAt": "2026-08-23T20:01:55.924Z",
+  "exportedAt": "2026-08-23T20:25:48.370Z",
   "config": {
     "language": "en-US",
     "includeAdult": false,
@@ -14714,6 +14714,128 @@
         }
       },
       {
+        "id": "tmdb.discover.series.tlc.ninja_streams",
+        "type": "series",
+        "name": "TLC",
+        "enabled": true,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 21600,
+        "tags": [
+          "series",
+          "networks"
+        ],
+        "metadata": {
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "name.asc",
+              "include_adult": true,
+              "without_genres": "10763|10766|10767",
+              "with_original_language": "en",
+              "with_networks": "84",
+              "without_keywords": "191498|204045",
+              "with_type": "0|2|3|4",
+              "with_status": "0|3|4|5",
+              "vote_average.gte": 5,
+              "vote_count.gte": 10
+            },
+            "formState": {
+              "catalogName": "TLC",
+              "discoverSource": "tmdb",
+              "sortBy": "name.asc",
+              "cacheTTL": 21600,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 10763,
+                  "label": "News"
+                },
+                {
+                  "id": 10766,
+                  "label": "Soap"
+                },
+                {
+                  "id": 10767,
+                  "label": "Talk"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "en",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "certificationMode": "exact",
+              "includeAdult": true,
+              "releasedOnly": true,
+              "tmdbTvStatuses": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "tmdbMovieReleaseTypes": [],
+              "tmdbTvTypes": [
+                "4",
+                "2",
+                "0",
+                "3"
+              ],
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withNetworks": [
+                {
+                  "id": 84,
+                  "label": "TLC"
+                }
+              ],
+              "withKeywords": [],
+              "withoutKeywords": [
+                {
+                  "id": 191498,
+                  "label": "sports entertainment"
+                },
+                {
+                  "id": 204045,
+                  "label": "awards show"
+                }
+              ],
+              "keywordJoinMode": "or",
+              "watchRegion": "",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                5,
+                10
+              ],
+              "voteCountMin": 10,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "airDatePreset": "clear",
+              "releaseRegion": ""
+            }
+          },
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10766%7C10767&with_original_language=en&with_networks=84&without_keywords=191498%7C204045&with_type=0%7C2%7C3%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=10"
+        }
+      },
+      {
         "id": "tmdb.discover.series.tnt.ninja_streams",
         "type": "series",
         "name": "TNT",
@@ -14962,128 +15084,6 @@
           "description": "TMDB Discover (tv)",
           "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10764%7C10766%7C10767&with_original_language=en&with_networks=30&without_keywords=191498%7C204045&with_type=0%7C2%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=5"
         }
-      },
-      {
-        "id": "tmdb.discover.series.tlc.ninja_streams",
-        "type": "series",
-        "name": "TLC",
-        "enabled": true,
-        "showInHome": false,
-        "source": "tmdb",
-        "cacheTTL": 21600,
-        "tags": [
-          "series",
-          "networks"
-        ],
-        "metadata": {
-          "discover": {
-            "version": 2,
-            "source": "tmdb",
-            "mediaType": "tv",
-            "params": {
-              "sort_by": "name.asc",
-              "include_adult": true,
-              "without_genres": "10763|10766|10767",
-              "with_original_language": "en",
-              "with_networks": "84",
-              "without_keywords": "191498|204045",
-              "with_type": "0|2|3|4",
-              "with_status": "0|3|4|5",
-              "vote_average.gte": 5,
-              "vote_count.gte": 10
-            },
-            "formState": {
-              "catalogName": "TLC",
-              "discoverSource": "tmdb",
-              "sortBy": "name.asc",
-              "cacheTTL": 21600,
-              "catalogType": "series",
-              "includeGenres": [],
-              "excludeGenres": [
-                {
-                  "id": 10763,
-                  "label": "News"
-                },
-                {
-                  "id": 10766,
-                  "label": "Soap"
-                },
-                {
-                  "id": 10767,
-                  "label": "Talk"
-                }
-              ],
-              "genreJoinMode": "or",
-              "originalLanguage": "en",
-              "originCountry": "",
-              "certificationCountry": "",
-              "certificationValue": "",
-              "certificationMode": "exact",
-              "includeAdult": true,
-              "releasedOnly": true,
-              "tmdbTvStatuses": [
-                "0",
-                "3",
-                "4",
-                "5"
-              ],
-              "tmdbMovieReleaseTypes": [],
-              "tmdbTvTypes": [
-                "4",
-                "2",
-                "0",
-                "3"
-              ],
-              "selectedPeople": [],
-              "peopleJoinMode": "or",
-              "withCompanies": [],
-              "withoutCompanies": [],
-              "companyJoinMode": "or",
-              "withNetworks": [
-                {
-                  "id": 84,
-                  "label": "TLC"
-                }
-              ],
-              "withKeywords": [],
-              "withoutKeywords": [
-                {
-                  "id": 191498,
-                  "label": "sports entertainment"
-                },
-                {
-                  "id": 204045,
-                  "label": "awards show"
-                }
-              ],
-              "keywordJoinMode": "or",
-              "watchRegion": "",
-              "watchProviders": [],
-              "providerJoinMode": "or",
-              "voteAverageRange": [
-                5,
-                10
-              ],
-              "voteCountMin": 10,
-              "runtimeRange": [
-                0,
-                400
-              ],
-              "primaryReleaseFrom": "",
-              "primaryReleaseTo": "",
-              "movieDatePreset": "clear",
-              "firstAirFrom": "",
-              "firstAirTo": "",
-              "seriesDatePreset": "clear",
-              "airDateFrom": "",
-              "airDateTo": "",
-              "airDatePreset": "clear",
-              "releaseRegion": ""
-            }
-          },
-          "description": "TMDB Discover (tv)",
-          "url": "https://www.themoviedb.org/discover/tv?sort_by=name.asc&include_adult=true&without_genres=10763%7C10766%7C10767&with_original_language=en&with_networks=84&without_keywords=191498%7C204045&with_type=0%7C2%7C3%7C4&with_status=0%7C3%7C4%7C5&vote_average.gte=5&vote_count.gte=10"
-        }
       }
     ],
     "search": {
@@ -15126,10 +15126,10 @@
       }
     },
     "streaming": [],
-    "lastModified": 1787451525752,
-    "configVersion": 1787451525753,
+    "lastModified": 1787516021381,
+    "configVersion": 1787516021382,
     "catalogSetupComplete": true,
-    "configHash": "b0a74cbc7e4b11d4",
+    "configHash": "75a2639061b9fde8",
     "exclusionKeywords": "",
     "customPosterUrlPattern": "",
     "hideUnreleasedShows": true,
@@ -16642,6 +16642,28 @@
         "showAllTab": true,
         "folders": [
           {
+            "id": "30be669a-b8bb-40c7-862f-a17f1494906d",
+            "title": "A&E",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.a_e.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.a_e.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.a_e.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.a_e.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.ae.ninja_streams",
+                "type": "series",
+                "name": "A&E",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
             "id": "909547fb-5e5c-4e65-9ace-39d895d41f77",
             "title": "ABC",
             "shape": "LANDSCAPE",
@@ -16680,6 +16702,50 @@
                 "catalogId": "tmdb.discover.series.adult_swim.ninja_streams",
                 "type": "series",
                 "name": "Adult Swim",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "3aa4b12d-74a8-474d-9f16-31fdf18bdff8",
+            "title": "BBC One",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.bbc_one.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.bbc_one.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.bbc_one.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.bbc_one.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.bbc_one.ninja_streams",
+                "type": "series",
+                "name": "BBC One",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "07bf42bd-174e-4c2d-83d6-cc17e465db98",
+            "title": "Bravo",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.bravo.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.bravo.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.bravo.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.bravo.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.bravo.ninja_streams",
+                "type": "series",
+                "name": "Bravo",
                 "genre": "None",
                 "baseType": "series"
               }
@@ -16730,6 +16796,28 @@
             ]
           },
           {
+            "id": "4fa6bec0-5025-4bfb-a6f9-c0ed636a8c67",
+            "title": "Channel 4",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.channel_4.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.channel_4.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.channel_4.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.channel_4.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.channel_4.ninja_streams",
+                "type": "series",
+                "name": "Channel 4",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
             "id": "3bbc12dc-4bc9-4b09-8cec-fd9ea4e7a069",
             "title": "Comedy Central",
             "shape": "LANDSCAPE",
@@ -16746,6 +16834,28 @@
                 "catalogId": "tmdb.discover.series.comedy_central.ninja_streams",
                 "type": "series",
                 "name": "Comedy Central",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "9811a3f8-648e-4649-b898-f380a464aa80",
+            "title": "The CW",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.the_cw.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.the_cw.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.the_cw.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.the_cw.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.the_cw.ninja_streams",
+                "type": "series",
+                "name": "The CW",
                 "genre": "None",
                 "baseType": "series"
               }
@@ -16818,6 +16928,28 @@
             ]
           },
           {
+            "id": "6e3b077e-fc69-4cf3-a122-196586b23860",
+            "title": "Food Network",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.food_network.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.food_network.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.food_network.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.food_network.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.food_network.ninja_streams",
+                "type": "series",
+                "name": "Food Network",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
             "id": "54365ce6-68af-4ed4-b2e0-7de21e3a99bf",
             "title": "FOX",
             "shape": "LANDSCAPE",
@@ -16834,6 +16966,28 @@
                 "catalogId": "tmdb.discover.series.fox.ninja_streams",
                 "type": "series",
                 "name": "FOX",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "7bc49933-c41a-4e11-87f1-f72bfce80043",
+            "title": "National Geographic",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.national_geographic.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.national_geographic.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.national_geographic.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.national_geographic.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.national_geographic.ninja_streams",
+                "type": "series",
+                "name": "National Geographic",
                 "genre": "None",
                 "baseType": "series"
               }
@@ -16884,22 +17038,22 @@
             ]
           },
           {
-            "id": "7bc49933-c41a-4e11-87f1-f72bfce80043",
-            "title": "National Geographic",
+            "id": "a5b4378f-5d82-46c7-84bb-807ff8dcf4f9",
+            "title": "MTV",
             "shape": "LANDSCAPE",
             "hideTitle": true,
-            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.national_geographic.webp?v=7",
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.mtv.webp?v=7",
             "coverEmoji": "",
-            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.national_geographic.focus.gif?v=5",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.mtv.focus.gif?v=5",
             "focusGifEnabled": true,
-            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.national_geographic.backdrop.webp?v=7",
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.mtv.backdrop.webp?v=7",
             "heroVideoUrl": "",
-            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.national_geographic.logo.webp?v=10",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.mtv.logo.webp?v=10",
             "sources": [
               {
-                "catalogId": "tmdb.discover.series.national_geographic.ninja_streams",
+                "catalogId": "tmdb.discover.series.mtv.ninja_streams",
                 "type": "series",
-                "name": "National Geographic",
+                "name": "MTV",
                 "genre": "None",
                 "baseType": "series"
               }
@@ -16922,72 +17076,6 @@
                 "catalogId": "tmdb.discover.series.nbc.ninja_streams",
                 "type": "series",
                 "name": "NBC",
-                "genre": "None",
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "e494cbfc-2055-4554-9e2d-c0b034bfc2b7",
-            "title": "Syfy",
-            "shape": "LANDSCAPE",
-            "hideTitle": true,
-            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.syfy.webp?v=7",
-            "coverEmoji": "",
-            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.syfy.focus.gif?v=5",
-            "focusGifEnabled": true,
-            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.syfy.backdrop.webp?v=7",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.syfy.logo.webp?v=10",
-            "sources": [
-              {
-                "catalogId": "tmdb.discover.series.syfy.ninja_streams",
-                "type": "series",
-                "name": "Syfy",
-                "genre": "None",
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "3760af1c-d21d-4700-b576-a68e7cdfe8b2",
-            "title": "TBS",
-            "shape": "LANDSCAPE",
-            "hideTitle": true,
-            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.tbs.webp?v=7",
-            "coverEmoji": "",
-            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.tbs.focus.gif?v=5",
-            "focusGifEnabled": true,
-            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.tbs.backdrop.webp?v=7",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.tbs.logo.webp?v=10",
-            "sources": [
-              {
-                "catalogId": "tmdb.discover.series.tbs.ninja_streams",
-                "type": "series",
-                "name": "TBS",
-                "genre": "None",
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "9811a3f8-648e-4649-b898-f380a464aa80",
-            "title": "The CW",
-            "shape": "LANDSCAPE",
-            "hideTitle": true,
-            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.the_cw.webp?v=7",
-            "coverEmoji": "",
-            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.the_cw.focus.gif?v=5",
-            "focusGifEnabled": true,
-            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.the_cw.backdrop.webp?v=7",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.the_cw.logo.webp?v=10",
-            "sources": [
-              {
-                "catalogId": "tmdb.discover.series.the_cw.ninja_streams",
-                "type": "series",
-                "name": "The CW",
                 "genre": "None",
                 "baseType": "series"
               }
@@ -17038,6 +17126,72 @@
             ]
           },
           {
+            "id": "e494cbfc-2055-4554-9e2d-c0b034bfc2b7",
+            "title": "Syfy",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.syfy.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.syfy.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.syfy.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.syfy.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.syfy.ninja_streams",
+                "type": "series",
+                "name": "Syfy",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "3760af1c-d21d-4700-b576-a68e7cdfe8b2",
+            "title": "TBS",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.tbs.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.tbs.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.tbs.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.tbs.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.tbs.ninja_streams",
+                "type": "series",
+                "name": "TBS",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "cc1a0be3-b659-4ff7-905d-b603ea94acd2",
+            "title": "TLC",
+            "shape": "LANDSCAPE",
+            "hideTitle": true,
+            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.tlc.webp?v=7",
+            "coverEmoji": "",
+            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.tlc.focus.gif?v=5",
+            "focusGifEnabled": true,
+            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.tlc.backdrop.webp?v=7",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.tlc.logo.webp?v=10",
+            "sources": [
+              {
+                "catalogId": "tmdb.discover.series.tlc.ninja_streams",
+                "type": "series",
+                "name": "TLC",
+                "genre": "None",
+                "baseType": "series"
+              }
+            ]
+          },
+          {
             "id": "309bb219-f0b0-4b4f-800d-790612bf8ee7",
             "title": "TNT",
             "shape": "LANDSCAPE",
@@ -17076,160 +17230,6 @@
                 "catalogId": "tmdb.discover.series.usa_network.ninja_streams",
                 "type": "series",
                 "name": "USA Network",
-                "genre": "None",
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "a5b4378f-5d82-46c7-84bb-807ff8dcf4f9",
-            "title": "MTV",
-            "shape": "LANDSCAPE",
-            "hideTitle": true,
-            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.mtv.webp?v=7",
-            "coverEmoji": "",
-            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.mtv.focus.gif?v=5",
-            "focusGifEnabled": true,
-            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.mtv.backdrop.webp?v=7",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.mtv.logo.webp?v=10",
-            "sources": [
-              {
-                "catalogId": "tmdb.discover.series.mtv.ninja_streams",
-                "type": "series",
-                "name": "MTV",
-                "genre": "None",
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "07bf42bd-174e-4c2d-83d6-cc17e465db98",
-            "title": "Bravo",
-            "shape": "LANDSCAPE",
-            "hideTitle": true,
-            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.bravo.webp?v=7",
-            "coverEmoji": "",
-            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.bravo.focus.gif?v=5",
-            "focusGifEnabled": true,
-            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.bravo.backdrop.webp?v=7",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.bravo.logo.webp?v=10",
-            "sources": [
-              {
-                "catalogId": "tmdb.discover.series.bravo.ninja_streams",
-                "type": "series",
-                "name": "Bravo",
-                "genre": "None",
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "30be669a-b8bb-40c7-862f-a17f1494906d",
-            "title": "A&E",
-            "shape": "LANDSCAPE",
-            "hideTitle": true,
-            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.a_e.webp?v=7",
-            "coverEmoji": "",
-            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.a_e.focus.gif?v=5",
-            "focusGifEnabled": true,
-            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.a_e.backdrop.webp?v=7",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.a_e.logo.webp?v=10",
-            "sources": [
-              {
-                "catalogId": "tmdb.discover.series.ae.ninja_streams",
-                "type": "series",
-                "name": "A&E",
-                "genre": "None",
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "3aa4b12d-74a8-474d-9f16-31fdf18bdff8",
-            "title": "BBC One",
-            "shape": "LANDSCAPE",
-            "hideTitle": true,
-            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.bbc_one.webp?v=7",
-            "coverEmoji": "",
-            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.bbc_one.focus.gif?v=5",
-            "focusGifEnabled": true,
-            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.bbc_one.backdrop.webp?v=7",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.bbc_one.logo.webp?v=10",
-            "sources": [
-              {
-                "catalogId": "tmdb.discover.series.bbc_one.ninja_streams",
-                "type": "series",
-                "name": "BBC One",
-                "genre": "None",
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "4fa6bec0-5025-4bfb-a6f9-c0ed636a8c67",
-            "title": "Channel 4",
-            "shape": "LANDSCAPE",
-            "hideTitle": true,
-            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.channel_4.webp?v=7",
-            "coverEmoji": "",
-            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.channel_4.focus.gif?v=5",
-            "focusGifEnabled": true,
-            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.channel_4.backdrop.webp?v=7",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.channel_4.logo.webp?v=10",
-            "sources": [
-              {
-                "catalogId": "tmdb.discover.series.channel_4.ninja_streams",
-                "type": "series",
-                "name": "Channel 4",
-                "genre": "None",
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "cc1a0be3-b659-4ff7-905d-b603ea94acd2",
-            "title": "TLC",
-            "shape": "LANDSCAPE",
-            "hideTitle": true,
-            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.tlc.webp?v=7",
-            "coverEmoji": "",
-            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.tlc.focus.gif?v=5",
-            "focusGifEnabled": true,
-            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.tlc.backdrop.webp?v=7",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.tlc.logo.webp?v=10",
-            "sources": [
-              {
-                "catalogId": "tmdb.discover.series.tlc.ninja_streams",
-                "type": "series",
-                "name": "TLC",
-                "genre": "None",
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "6e3b077e-fc69-4cf3-a122-196586b23860",
-            "title": "Food Network",
-            "shape": "LANDSCAPE",
-            "hideTitle": true,
-            "coverImageUrl": "https://cdn.xperience-app.com/covers/default/networks.food_network.webp?v=7",
-            "coverEmoji": "",
-            "focusGifUrl": "https://cdn.xperience-app.com/covers/default/networks.food_network.focus.gif?v=5",
-            "focusGifEnabled": true,
-            "heroBackdropUrl": "https://cdn.xperience-app.com/covers/default/networks.food_network.backdrop.webp?v=7",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "https://cdn.xperience-app.com/covers/logomark/networks.food_network.logo.webp?v=10",
-            "sources": [
-              {
-                "catalogId": "tmdb.discover.series.food_network.ninja_streams",
-                "type": "series",
-                "name": "Food Network",
                 "genre": "None",
                 "baseType": "series"
               }
