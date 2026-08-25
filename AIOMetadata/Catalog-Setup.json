@@ -23,7 +23,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "popularity.desc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10767|10766|10764|10763|99",
             "with_original_language": "en",
             "without_keywords": "191498|210024",
@@ -148,7 +148,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "primary_release_date.desc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "without_keywords": "210024",
             "with_release_type": "4|5",
@@ -245,7 +245,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "popularity.desc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10767|10766|10764|10763|99",
             "with_original_language": "en",
             "without_keywords": "191498",
@@ -421,7 +421,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "primary_release_date.desc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "without_keywords": "210024",
             "with_release_type": "4|5",
@@ -516,7 +516,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "first_air_date.desc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "without_keywords": "191498|210024",
             "with_type": "0|2|4",
@@ -726,7 +726,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "vote_average.desc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "without_keywords": "210024",
             "with_release_type": "4|5",
@@ -949,7 +949,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "popularity.desc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "without_keywords": "210024",
             "with_release_type": "4|5",
@@ -1176,7 +1176,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "without_keywords": "210024",
             "with_release_type": "4|5",
@@ -1271,7 +1271,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "without_keywords": "191498|210024",
             "with_type": "0|2|4",
@@ -1403,7 +1403,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "primary_release_date.desc",
-            "include_adult": true,
+            "include_adult": false,
             "with_keywords": "210024",
             "watch_region": "US",
             "region": "US",
@@ -1496,7 +1496,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "first_air_date.desc",
-            "include_adult": true,
+            "include_adult": false,
             "with_keywords": "210024",
             "watch_region": "US",
             "with_type": "2|4",
@@ -1702,7 +1702,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "vote_average.desc",
-            "include_adult": true,
+            "include_adult": false,
             "with_keywords": "210024",
             "watch_region": "US",
             "region": "US",
@@ -1795,7 +1795,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "vote_average.desc",
-            "include_adult": true,
+            "include_adult": false,
             "with_keywords": "210024",
             "watch_region": "US",
             "with_type": "2|4",
@@ -1922,7 +1922,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "popularity.desc",
-            "include_adult": true,
+            "include_adult": false,
             "with_keywords": "210024",
             "watch_region": "US",
             "region": "US",
@@ -2015,7 +2015,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "popularity.desc",
-            "include_adult": true,
+            "include_adult": false,
             "with_keywords": "210024",
             "watch_region": "US",
             "with_type": "2|4",
@@ -2142,7 +2142,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_keywords": "210024",
             "watch_region": "US",
             "region": "US",
@@ -2235,7 +2235,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_keywords": "210024",
             "watch_region": "US",
             "with_type": "2|4",
@@ -2356,7 +2356,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_release_type": "4|5",
             "vote_average.gte": 5,
@@ -2454,7 +2454,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "without_keywords": "191498",
             "with_type": "0|2|4",
@@ -2578,7 +2578,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_release_type": "4|5",
             "vote_average.gte": 5,
@@ -2676,7 +2676,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "without_keywords": "191498",
             "with_type": "0|2|4",
@@ -2800,7 +2800,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_release_type": "4|5",
             "vote_average.gte": 5,
@@ -2898,7 +2898,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "without_keywords": "191498",
             "with_type": "0|2|4",
@@ -3022,7 +3022,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_release_type": "4|5",
             "vote_average.gte": 5,
@@ -3114,7 +3114,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_type": "0|2|4",
             "with_status": "0|3|4|5",
@@ -3238,7 +3238,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_release_type": "4|5",
             "vote_average.gte": 5,
@@ -3332,7 +3332,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_type": "0|2|4",
             "with_status": "0|3|4|5",
@@ -3434,7 +3434,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "28",
             "with_original_language": "en",
             "with_release_type": "4|5",
@@ -3525,7 +3525,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "10759",
             "with_original_language": "en",
             "with_type": "0|2|4",
@@ -3629,7 +3629,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "12",
             "with_original_language": "en",
             "with_release_type": "4|5",
@@ -3724,7 +3724,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "16",
             "with_original_language": "en",
             "with_release_type": "4|5",
@@ -3819,7 +3819,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "16",
             "with_original_language": "en",
             "with_type": "0|2|4",
@@ -3919,7 +3919,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "35",
             "with_original_language": "en",
             "with_release_type": "4|5",
@@ -4010,7 +4010,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "35",
             "with_original_language": "en",
             "with_type": "0|2|4",
@@ -4114,7 +4114,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "80",
             "with_original_language": "en",
             "with_release_type": "4|5",
@@ -4205,7 +4205,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "80",
             "with_original_language": "en",
             "with_type": "0|2|4",
@@ -4309,7 +4309,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "99",
             "with_original_language": "en",
             "with_release_type": "4|5",
@@ -4400,7 +4400,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "99",
             "with_original_language": "en",
             "with_type": "0|2|4",
@@ -4504,7 +4504,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "18",
             "with_original_language": "en",
             "with_release_type": "4|5",
@@ -4599,7 +4599,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "18",
             "with_original_language": "en",
             "with_type": "0|2|4",
@@ -4699,7 +4699,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "10751",
             "with_original_language": "en",
             "with_release_type": "4|5",
@@ -4794,7 +4794,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "10751",
             "with_original_language": "en",
             "with_type": "0|2|4",
@@ -4894,7 +4894,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "14",
             "with_original_language": "en",
             "with_release_type": "4|5",
@@ -4989,7 +4989,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "10762",
             "with_original_language": "en",
             "with_type": "0|2|4",
@@ -5089,7 +5089,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "36",
             "with_original_language": "en",
             "with_release_type": "4|5",
@@ -5184,7 +5184,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "9648",
             "with_original_language": "en",
             "with_type": "0|2|4",
@@ -5284,7 +5284,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "27",
             "with_original_language": "en",
             "with_release_type": "4|5",
@@ -5378,7 +5378,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "10763",
             "with_original_language": "en",
             "with_type": "0|1|2|3|4|5",
@@ -5485,7 +5485,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "10402",
             "with_original_language": "en",
             "with_release_type": "4|5",
@@ -5576,7 +5576,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "10764",
             "with_original_language": "en",
             "with_type": "3",
@@ -5678,7 +5678,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "9648",
             "with_original_language": "en",
             "with_release_type": "4|5",
@@ -5776,7 +5776,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "10765",
             "with_original_language": "en",
             "with_type": "0|2|4",
@@ -5876,7 +5876,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "10749",
             "with_original_language": "en",
             "with_release_type": "4|5",
@@ -5967,7 +5967,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "10766",
             "with_original_language": "en",
             "with_type": "0|2|4",
@@ -6071,7 +6071,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "878",
             "with_original_language": "en",
             "with_release_type": "4|5",
@@ -6166,7 +6166,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "10767",
             "with_original_language": "en",
             "with_type": "0|1|2|3|4|5",
@@ -6269,7 +6269,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "53",
             "with_original_language": "en",
             "with_release_type": "4|5",
@@ -6367,7 +6367,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "10768",
             "with_original_language": "en",
             "with_type": "0|2|4",
@@ -6467,7 +6467,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "10770",
             "with_original_language": "en",
             "with_release_type": "4|5|6",
@@ -6563,7 +6563,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "37",
             "with_original_language": "en",
             "with_type": "0|2|4",
@@ -6663,7 +6663,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "10752",
             "with_original_language": "en",
             "with_release_type": "4|5",
@@ -6758,7 +6758,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "37",
             "with_original_language": "en",
             "with_release_type": "4|5",
@@ -6878,7 +6878,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "watch_region": "US",
             "with_watch_providers": "350|2243",
             "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
@@ -6974,7 +6974,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "watch_region": "US",
             "with_watch_providers": "350|2243",
             "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
@@ -7104,7 +7104,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "watch_region": "US",
             "with_watch_providers": "337",
             "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
@@ -7196,7 +7196,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "watch_region": "US",
             "with_watch_providers": "337",
             "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
@@ -7322,7 +7322,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "watch_region": "US",
             "with_watch_providers": "1899|1825",
             "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
@@ -7418,7 +7418,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "watch_region": "US",
             "with_watch_providers": "1825|1899",
             "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
@@ -7548,7 +7548,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "watch_region": "US",
             "with_watch_providers": "15",
             "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
@@ -7640,7 +7640,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "watch_region": "US",
             "with_watch_providers": "15",
             "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
@@ -7766,7 +7766,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "watch_region": "US",
             "with_watch_providers": "582|633|2616|2303",
             "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
@@ -7870,7 +7870,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "watch_region": "US",
             "with_watch_providers": "2303|633|2616|582|1853",
             "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
@@ -8012,7 +8012,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "watch_region": "US",
             "with_watch_providers": "386|387|2553",
             "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
@@ -8112,7 +8112,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "watch_region": "US",
             "with_watch_providers": "386|387|2553",
             "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
@@ -8246,7 +8246,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "watch_region": "US",
             "with_watch_providers": "9|613|2100",
             "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
@@ -8347,7 +8347,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "watch_region": "US",
             "with_watch_providers": "9|613|2100",
             "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
@@ -8481,7 +8481,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "watch_region": "US",
             "with_watch_providers": "8|175|1796",
             "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
@@ -8581,7 +8581,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "watch_region": "US",
             "with_watch_providers": "1796|175|8",
             "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
@@ -8715,7 +8715,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "watch_region": "US",
             "with_watch_providers": "1968|283",
             "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
@@ -8811,7 +8811,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "watch_region": "US",
             "with_watch_providers": "1968|283",
             "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
@@ -8917,7 +8917,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "popularity.desc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "without_keywords": "210024",
             "watch_region": "US",
@@ -9011,7 +9011,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "popularity.desc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "without_keywords": "210024",
             "watch_region": "US",
@@ -9106,7 +9106,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "popularity.desc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "without_keywords": "210024",
             "watch_region": "US",
@@ -9201,7 +9201,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "popularity.desc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "without_keywords": "210024",
             "watch_region": "US",
@@ -9294,7 +9294,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_companies": "25|11749|1556",
             "watch_region": "US",
@@ -9396,7 +9396,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10766|10764|10763|10767",
             "with_original_language": "en",
             "with_companies": "25|1556|11749",
@@ -9523,7 +9523,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_companies": "184898|295608|429|10576|9993",
             "watch_region": "US",
@@ -9633,7 +9633,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_companies": "429|184898|295608|9993|10576",
             "watch_region": "US",
@@ -9750,7 +9750,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "16",
             "with_original_language": "en",
             "with_companies": "3475|112779|177000|158526|171656|6125|40148|177195|240533|171657",
@@ -9893,7 +9893,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_genres": "16",
             "with_original_language": "en",
             "with_companies": "177000|112779|171656|158526|6125|40148|3475|177195|240533|171657",
@@ -10043,7 +10043,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_companies": "521|42141",
             "watch_region": "US",
@@ -10141,7 +10141,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "original_name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_companies": "42141|521",
             "watch_region": "US",
@@ -10246,7 +10246,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_companies": "6704",
             "region": "US",
@@ -10339,7 +10339,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "original_title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_companies": "1|108270|71126|262977",
             "watch_region": "US",
@@ -10452,7 +10452,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "original_name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_companies": "1|262977|71126|108270",
             "watch_region": "US",
@@ -10572,7 +10572,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "original_title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_companies": "420|38679|13252|7505",
             "watch_region": "US",
@@ -10685,7 +10685,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "original_name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_companies": "420|38679|13252|7505",
             "watch_region": "US",
@@ -10805,7 +10805,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "original_title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_companies": "3|219390",
             "watch_region": "US",
@@ -10910,7 +10910,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "original_name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_companies": "3|219390",
             "watch_region": "US",
@@ -11022,7 +11022,7 @@
           "mediaType": "movie",
           "params": {
             "sort_by": "title.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_companies": "33|104278|26727",
             "watch_region": "US",
@@ -11124,7 +11124,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_companies": "33|26727|104278",
             "watch_region": "US",
@@ -11233,7 +11233,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10763|10764|10766|10767",
             "with_original_language": "en",
             "with_networks": "129",
@@ -11358,7 +11358,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10767|10766|10764|10763",
             "with_original_language": "en",
             "with_networks": "2",
@@ -11473,7 +11473,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10767|10766|10764|10763",
             "with_networks": "80",
             "watch_region": "US",
@@ -11588,7 +11588,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10763|10764|10766|10767",
             "with_original_language": "en",
             "with_networks": "4",
@@ -11713,7 +11713,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_networks": "74",
             "without_keywords": "191498|204045",
@@ -11821,7 +11821,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10767|10766|10764|10763",
             "with_networks": "56",
             "watch_region": "US",
@@ -11936,7 +11936,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10767|10766|10764|10763",
             "with_original_language": "en",
             "with_networks": "16",
@@ -12051,7 +12051,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10763|10766|10767|10764",
             "with_original_language": "en",
             "with_networks": "26",
@@ -12176,7 +12176,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_networks": "47",
             "with_type": "0|2|4|5",
@@ -12274,7 +12274,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_networks": "71",
             "with_type": "0|2|4|5",
@@ -12372,7 +12372,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10767|10766|10763|10764",
             "with_original_language": "en",
             "with_networks": "64",
@@ -12487,7 +12487,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10767|10766|10763|10764",
             "with_original_language": "en",
             "with_networks": "54",
@@ -12603,7 +12603,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10764|10766|10767|10763",
             "with_networks": "281",
             "watch_region": "US",
@@ -12718,7 +12718,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "with_original_language": "en",
             "with_networks": "143|4638|5452|5545",
             "without_keywords": "191498",
@@ -12834,7 +12834,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10763|10764|10766|10767",
             "with_networks": "19",
             "without_keywords": "191498",
@@ -12955,7 +12955,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10763|10766|10767",
             "with_original_language": "en",
             "with_networks": "210",
@@ -13067,7 +13067,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10763|10766|10767|10764",
             "with_original_language": "en",
             "with_networks": "65",
@@ -13182,7 +13182,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10763|10766|10767",
             "with_original_language": "en",
             "with_networks": "33",
@@ -13304,7 +13304,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10763|10766|10767|10764",
             "with_original_language": "en",
             "with_networks": "43",
@@ -13419,7 +13419,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10763|10766|10767|10764",
             "with_original_language": "en",
             "with_networks": "6",
@@ -13534,7 +13534,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10763|10766|10767|10764",
             "with_original_language": "en",
             "with_networks": "14",
@@ -13649,7 +13649,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10763|10764|10766|10767",
             "with_original_language": "en",
             "with_networks": "67",
@@ -13774,7 +13774,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10763|10764|10766|10767",
             "with_original_language": "en",
             "with_networks": "77",
@@ -13896,7 +13896,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10763|10764|10766|10767",
             "with_original_language": "en",
             "with_networks": "68",
@@ -14018,7 +14018,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10763|10764|10766|10767",
             "with_original_language": "en",
             "with_networks": "41",
@@ -14143,7 +14143,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10763|10764|10766|10767",
             "with_original_language": "en",
             "with_networks": "30",
@@ -14268,7 +14268,7 @@
           "mediaType": "tv",
           "params": {
             "sort_by": "name.asc",
-            "include_adult": true,
+            "include_adult": false,
             "without_genres": "10763|10766|10767",
             "with_original_language": "en",
             "with_networks": "84",
