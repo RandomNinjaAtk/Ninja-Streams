@@ -112,59 +112,11 @@
     "enabled": true
   },
   {
-    "expression": "/*Anime WEB T1*/ regexMatched(streams, 'Anime Web T1')",
+    "expression": "/*Anime WEB*/ regexMatched(streams, 'Anime Web T1', 'Anime Web T2', 'Anime Web T3', 'Anime Web T4', 'Anime Web T5', 'Anime Web T6')",
     "enabled": true
   },
   {
-    "expression": "/*Anime WEB T2*/ regexMatched(streams, 'Anime Web T2')",
-    "enabled": true
-  },
-  {
-    "expression": "/*Anime WEB T3*/ regexMatched(streams, 'Anime Web T3')",
-    "enabled": true
-  },
-  {
-    "expression": "/*Anime WEB T4*/ regexMatched(streams, 'Anime Web T4')",
-    "enabled": true
-  },
-  {
-    "expression": "/*Anime WEB T5*/ regexMatched(streams, 'Anime Web T5')",
-    "enabled": true
-  },
-  {
-    "expression": "/*Anime WEB T6*/ regexMatched(streams, 'Anime Web T6')",
-    "enabled": true
-  },
-  {
-    "expression": "/*Anime BD T1*/ regexMatched(streams, 'Anime BD T1')",
-    "enabled": true
-  },
-  {
-    "expression": "/*Anime BD T2*/ regexMatched(streams, 'Anime BD T2')",
-    "enabled": true
-  },
-  {
-    "expression": "/*Anime BD T3*/ regexMatched(streams,'Anime BD T3')",
-    "enabled": true
-  },
-  {
-    "expression": "/*Anime BD T4*/ regexMatched(streams, 'Anime BD T4')",
-    "enabled": true
-  },
-  {
-    "expression": "/*Anime BD T5*/ regexMatched(streams, 'Anime BD T5')",
-    "enabled": true
-  },
-  {
-    "expression": "/*Anime BD T6*/ regexMatched(streams, 'Anime BD T6')",
-    "enabled": true
-  },
-  {
-    "expression": "/*Anime BD T7*/ regexMatched(streams, 'Anime BD T7')",
-    "enabled": true
-  },
-  {
-    "expression": "/*Anime BD T8*/ regexMatched(streams, 'Anime BD T8')",
+    "expression": "/*Anime BD*/ regexMatched(streams, 'Anime BD T1', 'Anime BD T2', 'Anime BD T3', 'Anime BD T4', 'Anime BD T5', 'Anime BD T6', 'Anime BD T7', 'Anime BD T8')",
     "enabled": true
   },
   {
