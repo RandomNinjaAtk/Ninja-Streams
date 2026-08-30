@@ -4,26 +4,6 @@
     "enabled": true
   },
   {
-    "expression": "/*2160p Streams*/ negate(library(streams), resolution(streams, '2160p'))",
-    "enabled": false
-  },
-  {
-    "expression": "/*1080p Streams*/ negate(library(streams), resolution(streams, '1080p'))",
-    "enabled": false
-  },
-  {
-    "expression": "/*720p Streams*/ negate(library(streams), resolution(streams, '720p'))",
-    "enabled": false
-  },
-  {
-    "expression": "/*480p Streams*/ negate(library(streams), resolution(streams, '480p'))",
-    "enabled": false
-  },
-  {
-    "expression": "/*Library Streams*/ library(streams)",
-    "enabled": false
-  },
-  {
     "expression": "/*Movie ID Match - Title Filter Passthrough*/ queryType == 'movie' ? passthrough(idMatched(streams), 'title') : []",
     "enabled": true
   }
