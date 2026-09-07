@@ -1,0 +1,58 @@
+[
+  {
+    "expression": "/*Ninja Streams PSE*/ []",
+    "enabled": true
+  },
+  {
+    "expression": "/*T1 IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr Web T1', 'Sonarr Web T1', 'Web T1', 'Radarr UHD Bluray T1', 'Radarr HD Bluray T1', 'Sonarr HD Bluray T1', 'Radarr Remux T1', 'Sonarr Remux T1'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
+    "enabled": true
+  },
+  {
+    "expression": "/*T2 Web IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr Web T2', 'Sonarr Web T2', 'Radarr UHD Bluray T2', 'Radarr HD Bluray T2', 'Sonarr HD Bluray T2', 'Radarr Remux T2', 'Sonarr Remux T2'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
+    "enabled": true
+  },
+  {
+    "expression": "/*T3 Web IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Radarr Web T3', 'Sonarr Web T3', 'Radarr UHD Bluray T3', 'Radarr HD Bluray T3', 'Radarr Remux T3'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
+    "enabled": true
+  },
+  {
+    "expression": "/*Web Scene IMAX/Theatrical*/ regexMatched(regexMatched(streams, 'Web Scene'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
+    "enabled": true
+  },
+  {
+    "expression": "/*WEB-DL IMAX/Theatrical*/ regexMatched(quality(streams, 'WEB-DL', 'BluRay REMUX', 'BluRay'), 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
+    "enabled": true
+  },
+  {
+    "expression": "/*T1*/ regexMatched(streams, 'Radarr Web T1', 'Sonarr Web T1', 'Web T1', 'Radarr UHD Bluray T1', 'Radarr HD Bluray T1', 'Sonarr HD Bluray T1', 'Radarr Remux T1', 'Sonarr Remux T1')",
+    "enabled": true
+  },
+  {
+    "expression": "/*T2 Web*/ regexMatched(streams, 'Radarr Web T2', 'Sonarr Web T2', 'Radarr UHD Bluray T2', 'Radarr HD Bluray T2', 'Sonarr HD Bluray T2', 'Radarr Remux T2', 'Sonarr Remux T2')",
+    "enabled": true
+  },  
+  {
+    "expression": "/*T3 Web*/ regexMatched(streams, 'Radarr Web T3', 'Sonarr Web T3', 'Radarr UHD Bluray T3', 'Radarr HD Bluray T3', 'Radarr Remux T3')",
+    "enabled": true
+  },
+  {
+    "expression": "/*Web Scene*/ regexMatched(streams, 'Web Scene')",
+    "enabled": true
+  },
+  {
+    "expression": "/*Anime WEB*/ regexMatched(streams, 'Anime Web T1', 'Anime Web T2', 'Anime Web T3', 'Anime Web T4', 'Anime Web T5', 'Anime Web T6')",
+    "enabled": true
+  },
+  {
+    "expression": "/*Anime BD*/ regexMatched(streams, 'Anime BD T1', 'Anime BD T2', 'Anime BD T3', 'Anime BD T4', 'Anime BD T5', 'Anime BD T6', 'Anime BD T7', 'Anime BD T8')",
+    "enabled": true
+  },
+  {
+    "expression": "/*IMAX/Theatrical*/ regexMatched(streams, 'IMAX Edition', 'IMAX Enhanced', 'IMAX', 'Theatrical Cut')",
+    "enabled": true
+  },
+  {
+    "expression": "/*WEB-DL*/ quality(streams, 'WEB-DL', 'BluRay REMUX', 'BluRay')",
+    "enabled": true
+  }
+]
