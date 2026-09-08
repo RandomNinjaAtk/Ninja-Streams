@@ -40,11 +40,11 @@
     "enabled": true
   },
   {
-    "expression": "/*Anime WEB*/ (queryType=='anime.movie' or queryType=='anime.series') ? regexMatched(streams, 'Anime Web T1', 'Anime Web T2', 'Anime Web T3', 'Anime Web T4', 'Anime Web T5', 'Anime Web T6') : []",
+    "expression": "/*Anime WEB*/ queryType=='anime.movie' or queryType=='anime.series' ? regexMatched(streams, 'Anime Web T1', 'Anime Web T2', 'Anime Web T3', 'Anime Web T4', 'Anime Web T5', 'Anime Web T6') : []",
     "enabled": true
   },
   {
-    "expression": "/*Anime BD*/ (queryType=='anime.movie' or queryType=='anime.series') ? regexMatched(streams, 'Anime BD T1', 'Anime BD T2', 'Anime BD T3', 'Anime BD T4', 'Anime BD T5', 'Anime BD T6', 'Anime BD T7', 'Anime BD T8') : []",
+    "expression": "/*Anime BD*/ queryType=='anime.movie' or queryType=='anime.series' ? regexMatched(streams, 'Anime BD T1', 'Anime BD T2', 'Anime BD T3', 'Anime BD T4', 'Anime BD T5', 'Anime BD T6', 'Anime BD T7', 'Anime BD T8') : []",
     "enabled": true
   }
 ]
