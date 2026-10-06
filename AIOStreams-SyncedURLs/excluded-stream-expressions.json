@@ -172,6 +172,10 @@
     "enabled": true
   },
   {
+    "expression": "/*PREF - Network*/ count(negate(quality(network(streams, 'Unknown'), 'WEB-DL', 'WEBRip'), quality(streams, 'WEB-DL', 'WEBRip'))) > 0  ? quality(network(streams, 'Unknown'), 'WEB-DL', 'WEBRip') : []",
+    "enabled": true
+  },
+  {
     "expression": "/*spacer*/ []",
     "enabled": false
   },
