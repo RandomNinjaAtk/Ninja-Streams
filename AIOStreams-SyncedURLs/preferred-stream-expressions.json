@@ -120,7 +120,7 @@
     "enabled": true
   },
   {
-    "expression": "/*IMAX/Theatrical*/ regexMatched(streams, 'IMAX', 'Theatrical', 'Unknown')",
+    "expression": "/*IMAX/Theatrical*/ editions(streams, 'IMAX', 'Theatrical', 'Unknown')",
     "enabled": true
   },
   {
