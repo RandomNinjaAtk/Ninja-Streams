@@ -124,7 +124,7 @@
     "enabled": true
   },
   {
-    "expression": "/*Unknown Edition*/ editions(streams, 'Unknown'')",
+    "expression": "/*Unknown Edition*/ editions(streams, 'Unknown')",
     "enabled": true
   },
   {
