@@ -156,7 +156,7 @@
     "enabled": true
   },
   {
-    "expression": "/*PREF - Language*/ count(negate(language(streams, 'Multi', 'Unknown'), streams)) > 0 ? language(streams, 'Multi', 'Unknown') : []",
+    "expression": "/*PREF - Language*/ count(negate(language(streams, 'Multi'), streams)) > 0 ? language(streams, 'Multi') : []",
     "enabled": true
   },
   {
