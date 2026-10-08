@@ -4,123 +4,127 @@
     "enabled": true
   },
   {
-    "expression": "/*T1 IMAX/Theatrical*/ editions(regexMatched(streams, 'Radarr Web T1', 'Sonarr Web T1', 'Web T1'), 'IMAX', 'Theatrical', 'Unknown')",
+    "expression": "/*T1 IMAX/Theatrical*/ editions(regexMatched(streams, 'Radarr Web T1', 'Sonarr Web T1', 'Web T1'), 'IMAX', 'Theatrical')",
     "enabled": true
   },
   {
-    "expression": "/*Group Boost IMAX/Theatrical*/ editions(releaseGroup(streams, 'hallowed'), 'IMAX', 'Theatrical', 'Unknown')",
+    "expression": "/*Group Boost IMAX/Theatrical*/ editions(releaseGroup(streams, 'hallowed'), 'IMAX', 'Theatrical')",
     "enabled": true
   },
   {
-    "expression": "/*T2 Web IMAX/Theatrical*/ editions(regexMatched(streams, 'Radarr Web T2', 'Sonarr Web T2'), 'IMAX', 'Theatrical', 'Unknown')",
+    "expression": "/*T2 Web IMAX/Theatrical*/ editions(regexMatched(streams, 'Radarr Web T2', 'Sonarr Web T2'), 'IMAX', 'Theatrical')",
     "enabled": true
   },
   {
-    "expression": "/*T3 Web IMAX/Theatrical*/ editions(regexMatched(streams, 'Radarr Web T3', 'Sonarr Web T3'), 'IMAX', 'Theatrical', 'Unknown')",
+    "expression": "/*T3 Web IMAX/Theatrical*/ editions(regexMatched(streams, 'Radarr Web T3', 'Sonarr Web T3'), 'IMAX', 'Theatrical')",
     "enabled": true
   },
   {
-    "expression": "/*Group Boost IMAX/Theatrical*/ editions(releaseGroup(streams, 'BHDStudio'), 'IMAX', 'Theatrical', 'Unknown')",
+    "expression": "/*Group Boost IMAX/Theatrical*/ editions(releaseGroup(streams, 'BHDStudio'), 'IMAX', 'Theatrical')",
     "enabled": true
   },
   {
-    "expression": "/*T3 Encode IMAX/Theatrical*/ editions(regexMatched(streams, 'Radarr UHD Bluray T3', 'Radarr HD Bluray T3'), 'IMAX', 'Theatrical', 'Unknown')",
+    "expression": "/*T3 Encode IMAX/Theatrical*/ editions(regexMatched(streams, 'Radarr UHD Bluray T3', 'Radarr HD Bluray T3'), 'IMAX', 'Theatrical')",
     "enabled": true
   },
   {
-    "expression": "/*T2 Encode IMAX/Theatrical*/ editions(regexMatched(streams, 'Radarr UHD Bluray T2', 'Radarr HD Bluray T2', 'Sonarr HD Bluray T2'), 'IMAX', 'Theatrical', 'Unknown')",
+    "expression": "/*T2 Encode IMAX/Theatrical*/ editions(regexMatched(streams, 'Radarr UHD Bluray T2', 'Radarr HD Bluray T2', 'Sonarr HD Bluray T2'), 'IMAX', 'Theatrical')",
     "enabled": true
   },
   {
-    "expression": "/*T1 Encode IMAX/Theatrical*/ editions(regexMatched(streams, 'Radarr UHD Bluray T1', 'Radarr HD Bluray T1', 'Sonarr HD Bluray T1'), 'IMAX', 'Theatrical', 'Unknown')",
+    "expression": "/*T1 Encode IMAX/Theatrical*/ editions(regexMatched(streams, 'Radarr UHD Bluray T1', 'Radarr HD Bluray T1', 'Sonarr HD Bluray T1'), 'IMAX', 'Theatrical')",
     "enabled": true
   },
   {
-    "expression": "/*T1 Remux IMAX/Theatrical*/ editions(regexMatched(streams, 'Radarr Remux T1', 'Sonarr Remux T1'), 'IMAX', 'Theatrical', 'Unknown')",
+    "expression": "/*T1 Remux IMAX/Theatrical*/ editions(regexMatched(streams, 'Radarr Remux T1', 'Sonarr Remux T1'), 'IMAX', 'Theatrical')",
     "enabled": true
   },
   {
-    "expression": "/*T2 Remux IMAX/Theatrical*/ editions(regexMatched(streams, 'Radarr Remux T2', 'Sonarr Remux T2'), 'IMAX', 'Theatrical', 'Unknown')",
+    "expression": "/*T2 Remux IMAX/Theatrical*/ editions(regexMatched(streams, 'Radarr Remux T2', 'Sonarr Remux T2'), 'IMAX', 'Theatrical')",
     "enabled": true
   },
   {
-    "expression": "/*T3 Remux IMAX/Theatrical*/ editions(regexMatched(streams, 'Radarr Remux T3'), 'IMAX', 'Theatrical', 'Unknown')",
+    "expression": "/*T3 Remux IMAX/Theatrical*/ editions(regexMatched(streams, 'Radarr Remux T3'), 'IMAX', 'Theatrical')",
     "enabled": true
   },
   {
-    "expression": "/*Web Scene IMAX/Theatrical*/ editions(regexMatched(streams, 'Web Scene'), 'IMAX', 'Theatrical', 'Unknown')",
+    "expression": "/*Web Scene IMAX/Theatrical*/ editions(regexMatched(streams, 'Web Scene'), 'IMAX', 'Theatrical')",
     "enabled": true
   },
   {
-    "expression": "/*WEB-DL IMAX/Theatrical*/ editions(quality(streams, 'WEB-DL'), 'IMAX', 'Theatrical', 'Unknown')",
+    "expression": "/*WEB-DL IMAX/Theatrical*/ editions(quality(streams, 'WEB-DL'), 'IMAX', 'Theatrical')",
     "enabled": true
   },
   {
-    "expression": "/*BluRay REMUX IMAX/Theatrical*/ editions(quality(streams, 'BluRay REMUX'), 'IMAX', 'Theatrical', 'Unknown')",
+    "expression": "/*BluRay REMUX IMAX/Theatrical*/ editions(quality(streams, 'BluRay REMUX'), 'IMAX', 'Theatrical')",
     "enabled": true
   },
   {
-    "expression": "/*BluRay IMAX/Theatrical*/ editions(quality(streams, 'BluRay'), 'IMAX', 'Theatrical', 'Unknown')",
+    "expression": "/*BluRay IMAX/Theatrical*/ editions(quality(streams, 'BluRay'), 'IMAX', 'Theatrical')",
     "enabled": true
   },
   {
-    "expression": "/*T1*/ regexMatched(streams, 'Radarr Web T1', 'Sonarr Web T1', 'Web T1')",
+    "expression": "/*T1*/ editions(regexMatched(streams, 'Radarr Web T1', 'Sonarr Web T1', 'Web T1'), 'Unknown')",
     "enabled": true
   },
   {
-    "expression": "/*Group Boost*/ releaseGroup(streams, 'hallowed')",
+    "expression": "/*Group Boost*/ editions(releaseGroup(streams, 'hallowed'), 'Unknown')",
     "enabled": true
   },
   {
-    "expression": "/*T2 Web*/ regexMatched(streams, 'Radarr Web T2', 'Sonarr Web T2')",
+    "expression": "/*T2 Web*/ editions(regexMatched(streams, 'Radarr Web T2', 'Sonarr Web T2'), 'Unknown')",
     "enabled": true
   },  
   {
-    "expression": "/*T3 Web*/ regexMatched(streams, 'Radarr Web T3', 'Sonarr Web T3')",
+    "expression": "/*T3 Web*/ editions(regexMatched(streams, 'Radarr Web T3', 'Sonarr Web T3'), 'Unknown')",
     "enabled": true
   },
   {
-    "expression": "/*Group Boost*/ releaseGroup(streams, 'BHDStudio')",
+    "expression": "/*Group Boost*/ editions(releaseGroup(streams, 'BHDStudio'), 'Unknown')",
     "enabled": true
   },
   {
-    "expression": "/*T3 Encode*/ regexMatched(streams, 'Radarr UHD Bluray T3', 'Radarr HD Bluray T3')",
+    "expression": "/*T3 Encode*/ editions(regexMatched(streams, 'Radarr UHD Bluray T3', 'Radarr HD Bluray T3'), 'Unknown')",
     "enabled": true
   },
   {
-    "expression": "/*T2 Encode*/ regexMatched(streams, 'Radarr UHD Bluray T2', 'Radarr HD Bluray T2', 'Sonarr HD Bluray T2')",
+    "expression": "/*T2 Encode*/ editions(regexMatched(streams, 'Radarr UHD Bluray T2', 'Radarr HD Bluray T2', 'Sonarr HD Bluray T2'), 'Unknown')",
     "enabled": true
   },
   {
-    "expression": "/*T1 Encode*/ regexMatched(streams, 'Radarr UHD Bluray T1', 'Radarr HD Bluray T1', 'Sonarr HD Bluray T1')",
+    "expression": "/*T1 Encode*/ editions(regexMatched(streams, 'Radarr UHD Bluray T1', 'Radarr HD Bluray T1', 'Sonarr HD Bluray T1'), 'Unknown')",
     "enabled": true
   },
   {
-    "expression": "/*T1 Remux*/ regexMatched(streams, 'Radarr Remux T1', 'Sonarr Remux T1')",
+    "expression": "/*T1 Remux*/ editions(regexMatched(streams, 'Radarr Remux T1', 'Sonarr Remux T1'), 'Unknown')",
     "enabled": true
   },
   {
-    "expression": "/*T2 Remux*/ regexMatched(streams, 'Radarr Remux T2', 'Sonarr Remux T2')",
+    "expression": "/*T2 Remux*/ editions(regexMatched(streams, 'Radarr Remux T2', 'Sonarr Remux T2'), 'Unknown')",
     "enabled": true
   },
   {
-    "expression": "/*T3 Remux*/ regexMatched(streams, 'Radarr Remux T3')",
+    "expression": "/*T3 Remux*/ editions(regexMatched(streams, 'Radarr Remux T3'), 'Unknown')",
     "enabled": true
   },
   {
-    "expression": "/*Web Scene*/ regexMatched(streams, 'Web Scene')",
+    "expression": "/*Web Scene*/ editions(regexMatched(streams, 'Web Scene'), 'Unknown')",
     "enabled": true
   },
   {
-    "expression": "/*Anime WEB*/ regexMatched(streams, 'Anime Web T1', 'Anime Web T2', 'Anime Web T3', 'Anime Web T4', 'Anime Web T5', 'Anime Web T6')",
+    "expression": "/*Anime WEB*/ editions(regexMatched(streams, 'Anime Web T1', 'Anime Web T2', 'Anime Web T3', 'Anime Web T4', 'Anime Web T5', 'Anime Web T6'), 'Unknown')",
     "enabled": true
   },
   {
-    "expression": "/*Anime BD*/ regexMatched(streams, 'Anime BD T1', 'Anime BD T2', 'Anime BD T3', 'Anime BD T4', 'Anime BD T5', 'Anime BD T6', 'Anime BD T7', 'Anime BD T8')",
+    "expression": "/*Anime BD*/ editions(regexMatched(streams, 'Anime BD T1', 'Anime BD T2', 'Anime BD T3', 'Anime BD T4', 'Anime BD T5', 'Anime BD T6', 'Anime BD T7', 'Anime BD T8'), 'Unknown')",
     "enabled": true
   },
   {
-    "expression": "/*IMAX/Theatrical*/ editions(streams, 'IMAX', 'Theatrical', 'Unknown')",
+    "expression": "/*IMAX/Theatrical*/ editions(streams, 'IMAX', 'Theatrical')",
+    "enabled": true
+  },
+  {
+    "expression": "/*Unknown Edition*/ editions(streams, 'Unknown'')",
     "enabled": true
   },
   {
